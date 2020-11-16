@@ -1,0 +1,448 @@
+%% BioMed_Central_Tex_Template_v1.06
+%%                                      %
+%  bmc_article.tex            ver: 1.06 %
+%                                       %
+
+%%IMPORTANT: do not delete the first line of this template
+%%It must be present to enable the BMC Submission system to
+%%recognise this template!!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                     %%
+%%  LaTeX template for BioMed Central  %%
+%%     journal article submissions     %%
+%%                                     %%
+%%          <8 June 2012>              %%
+%%                                     %%
+%%                                     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                 %%
+%% For instructions on how to fill out this Tex template           %%
+%% document please refer to Readme.html and the instructions for   %%
+%% authors page on the biomed central website                      %%
+%% http://www.biomedcentral.com/info/authors/                      %%
+%%                                                                 %%
+%% Please do not use \input{...} to include other tex files.       %%
+%% Submit your LaTeX manuscript as one .tex document.              %%
+%%                                                                 %%
+%% All additional figures and files should be attached             %%
+%% separately and not embedded in the \TeX\ document itself.       %%
+%%                                                                 %%
+%% BioMed Central currently use the MikTex distribution of         %%
+%% TeX for Windows) of TeX and LaTeX.  This is available from      %%
+%% http://www.miktex.org                                           %%
+%%                                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% additional documentclass options:
+%  [doublespacing]
+%  [linenumbers]   - put the line numbers on margins
+
+%%% loading packages, author definitions
+
+%\documentclass[twocolumn]{bmcart}% uncomment this for twocolumn layout and comment line below
+\documentclass{bmcart}
+
+%%% Load packages
+\usepackage{amsthm,amsmath}
+\RequirePackage{natbib}
+%\RequirePackage[authoryear]{natbib}% uncomment this for author-year bibliography
+%\RequirePackage{hyperref}
+\usepackage[utf8]{inputenc} %unicode support
+%\usepackage[applemac]{inputenc} %applemac support if unicode package fails
+%\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
+\usepackage{hyperref}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                             %%
+%%  If you wish to display your graphics for   %%
+%%  your own use using includegraphic or       %%
+%%  includegraphics, then comment out the      %%
+%%  following two lines of code.               %%
+%%  NB: These line *must* be included when     %%
+%%  submitting to BMC.                         %%
+%%  All figure files must be submitted as      %%
+%%  separate graphics through the BMC          %%
+%%  submission process, not included in the    %%
+%%  submitted article.                         %%
+%%                                             %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\def\includegraphic{}
+\def\includegraphics{}
+
+
+
+%%% Put your definitions there:
+\startlocaldefs
+\endlocaldefs
+
+
+%%% Begin ...
+\begin{document}
+
+%%% Start of article front matter
+\begin{frontmatter}
+
+\begin{fmbox}
+\dochead{Method}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the title of your article here     %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Nested Stochastic Block Models Applied to the Analysis of Single Cell Data}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the authors here                   %%
+%%                                          %%
+%% Specify information, if available,       %%
+%% in the form:                             %%
+%%   <key>={<id1>,<id2>}                    %%
+%%   <key>=                                 %%
+%% Comment or delete the keys which are     %%
+%% not used. Repeat \author command as much %%
+%% as required.                             %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author[
+   addressref={aff1,aff2},                   % id's of addresses, e.g. {aff1,aff2}
+%   email={jane.e.doe@cambridge.co.uk}   % email address
+]{\inits{LM}\fnm{Leonardo} \snm{Morelli}}
+\author[
+   addressref={aff1,aff3},
+%   email={john.RS.Smith@cambridge.co.uk}
+]{\inits{VG}\fnm{Valentina} \snm{Giansanti}}
+\author[
+   addressref={aff1},
+   corref={aff1},                       % id of corresponding address, if any
+%   noteref={n1},                        % id's of article notes, if any
+   email={cittaro.davide@hsr.it}
+]{\inits{DC}\fnm{Davide} \snm{Cittaro}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter the authors' addresses here        %%
+%%                                          %%
+%% Repeat \address commands as much as      %%
+%% required.                                %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\address[id=aff1]{%                           % unique id
+  \orgname{Center for Omics Sciences, IRCCS San Raffaele Hospital}, % university, etc
+  \street{Via Olgettina 58},                     %
+  \postcode{20132}                                % post or zip code
+  \city{Milan},                              % city
+  \cny{Italy}                                    % country
+}
+\address[id=aff2]{%
+  \orgname{{Università} Vita-Salute San Raffaele},
+  \street{Via Olgettina 58},
+  \postcode{20132}
+  \city{Milan},
+  \cny{Italy}
+}
+\address[id=aff3]{%
+  \orgname{Dept. of Informatics, Systems and Communication, Univ. of Milan-Bicocca},
+  \street{Viale Sarca 336},
+  \postcode{20126}
+  \city{Milan},
+  \cny{Italy}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Enter short notes here                   %%
+%%                                          %%
+%% Short notes will be after addresses      %%
+%% on first page.                           %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{artnotes}
+%\note{Sample of title note}     % note to the article
+%\note[id=n1]{Equal contributor} % note, connected to author
+\end{artnotes}
+
+\end{fmbox}% comment this for two column layout
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The Abstract begins here                 %%
+%%                                          %%
+%% Please refer to the Instructions for     %%
+%% authors on http://www.biomedcentral.com  %%
+%% and include the section headings         %%
+%% accordingly for your article type.       %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstractbox}
+
+\begin{abstract} % abstract
+Single cell profiling has been proven to be a powerful tool in molecular biology to understand the complex behaviours of heterogeneous system. While properties of single cells is the primary endpoint of such analysis, these are typically clustered to underpin the common determinants that can be used to describe functional properties of the cell mixture under investigation. Several approaches have been proposed to identify cell clusters; while this is matter of active research, one popular approach is based on community detection in neighborhood graphs by optimisation of modularity. In this paper we propose an alternative solution to this problem, based on nested Stochastic Block Models; we show a threefold advantage of our approach as it is able to correctly identify cell groups, it returns a meaningful hierarchical structure and, lastly, it provides a statistical measure of association between cells and the assigned clusters.
+%\parttitle{First part title} %if any
+%Text for this section.
+
+%\parttitle{Second part title} %if any
+%Text for this section.
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The keywords begin here                  %%
+%%                                          %%
+%% Put each keyword in separate \kwd{}.     %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{keyword}
+\kwd{Single cell}
+\kwd{Cluster analysis}
+\kwd{Stochastic Block Models}
+\end{keyword}
+
+% MSC classifications codes, if any
+%\begin{keyword}[class=AMS]
+%\kwd[Primary ]{}
+%\kwd{}
+%\kwd[; secondary ]{}
+%\end{keyword}
+
+\end{abstractbox}
+%
+%\end{fmbox}% uncomment this for twcolumn layout
+
+\end{frontmatter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% The Main Body begins here                %%
+%%                                          %%
+%% Please refer to the instructions for     %%
+%% authors on:                              %%
+%% http://www.biomedcentral.com/info/authors%%
+%% and include the section headings         %%
+%% accordingly for your article type.       %%
+%%                                          %%
+%% See the Results and Discussion section   %%
+%% for details on how to create sub-sections%%
+%%                                          %%
+%% use \cite{...} to cite references        %%
+%%  \cite{koon} and                         %%
+%%  \cite{oreg,khar,zvai,xjon,schn,pond}    %%
+%%  \nocite{smith,marg,hunn,advi,koha,mouse}%%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% start of article main body
+% <put your article body there>
+
+%%%%%%%%%%%%%%%%
+%% Background %%
+%%
+\section*{Background}
+Transcriptome analysis at single cell level by RNA sequencing (scRNA-seq) is a technology growing in popularity and applications \cite{svensson_2018}. It has been applied to study the biology of complex tissues \cite{guo_2018, ventotormo_2018}, tumor dynamics \cite{rozenblattrosen_2020, tirosh_2016, patel_2014, neftel_2019}, development \cite{rosenberg_2018, wagner_2018} and to describe whole organisms \cite{plass_2018, regev_2017}.
+
+A key step in the analysis of scRNA-seq data and, more in general, of single cell data, is the identification of cell populations, groups of cells sharing similar properties. Several approaches have been proposed to achieve this task, based on well established clustering techniques \cite{wang_2017, lin_2017}, consensus clustering \cite{huh_2020, kiselev_2017} and deep learning \cite{li_2020}; many more have been recently reviewed \cite{krzak_2019, kiselev_2019} and benchmarked \cite{du_2018}. As the popularity of single cell analysis frameworks Seurat \cite{butler_2018} and Scanpy \cite{wolf_2018} raised, methods based instead on graph partitioning became the \emph{de facto} standards. Such methods require the construction of a cell neighborhood graph (\emph{e.g.} by \emph{k} Nearest Neighbors, \emph{k}NN) which is then partitioned into communities; the latter step is typically performed using the Louvain method \cite{blondel_2008}, a fast algorithm for optimisation of graph modularity. While fast, this method does not guarantee that small communities in large networks are well defined. To overcome its limits, a more recent approach, the Leiden algorithm \cite{traag_2019}, has been implemented and it has been quickly adopted in the analysis of single cell data, for example by Scanpy and PhenoGraph \cite{levine_2015}. In addition to Newman's modularity \cite{newman_2004}, other definitions currently used in single cell analysis make use of a resolution parameter \cite{traag_2011, reichardt_2006} . In lay terms, resolution works as a threshold on the density within communities: lowering the resolution results in less and sparser communities and \emph{viceversa}. Identification of an appropriate resolution has been recognised as a major issue \cite{lhnemann_2020}, also because it requires the definition of a mathematical property (clusters) over biological entities (the cell groups), with little formal description of the latter. In addition, the larger the dataset, the harder is to identify small cell groups, as a consequence of the well-known resolution limit \cite{fortunato_2007}. Moreover, it has been demonstrated that random networks can have modularity \cite{guimer_2004} and its optimisation is incapable of separating actual structure from those arising simply of statistical fluctuations of the null model. Additional solutions to cell group identification from neighborhood graphs have been proposed, introducing resampling techniques \cite{baran_2019} or clique analysis \cite{xu_2015}. Lastly, it has been proposed that high resolution clustering, \emph{e.g.} obtained with Leiden or Louvain methods, can be refined in agglomerative way using machine learning techniques \cite{miao_2020}.
+
+An alternative solution to community detection is the Stochastic Block Model, a generative model for graphs organized into communities \cite{holland_1983}. In this scenario, identification of cell groups requires the estimation of the proper parameters underlying the observed neighborhood graph. According to the microcanonical formulation \cite{peixoto_2017}, the parameters are node partitions into groups and the matrix of edge counts between groups themselves. Under this model, nodes belonging to the same group have the same probability to be connected with other nodes. It is possible to include node degree among the model parameters \cite{karrer_2011}, to account for heterogeneity of degree distribution of real-world graphs. A Bayesian approach to infer parameters has been developed \cite{peixoto_2013} and implemented in the \emph{graph-tool} python library (\href{https://graph-tool.skewed.de}{https:/\slash graph-tool.skewed.de}). There, a generative model of network $\boldsymbol A$ has a probability $P(\boldsymbol A|\boldsymbol\theta, \boldsymbol b)$ where \textbf{$\boldsymbol\theta$} is the set of parameters and \textbf{\emph{$\boldsymbol b$}} is the set of partitions. The likelihood of the network being generated by a given partition can be measured by the posterior probability
+
+\begin{equation}
+P(\boldsymbol b | \boldsymbol A) = \frac{P(\boldsymbol A|\boldsymbol\theta, \boldsymbol b)P(\boldsymbol\theta, \boldsymbol b)}{P(\boldsymbol A)}
+\end{equation}
+
+and inference is performed by maximising the posterior probability. The numerator in this equation can be rewritten exponentiating the description length
+
+\begin{equation}
+\Sigma = -\ln P(\boldsymbol A|\boldsymbol\theta, \boldsymbol b) - \ln P(\boldsymbol\theta, \boldsymbol b)
+\end{equation}
+
+so that inference is performed by minimizing the information required to describe the data (Occam's razor); \emph{graph-tool} is able to efficiently do this by a Markov Chain Monte Carlo (MCMC) approach \cite{peixoto_2014}. SBM itself may fail to identify small groups in large graphs, hence hierarchical formulation has been proposed \cite{peixoto_2014_h}. Under this model, communities are agglomerated at a higher level in a block multigraph, also modelled using SBM. This process is repeated recursively until a graph with a single block is reached, creating a Nested Stochastic Block Model (nSBM).
+
+In this work we propose nSBM for the analysis of single cell data, in particular scRNA-seq data. Our approach identifies cell groups in a statistical robust way and, moreover, is able to determine the likelihood of the grouping, thus allowing model selection. In addition, our approach measures the confidence of assignment to groups; we show that this information may be exploited to perfect the notion of cell groups and the identification of markers.
+
+Lastly, we developed \emph{schist} (\href{https://github.com/dawe/schist}{https:/\slash github.com\slash dawe\slash schist}), a python library compatible with \emph{scanpy}, to facilitate the adoption of nested stochastic block models in single-cell analysis.
+
+\section*{Results}
+
+\subsection*{Overview of \emph{schist}}
+
+\emph{schist} is a convenient wrapper to the \emph{graph-tool} python library, written in python and designed to be used with \emph{scanpy}. The most prominent function is \emph{schist.inference.nested\_model()} which takes a \emph{AnnData} object as input and fits a nested stochastic block model on the \emph{k}NN graph built with \emph{scanpy} functions (\emph{e.g.\ scanpy.tools.neighbors()}). When launched with default parameters, \emph{schist} fits a model which maximises the posterior probability of having a set of cell groups (or blocks) given a graph. \emph{schist} annotates cells in the data object with all the groups found at each level of a hierarchy. As there could be more model fits with similar entropy, \emph{schist} could explore the space of solutions with a Markov Chain Monte Carlo algorithm, to perform model averaging; this step is performed until it converges, that is the difference in model entropy in \emph{n} continuous iterations remains under a specified threshold. Sampling from the posterior distribution can be used to study the distribution of the number of groups, at each level. This information (group marginals) could be studied to identify the most probable number of cell groups.
+
+Once \emph{schist} has fitted a model, it evaluate the difference in entropy given by assigning every cell to every possible group. This step generates the matrix of \emph{cell affinity}, that is the probability for a cell to belong to a specific group. A cell affinity matrix is generated and returned for every hierarchy level, here including level 0. As we show below, cell affinities could be exploited as covariates in testing marker genes and, more in general, to define the stability of any cell group.
+
+\subsection*{nSBM correctly identifies cell populations}
+We tested our approach on scRNA-seq mixology data \cite{tian_2019}, in particular on the mixture of 5 cell lines profiled with Chromium 10x platform. At a first evaluation of the UMAP embedding, all lines appear well separated. Only the lung cancer line H1975 shows a certain degree of heterogeneity with some cells being embedded in other cell groups (Fig. \ref{Figure1}A). Inference on the neighborhood graph is influenced by the graph structure itself, therefore we built multiple graphs changing the number of principal components used in PCA reduction and the number of neighbors in the \emph{k}NN graph. We then calculated the Adjusted Rand Index (\emph{ARI}) between the cell line assignments (ground truth) and the cell groups identified by nSBM at each level. We found a peak of $ARI=0.977$ with 30 principal components (PC) and 30 neighbors. In general, higher number of components and neighbors has a positive impact on the performance (Fig. \ref{Figure1}B). Conversely, if few PCs (10) or neighbors (5) are used, performances degrade, with a minimum $ARI=0.669$ at 20 PCs and 5 neighbors. If fewer PCs are used, a smaller fraction of the total variance, hence less information, is used to build the \emph{k}NN graph; if fewer neighbors are chosen, the graph is sparser and the model is fit from less edges (Fig. S1). Running MCMC algorithm recovers the performances of the majority of the configurations (Fig. S2).
+
+Analysis of the nSBM hierarchy reveals that five levels are needed to describe the experiment (Fig. \ref{Figure1}C, upper panel), with level 2 properly catching the cell identity ($ARI = 0.977$). In addition to the five major groups, observe two small groups, summing to 11 cells, that were merged to HCC827 and H838 at hierarchy level 3. Interestingly, these groups are enriched in cells whose identity was reassigned from H1975 to H838 or HCC827 in the original paper using Demuxlet \cite{kang_2018}, indicating that nSBM was able to recognise peculiar properties and isolate them. It may be worth mention that the second best ranked group by cell affinity for these 11 cells is the correct group assigned in the original paper, except for a single cell assigned to H2228.
+As a high separation between cell lines is observable, optimisation of modularity by Leiden algorithm is also able to identify cell identities with high precision, given that a proper resolution threshold is set (Fig. \ref{Figure1}C, lower panel); we found that when resolution is set to 0.05 the cell lines are properly separated ($ARI = 0.975$), with the exception of the above mentioned cells.
+
+These observations show that nSBM is able to perform accurate identification of cell groups, without the need of an arbitrary threshold on the resolution parameter. These data also hint at the possibility to identify rare cell types in larger populations.
+
+\subsection*{nSBM hierarchy contains biological information}
+The hierarchical model of cell groups implies that a relationship exists between groups. We next wanted to explore if the hierarchy proposed by the nSBM had a biological interpretation. To this end, we analysed data for hematopoietic differentiation \cite{paul_2015}, previously used to benchmark the consistency of cell grouping with differentiation trajectories by graph abstraction \cite{wolf_2019}. Standard processing of those data reveals three major branchings (Erythroids, Neutrophils and Monocytes) stemming from the progenitor cells (Fig. S3A). After applying nSBM, we identify 27 groups at level 3 of the hierarchy (Fig. S3B), compared to the 24 using Leiden method at default resolution (Fig. S4). We found that the hierarchy proposed by our model is consistent with the developmental model (Fig. \ref{Figure2}). Of note, we found that clustering with Leiden method produces cell groups that are mixed and split at different resolutions (0.1 - 1), in a non hierarchical manner (Fig. S4); we spotted several occurrences of such phenomenon, \emph{e.g.} group 9 at resolution $r=0.4$ splits into groups 0 and 6 at $r=0.3$ or group 3 at $r=0.6$ splits in groups 4, 8 and 12 at $r=0.5$.
+
+In all, these data suggest that not only nSBM is able to identify consistent cell groups at different scales, but also that the hierarchy proposed by the model has a direct biological interpretation.
+
+\subsection*{Cell affinities can be used to evaluate cluster purity}
+The computational framework underlying \emph{schist} calculates the model entropy, that is the amount of information required to describe a block configuration. Given that minimisation of such quantity can be used to perform model selection, it can be also used to evaluate the impact of modifying the assignment of a cell to a cluster. Once a model is minimised, \emph{schist} performs an exhaustive exploration of all model entropies resulting from moving all cells into all possible clusters. The differences in entropies could be interpreted as affinities of cells to given clusters. Such affinities are, in fact, probability values and could be used to evaluate the internal consistency of a given cell cluster. 
+
+To this end we calculate the entropy of the group-wise distribution of cell affinities, which is maximal when all cells have affinity equal to 1 for a given group. We tested this idea on four datasets recently published to benchmark single cell technologies in the Human Cell Atlas project \cite{mereu_2020}; in particular, we chose two technologies resulting in high quality data: Quartz-seq2 \cite{sasagawa_2018} and Chromium 10x v3 \cite{zheng_2017}, and two technologies resulting in more noisy data: MARS-seq \cite{jaitin_2014} and iCell8 \cite{goldstein_2017} (Fig. \ref{Figure3}).
+
+Cluster consistency is not a measure of the data quality, in fact we identify low consistency groups in all datasets. High consistency, instead, appears to be linked to the biological purity of the cells and it is inverse to the diversity index, estimated using cell annotation from the original paper. Consequently, filtering low consistency groups increases concordance with biological groups, at the cost of a reduced number of cells (Fig. S5). 
+
+Similarly, we can use cell affinities to derive a stability parameter, a measure of the tendency for a cell to be stably associated to given clusters at all levels of the hierarchy. To this end, we first calculate the cell-wise entropy $H_{i,h}$ of cell affinity at each hierarchy level \emph{h}, then we define the stability as $S_i = 1 - \max(H_i)$. While we conceived this measure to identify and exclude cells with dubious assignment, we found that it may be more useful to assess the general data quality: the fraction of cells having $S>0.95$ was 0.783, 0.795, 0.831 and 0.855 for the iCELL8, MARS-seq, Chromium 10x and Quartz-seq2 technology respectively, in line with the evaluation on increasing performances of those platforms in \cite{mereu_2020}.
+
+\section*{Conclusions}
+
+Identification of cells sharing similar properties in single cell experiments is of paramount importance. A large number of approaches have been described, although the standardisation of analysis pipelines converged to methods that are based on modularity optimisation. We tackled the biological problem using a different approach, nSBM, which has several advantages over existing techniques. The most important advantage is the hierarchical definition of cell groups which eliminates the choice of an arbitrary threshold on clustering resolution. In addition, we showed that the hierarchy itself could have a biological interpretation, implying that the hierarchical model is a valid representation of the cell ensemble. Our approach introduces the evaluation of cluster consistency, which can be used to isolate cells with heterogeneous identity. Lastly, a statistical way to evaluate models is made available, allowing for reliable model selection. This last capability has the obvious advantage that the choice of parameters, hence the definition of cell clusters, could be conditioned to an evaluation metric which is robust and easy to understand (\emph{i.e.} the model entropy).
+
+The major drawback of adopting this strategy is the substantial increase of runtimes. According to the developers of the underlying libraries, runtimes are proportional to the number of edges in the neighborhood graph and while it supports CPU-level parallelisation, a model minimisation is hundreds times slower than  the extremely fast Leiden approach. Runtimes are further inflated if MCMC equilibration is performed. We are well aware that this will limit the adoption of any strategy based on nSBM, but we believe that the quality of the results greatly justifies the additional resources.
+
+
+\section*{Materials and Methods}
+
+A detailed view of the parameters used for the analysis presented in this manuscript is available as jupyter notebook at \href{https://github.com/dawe/schist-notebooks/tree/master/schist_paper}{https:/\slash github.com\slash dawe\slash schist-notebooks\slash tree\slash master\slash schist\_paper}.
+
+\subsection*{Analysis of cell mixtures}
+
+Data and metadata for five cell mixture profiled by Chromium 10x were downloaded from the sc-mixology repository (\href{https://github.com/LuyiTian/sc_mixology}{https:/\slash github.com\slash LuyiTian\slash sc\_mixology}). Data were analysed using scanpy v1.4.6 \cite{wolf_2018}. Cells with less than 200 genes were excluded, as genes detected in less than 3 cells. Cells with less than 5\% of mitochondrial genes were retained for subsequent analysis. Data were normalised and log-transformed; number of genes and percentage of mitochondrial genes were regressed out. nSBM was initialised three times.
+
+\subsection*{Analysis of hematopoietic differentiation}
+
+Data were retrieved using scanpy's built-in functions and were processed as in \cite{wolf_2019}, except for \emph{k}NN graph built using 30 principal components, 30 neighbors and diffmap as embedding. nSBM was completed with 3 initialisations. Gene signatures were calculated using the following gene lists
+\begin{itemize}
+\item Erythroids: Gata1, Klf1, Epor, Gypa, Hba-a2, Hba-a1, Spi1
+\item Neutrophils, Elane, Cebpe, Ctsg, Mpo, Gfi1
+\item Monocytes, Irf8, Csf1r, Ctsg, Mpo
+\end{itemize}
+
+\subsection*{Analysis of cluster consistency}
+
+Count matrices were downloaded from GEO using the following accession numbers: GSE133535 (Chromium 10Xv3), GSE133543 (Quartz-seq2), GSE133542 (MARS-seq) and GSE133541 (iCELL8). Data were processed according to the methods in the original paper \cite{mereu_2020}. Briefly, cells with less than 10,000 total number of reads as well as the cells having less than 65\% of the reads mapped to their reference genome were discarded. Cells in the 95th percentile of the number of genes/cell and those having less than 25\% mitochondrial gene content were included in the downstream analyses. Genes that were expressed in less than five cells were removed. Data were normalized and log-transformed, highly variable genes were detected at minimal dispersion equal to 0.5. Neighborhood graph was built using 30 principal components and 30 neighbors. nSBM was completed with 3 initialisations. 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Backmatter begins here                   %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{backmatter}
+
+\section*{Competing interests}
+  The authors declare that they have no competing interests.
+
+\section*{Author's contributions}
+LM performed the analysis, contributed to the code and wrote the manuscript. VG supervised the analysis and wrote the manuscript. DC conceived the project, performed the analysis, contributed to the code and wrote the manuscript.
+
+\section*{Acknowledgements}
+The authors want to thank Tiago Peixoto and Giovanni Petri for ther inputs and suggestions.  The authors also want to thank Giovanni Tonon, Paolo Provero and all people at COSR for comments and support.
+This work has been supported by Accelerator Award: A26815 entitled:  "Single-cell cancer evolution in the clinic" funded through a partnership between Cancer Research UK and Fondazione AIRC.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                  The Bibliography                       %%
+%%                                                         %%
+%%  Bmc_mathpys.bst  will be used to                       %%
+%%  create a .BBL file for submission.                     %%
+%%  After submission of the .TEX file,                     %%
+%%  you will be prompted to submit your .BBL file.         %%
+%%                                                         %%
+%%                                                         %%
+%%  Note that the displayed Bibliography will not          %%
+%%  necessarily be rendered by Latex exactly as specified  %%
+%%  in the online Instructions for Authors.                %%
+%%                                                         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% if your bibliography is in bibtex format, use those commands:
+\bibliographystyle{bmc-mathphys} % Style BST file (bmc-mathphys, vancouver, spbasic).
+\bibliography{bmc_article}      % Bibliography file (usually '*.bib' )
+% for author-year bibliography (bmc-mathphys or spbasic)
+% a) write to bib file (bmc-mathphys only)
+% @settings{label, options="nameyear"}
+% b) uncomment next line
+%\nocite{label}
+
+% or include bibliography directly:
+% \begin{thebibliography}
+% \bibitem{b1}
+% \end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               %%
+%% Figures                       %%
+%%                               %%
+%% NB: this is for captions and  %%
+%% Titles. All graphics must be  %%
+%% submitted separately and NOT  %%
+%% included in the Tex document  %%
+%%                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% Do not use \listoffigures as most will included as separate files
+
+\section*{Figures}
+\begin{figure}[h!]
+\centering
+%\includegraphics[keepaspectratio]{Figure_1.png}
+\caption[]{\emph{schist} applied to scRNA-seq mixology data. (A) UMAP embedding of 10x Chromium data, cells are colored according to the given cell line in the original paper. A small number of H1975 cells are found in HCC827 and H838 clusters. (B) Heatmap showing the maximal Adjusted Rand Index for different \emph{k}NN graphs. We tested the impact of varying the number of Principal Components and the number of neighbors used in \emph{sc.pp.neighbors()} function in \emph{scanpy}. Adjusted Rand Index between the actual cell lines and the identified groups is shown. Darker blue indicates higher concordance between the model and the ground truth. (C) Alluvial plots showing the hierarchy of cell groups as identified by \emph{schist} (above) or by Leiden method at different resolution thresholds (below). The bars on the right indicate the cell identity; two marks in the \emph{schist} plot indicate two groups of cells discussed in the main text.}\label{Figure1}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+%\includegraphics[keepaspectratio]{Figure_2.png}
+\caption[]{Analysis of hematopoietic differentiation. Each panel presents a low dimensional embedding of single cells next to a radial tree representation of the nSBM hierarchy. Cells are colored according to groupings at level 5 of the hierarchy, group 0 marks the progenitor population (A). In subsequent panels, cells are colored using a signature of erythroid lineage (B), monocytes (C) or neutrophils (D).}\label{Figure2}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+%\includegraphics[keepaspectratio,width=\textwidth,height=0.7\textheight]{Figure_3.png}
+\caption[]{Analysis of cell cluster consistency. Every panel reports a UMAP embedding of a PBMC + HEK293 cells profiled on different platform. Cells are annotated by cell type and by consistency value, which is assigned to cell clusters at nSBM level 1. The charts next to UMAPs show the correlation between consistency and diversity index for each cell cluster. Technologies showed here are (A) Chromium 10x v3, (B) Quartz-seq 2, (C) MARS-seq and (D) iCELL8.}\label{Figure3}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               %%
+%% Tables                        %%
+%%                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Use of \listoftables is discouraged.
+%%
+%\section*{Tables}
+%\begin{table}[h!]
+%\caption{Sample table title. This is where the description of the table should go.}
+%      \begin{tabular}{cccc}
+%        \hline
+%           & B1  &B2   & B3\\ \hline
+%        A1 & 0.1 & 0.2 & 0.3\\
+%        A2 & ... & ..  & .\\
+%        A3 & ..  & .   & .\\ \hline
+%      \end{tabular}
+%\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                               %%
+%% Additional Files              %%
+%%                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Additional Files}
+  \subsection*{Additional file 1 --- Supplementary figures}
+  The file supplementary.pdf includes supplementary figures from Figure S1 to Figure S5
+
+\end{backmatter}
+\end{document}

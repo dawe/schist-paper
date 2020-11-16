@@ -1,0 +1,615 @@
+\begin{thebibliography}{49}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Svensson et~al.(2018)Svensson, Vento-Tormo, and
+  Teichmann]{svensson_2018}
+Valentine Svensson, Roser Vento-Tormo, and Sarah~A Teichmann.
+\newblock Exponential scaling of single-cell {RNA}-seq in the past decade.
+\newblock \emph{Nature Protocols}, 13\penalty0 (4):\penalty0 599--604, mar
+  2018.
+\newblock ISSN 1754-2189.
+\newblock \doi{10.1038/nprot.2017.149}.
+
+\bibitem[Guo et~al.(2018)Guo, Grow, Mlcochova, Maher, Lindskog, Nie, Guo,
+  Takei, Yun, Cai, Kim, Carrell, Goriely, Hotaling, and Cairns]{guo_2018}
+Jingtao Guo, Edward~J Grow, Hana Mlcochova, Geoffrey~J Maher, Cecilia Lindskog,
+  Xichen Nie, Yixuan Guo, Yodai Takei, Jina Yun, Long Cai, Robin Kim, Douglas~T
+  Carrell, Anne Goriely, James~M Hotaling, and Bradley~R Cairns.
+\newblock The adult human testis transcriptional cell atlas.
+\newblock \emph{Cell Research}, 28\penalty0 (12):\penalty0 1141--1157, oct
+  2018.
+\newblock \doi{10.1038/s41422-018-0099-2}.
+\newblock URL \url{http://dx.doi.org/10.1038/s41422-018-0099-2}.
+
+\bibitem[Vento-Tormo et~al.(2018)Vento-Tormo, Efremova, Botting, Turco,
+  Vento-Tormo, Meyer, Park, Stephenson, Polański, Goncalves, Gardner,
+  Holmqvist, Henriksson, Zou, Sharkey, Millar, Innes, Wood, Wilbrey-Clark,
+  Payne, Ivarsson, Lisgo, Filby, Rowitch, Bulmer, Wright, Stubbington, Haniffa,
+  Moffett, and Teichmann]{ventotormo_2018}
+Roser Vento-Tormo, Mirjana Efremova, Rachel~A Botting, Margherita~Y Turco,
+  Miquel Vento-Tormo, Kerstin~B Meyer, Jong-Eun Park, Emily Stephenson,
+  Krzysztof Polański, Angela Goncalves, Lucy Gardner, Staffan Holmqvist, Johan
+  Henriksson, Angela Zou, Andrew~M Sharkey, Ben Millar, Barbara Innes, Laura
+  Wood, Anna Wilbrey-Clark, Rebecca~P Payne, Martin~A Ivarsson, Steve Lisgo,
+  Andrew Filby, David~H Rowitch, Judith~N Bulmer, Gavin~J Wright, Michael J~T
+  Stubbington, Muzlifah Haniffa, Ashley Moffett, and Sarah~A Teichmann.
+\newblock Single-cell reconstruction of the early maternal-fetal interface in
+  humans.
+\newblock \emph{Nature}, 563\penalty0 (7731):\penalty0 347--353, nov 2018.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/s41586-018-0698-6}.
+\newblock URL \url{http://www.nature.com/articles/s41586-018-0698-6}.
+
+\bibitem[Rozenblatt-Rosen et~al.(2020)Rozenblatt-Rosen, Regev, Oberdoerffer,
+  Nawy, Hupalowska, Rood, Ashenberg, Cerami, Coffey, Demir, Ding, Esplin, Ford,
+  Goecks, Ghosh, Gray, Guinney, Hanlon, Hughes, Hwang, Iacobuzio-Donahue,
+  {Jané}-Valbuena, Johnson, Lau, Lively, Mazzilli, Pe'er, Santagata, Shalek,
+  Schapiro, Snyder, Sorger, Spira, Srivastava, Tan, West, Williams, and
+  Network]{rozenblattrosen_2020}
+Orit Rozenblatt-Rosen, Aviv Regev, Philipp Oberdoerffer, Tal Nawy, Anna
+  Hupalowska, Jennifer~E Rood, Orr Ashenberg, Ethan Cerami, Robert~J Coffey,
+  Emek Demir, Li~Ding, Edward~D Esplin, James~M Ford, Jeremy Goecks, Sharmistha
+  Ghosh, Joe~W Gray, Justin Guinney, Sean~E Hanlon, Shannon~K Hughes, E~Shelley
+  Hwang, Christine~A Iacobuzio-Donahue, Judit {Jané}-Valbuena, Bruce~E
+  Johnson, Ken~S Lau, Tracy Lively, Sarah~A Mazzilli, Dana Pe'er, Sandro
+  Santagata, Alex~K Shalek, Denis Schapiro, Michael~P Snyder, Peter~K Sorger,
+  Avrum~E Spira, Sudhir Srivastava, Kai Tan, Robert~B West, Elizabeth~H
+  Williams, and Human Tumor~Atlas Network.
+\newblock The human tumor atlas network: Charting tumor transitions across
+  space and time at single-cell resolution.
+\newblock \emph{Cell}, 181\penalty0 (2):\penalty0 236--249, apr 2020.
+\newblock ISSN 00928674.
+\newblock \doi{10.1016/j.cell.2020.03.053}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0092867420303469}.
+
+\bibitem[Tirosh et~al.(2016)Tirosh, Izar, Prakadan, Wadsworth, Treacy,
+  Trombetta, Rotem, Rodman, Lian, Murphy, Fallahi-Sichani, Dutton-Regester,
+  Lin, Cohen, Shah, Lu, Genshaft, Hughes, Ziegler, Kazer, Gaillard, Kolb,
+  Villani, Johannessen, Andreev, Van~Allen, Bertagnolli, Sorger, Sullivan,
+  Flaherty, Frederick, {Jané}-Valbuena, Yoon, Rozenblatt-Rosen, Shalek, Regev,
+  and Garraway]{tirosh_2016}
+Itay Tirosh, Benjamin Izar, Sanjay~M Prakadan, Marc~H Wadsworth, Daniel Treacy,
+  John~J Trombetta, Asaf Rotem, Christopher Rodman, Christine Lian, George
+  Murphy, Mohammad Fallahi-Sichani, Ken Dutton-Regester, Jia-Ren Lin, Ofir
+  Cohen, Parin Shah, Diana Lu, Alex~S Genshaft, Travis~K Hughes, Carly G~K
+  Ziegler, Samuel~W Kazer, Aleth Gaillard, Kellie~E Kolb, Alexandra-{Chloé}
+  Villani, Cory~M Johannessen, Aleksandr~Y Andreev, Eliezer~M Van~Allen, Monica
+  Bertagnolli, Peter~K Sorger, Ryan~J Sullivan, Keith~T Flaherty, Dennie~T
+  Frederick, Judit {Jané}-Valbuena, Charles~H Yoon, Orit Rozenblatt-Rosen,
+  Alex~K Shalek, Aviv Regev, and Levi~A Garraway.
+\newblock Dissecting the multicellular ecosystem of metastatic melanoma by
+  single-cell {RNA}-seq.
+\newblock \emph{Science}, 352\penalty0 (6282):\penalty0 189--196, apr 2016.
+\newblock ISSN 0036-8075.
+\newblock \doi{10.1126/science.aad0501}.
+\newblock URL \url{http://www.sciencemag.org/cgi/doi/10.1126/science.aad0501}.
+
+\bibitem[Patel et~al.(2014)Patel, Tirosh, Trombetta, Shalek, Gillespie,
+  Wakimoto, Cahill, Nahed, Curry, Martuza, Louis, Rozenblatt-Rosen, {Suvà},
+  Regev, and Bernstein]{patel_2014}
+Anoop~P Patel, Itay Tirosh, John~J Trombetta, Alex~K Shalek, Shawn~M Gillespie,
+  Hiroaki Wakimoto, Daniel~P Cahill, Brian~V Nahed, William~T Curry, Robert~L
+  Martuza, David~N Louis, Orit Rozenblatt-Rosen, Mario~L {Suvà}, Aviv Regev,
+  and Bradley~E Bernstein.
+\newblock Single-cell {RNA}-seq highlights intratumoral heterogeneity in
+  primary glioblastoma.
+\newblock \emph{Science}, 344\penalty0 (6190):\penalty0 1396--1401, jun 2014.
+\newblock \doi{10.1126/science.1254257}.
+\newblock URL \url{http://dx.doi.org/10.1126/science.1254257}.
+
+\bibitem[Neftel et~al.(2019)Neftel, Laffy, Filbin, Hara, Shore, Rahme, Richman,
+  Silverbush, Shaw, Hebert, Dewitt, Gritsch, Perez, Gonzalez~Castro, Lan,
+  Druck, Rodman, Dionne, Kaplan, Bertalan, Small, Pelton, Becker, Bonal,
+  Nguyen, Servis, Fung, Mylvaganam, Mayr, Gojo, Haberler, Geyeregger, Czech,
+  Slavc, Nahed, Curry, Carter, Wakimoto, Brastianos, Batchelor,
+  Stemmer-Rachamimov, Martinez-Lage, Frosch, Stamenkovic, Riggi, Rheinbay,
+  Monje, Rozenblatt-Rosen, Cahill, Patel, Hunter, Verma, Ligon, Louis, Regev,
+  Bernstein, Tirosh, and {Suvà}]{neftel_2019}
+Cyril Neftel, Julie Laffy, Mariella~G Filbin, Toshiro Hara, Marni~E Shore,
+  Gilbert~J Rahme, Alyssa~R Richman, Dana Silverbush, {McKenzie}~L Shaw,
+  Christine~M Hebert, John Dewitt, Simon Gritsch, Elizabeth~M Perez, L~Nicolas
+  Gonzalez~Castro, Xiaoyang Lan, Nicholas Druck, Christopher Rodman, Danielle
+  Dionne, Alexander Kaplan, Mia~S Bertalan, Julia Small, Kristine Pelton, Sarah
+  Becker, Dennis Bonal, Quang-De Nguyen, Rachel~L Servis, Jeremy~M Fung,
+  Ravindra Mylvaganam, Lisa Mayr, Johannes Gojo, Christine Haberler, Rene
+  Geyeregger, Thomas Czech, Irene Slavc, Brian~V Nahed, William~T Curry, Bob~S
+  Carter, Hiroaki Wakimoto, Priscilla~K Brastianos, Tracy~T Batchelor, Anat
+  Stemmer-Rachamimov, Maria Martinez-Lage, Matthew~P Frosch, Ivan Stamenkovic,
+  Nicolo Riggi, Esther Rheinbay, Michelle Monje, Orit Rozenblatt-Rosen,
+  Daniel~P Cahill, Anoop~P Patel, Tony Hunter, Inder~M Verma, Keith~L Ligon,
+  David~N Louis, Aviv Regev, Bradley~E Bernstein, Itay Tirosh, and Mario~L
+  {Suvà}.
+\newblock An integrative model of cellular states, plasticity, and genetics for
+  glioblastoma.
+\newblock \emph{Cell}, 178\penalty0 (4):\penalty0 835--849.e21, aug 2019.
+\newblock ISSN 00928674.
+\newblock \doi{10.1016/j.cell.2019.06.024}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0092867419306877}.
+
+\bibitem[Rosenberg et~al.(2018)Rosenberg, Roco, Muscat, Kuchina, Sample, Yao,
+  Graybuck, Peeler, Mukherjee, Chen, Pun, Sellers, Tasic, and
+  Seelig]{rosenberg_2018}
+Alexander~B Rosenberg, Charles~M Roco, Richard~A Muscat, Anna Kuchina, Paul
+  Sample, Zizhen Yao, Lucas~T Graybuck, David~J Peeler, Sumit Mukherjee, Wei
+  Chen, Suzie~H Pun, Drew~L Sellers, Bosiljka Tasic, and Georg Seelig.
+\newblock Single-cell profiling of the developing mouse brain and spinal cord
+  with split-pool barcoding.
+\newblock \emph{Science}, 360\penalty0 (6385):\penalty0 176--182, apr 2018.
+\newblock ISSN 0036-8075.
+\newblock \doi{10.1126/science.aam8999}.
+\newblock URL
+  \url{http://www.sciencemag.org/lookup/doi/10.1126/science.aam8999}.
+
+\bibitem[Wagner et~al.(2018)Wagner, Weinreb, Collins, Briggs, Megason, and
+  Klein]{wagner_2018}
+Daniel~E Wagner, Caleb Weinreb, Zach~M Collins, James~A Briggs, Sean~G Megason,
+  and Allon~M Klein.
+\newblock Single-cell mapping of gene expression landscapes and lineage in the
+  zebrafish embryo.
+\newblock \emph{Science}, 360\penalty0 (6392):\penalty0 981--987, jun 2018.
+\newblock ISSN 0036-8075.
+\newblock \doi{10.1126/science.aar4362}.
+\newblock URL
+  \url{http://www.sciencemag.org/lookup/doi/10.1126/science.aar4362}.
+
+\bibitem[Plass et~al.(2018)Plass, Solana, Wolf, Ayoub, Misios, Glažar,
+  Obermayer, Theis, Kocks, and Rajewsky]{plass_2018}
+Mireya Plass, Jordi Solana, F~Alexander Wolf, Salah Ayoub, Aristotelis Misios,
+  Petar Glažar, Benedikt Obermayer, Fabian~J Theis, Christine Kocks, and
+  Nikolaus Rajewsky.
+\newblock Cell type atlas and lineage tree of a whole complex animal by
+  single-cell transcriptomics.
+\newblock \emph{Science}, 360\penalty0 (6391), may 2018.
+\newblock ISSN 0036-8075.
+\newblock \doi{10.1126/science.aaq1723}.
+\newblock URL
+  \url{http://www.sciencemag.org/lookup/doi/10.1126/science.aaq1723}.
+
+\bibitem[Regev et~al.(2017)Regev, Teichmann, Lander, Amit, Benoist, Birney,
+  Bodenmiller, Campbell, Carninci, Clatworthy, Clevers, Deplancke, Dunham,
+  Eberwine, Eils, Enard, Farmer, Fugger, {Göttgens}, Hacohen, Haniffa,
+  Hemberg, Kim, Klenerman, Kriegstein, Lein, Linnarsson, Lundberg, Lundeberg,
+  Majumder, Marioni, Merad, Mhlanga, Nawijn, Netea, Nolan, Pe'er, Phillipakis,
+  Ponting, Quake, Reik, Rozenblatt-Rosen, Sanes, Satija, Schumacher, Shalek,
+  Shapiro, Sharma, Shin, Stegle, Stratton, Stubbington, Theis, Uhlen, van
+  Oudenaarden, Wagner, Watt, Weissman, Wold, Xavier, Yosef, and
+  Participants]{regev_2017}
+Aviv Regev, Sarah~A Teichmann, Eric~S Lander, Ido Amit, Christophe Benoist,
+  Ewan Birney, Bernd Bodenmiller, Peter Campbell, Piero Carninci, Menna
+  Clatworthy, Hans Clevers, Bart Deplancke, Ian Dunham, James Eberwine, Roland
+  Eils, Wolfgang Enard, Andrew Farmer, Lars Fugger, Berthold {Göttgens}, Nir
+  Hacohen, Muzlifah Haniffa, Martin Hemberg, Seung Kim, Paul Klenerman, Arnold
+  Kriegstein, Ed~Lein, Sten Linnarsson, Emma Lundberg, Joakim Lundeberg, Partha
+  Majumder, John~C Marioni, Miriam Merad, Musa Mhlanga, Martijn Nawijn, Mihai
+  Netea, Garry Nolan, Dana Pe'er, Anthony Phillipakis, Chris~P Ponting, Stephen
+  Quake, Wolf Reik, Orit Rozenblatt-Rosen, Joshua Sanes, Rahul Satija, Ton~N
+  Schumacher, Alex Shalek, Ehud Shapiro, Padmanee Sharma, Jay~W Shin, Oliver
+  Stegle, Michael Stratton, Michael J~T Stubbington, Fabian~J Theis, Matthias
+  Uhlen, Alexander van Oudenaarden, Allon Wagner, Fiona Watt, Jonathan
+  Weissman, Barbara Wold, Ramnik Xavier, Nir Yosef, and Human Cell
+  Atlas~Meeting Participants.
+\newblock The human cell atlas.
+\newblock \emph{eLife}, 6, dec 2017.
+\newblock \doi{10.7554/{eLife}.27041}.
+\newblock URL \url{http://dx.doi.org/10.7554/{eLife}.27041}.
+
+\bibitem[Wang et~al.(2017)Wang, Zhu, Pierson, Ramazzotti, and
+  Batzoglou]{wang_2017}
+Bo~Wang, Junjie Zhu, Emma Pierson, Daniele Ramazzotti, and Serafim Batzoglou.
+\newblock Visualization and analysis of single-cell {RNA}-seq data by
+  kernel-based similarity learning.
+\newblock \emph{Nature Methods}, 14\penalty0 (4):\penalty0 414--416, apr 2017.
+\newblock \doi{10.1038/nmeth.4207}.
+\newblock URL \url{http://dx.doi.org/10.1038/nmeth.4207}.
+
+\bibitem[Lin et~al.(2017)Lin, Troup, and Ho]{lin_2017}
+Peijie Lin, Michael Troup, and Joshua W~K Ho.
+\newblock {CIDR}: Ultrafast and accurate clustering through imputation for
+  single-cell {RNA}-seq data.
+\newblock \emph{Genome Biology}, 18\penalty0 (1):\penalty0 59, mar 2017.
+\newblock \doi{10.1186/s13059-017-1188-0}.
+\newblock URL \url{http://dx.doi.org/10.1186/s13059-017-1188-0}.
+
+\bibitem[Huh et~al.(2020)Huh, Yang, Jiang, Shen, and Li]{huh_2020}
+Ruth Huh, Yuchen Yang, Yuchao Jiang, Yin Shen, and Yun Li.
+\newblock {SAME}-clustering: Single-cell aggregated clustering via mixture
+  model ensemble.
+\newblock \emph{Nucleic Acids Research}, 48\penalty0 (1):\penalty0 86--95, jan
+  2020.
+\newblock \doi{10.1093/nar/gkz959}.
+\newblock URL \url{http://dx.doi.org/10.1093/nar/gkz959}.
+
+\bibitem[Kiselev et~al.(2017)Kiselev, Kirschner, Schaub, Andrews, Yiu, Chandra,
+  Natarajan, Reik, Barahona, Green, and Hemberg]{kiselev_2017}
+Vladimir~Yu Kiselev, Kristina Kirschner, Michael~T Schaub, Tallulah Andrews,
+  Andrew Yiu, Tamir Chandra, Kedar~N Natarajan, Wolf Reik, Mauricio Barahona,
+  Anthony~R Green, and Martin Hemberg.
+\newblock {SC3}: consensus clustering of single-cell {RNA}-seq data.
+\newblock \emph{Nature Methods}, 14\penalty0 (5):\penalty0 483--486, may 2017.
+\newblock \doi{10.1038/nmeth.4236}.
+\newblock URL \url{http://dx.doi.org/10.1038/nmeth.4236}.
+
+\bibitem[Li et~al.(2020)Li, Wang, Lyu, Pan, Zhang, Stambolian, Susztak, Reilly,
+  Hu, and Li]{li_2020}
+Xiangjie Li, Kui Wang, Yafei Lyu, Huize Pan, Jingxiao Zhang, Dwight Stambolian,
+  Katalin Susztak, Muredach~P Reilly, Gang Hu, and Mingyao Li.
+\newblock Deep learning enables accurate clustering with batch effect removal
+  in single-cell {RNA}-seq analysis.
+\newblock \emph{Nature Communications}, 11\penalty0 (1):\penalty0 2338, may
+  2020.
+\newblock \doi{10.1038/s41467-020-15851-3}.
+\newblock URL \url{http://dx.doi.org/10.1038/s41467-020-15851-3}.
+
+\bibitem[Krzak et~al.(2019)Krzak, Raykov, Boukouvalas, Cutillo, and
+  Angelini]{krzak_2019}
+Monika Krzak, Yordan Raykov, Alexis Boukouvalas, Luisa Cutillo, and Claudia
+  Angelini.
+\newblock Benchmark and parameter sensitivity analysis of single-cell {RNA}
+  sequencing clustering methods.
+\newblock \emph{Frontiers in genetics}, 10:\penalty0 1253, dec 2019.
+\newblock \doi{10.3389/fgene.2019.01253}.
+\newblock URL \url{http://dx.doi.org/10.3389/fgene.2019.01253}.
+
+\bibitem[Kiselev et~al.(2019)Kiselev, Andrews, and Hemberg]{kiselev_2019}
+Vladimir~Yu Kiselev, Tallulah~S Andrews, and Martin Hemberg.
+\newblock Challenges in unsupervised clustering of single-cell {RNA}-seq data.
+\newblock \emph{Nature Reviews. Genetics}, 20\penalty0 (5):\penalty0 273--282,
+  2019.
+\newblock ISSN 1471-0056.
+\newblock \doi{10.1038/s41576-018-0088-9}.
+\newblock URL \url{http://www.nature.com/articles/s41576-018-0088-9}.
+
+\bibitem[{Duò} et~al.(2018){Duò}, Robinson, and Soneson]{du_2018}
+Angelo {Duò}, Mark~D Robinson, and Charlotte Soneson.
+\newblock A systematic performance evaluation of clustering methods for
+  single-cell {RNA}-seq data.
+\newblock \emph{F1000Research}, 7:\penalty0 1141, jul 2018.
+\newblock \doi{10.12688/f1000research.15666.2}.
+\newblock URL \url{http://dx.doi.org/10.12688/f1000research.15666.2}.
+
+\bibitem[Butler et~al.(2018)Butler, Hoffman, Smibert, Papalexi, and
+  Satija]{butler_2018}
+Andrew Butler, Paul Hoffman, Peter Smibert, Efthymia Papalexi, and Rahul
+  Satija.
+\newblock Integrating single-cell transcriptomic data across different
+  conditions, technologies, and species.
+\newblock \emph{Nature Biotechnology}, 36\penalty0 (5):\penalty0 411--420, apr
+  2018.
+\newblock ISSN 1087-0156.
+\newblock \doi{10.1038/nbt.4096}.
+\newblock URL \url{http://www.nature.com/doifinder/10.1038/nbt.4096}.
+
+\bibitem[Wolf et~al.(2018)Wolf, Angerer, and Theis]{wolf_2018}
+F~Alexander Wolf, Philipp Angerer, and Fabian~J Theis.
+\newblock {SCANPY}: large-scale single-cell gene expression data analysis.
+\newblock \emph{Genome Biology}, 19\penalty0 (1):\penalty0 15, feb 2018.
+\newblock \doi{10.1186/s13059-017-1382-0}.
+\newblock URL \url{http://dx.doi.org/10.1186/s13059-017-1382-0}.
+
+\bibitem[Blondel et~al.(2008)Blondel, Guillaume, Lambiotte, and
+  Lefebvre]{blondel_2008}
+Vincent~D Blondel, Jean-Loup Guillaume, Renaud Lambiotte, and Etienne Lefebvre.
+\newblock Fast unfolding of communities in large networks.
+\newblock \emph{Journal of Statistical Mechanics: Theory and Experiment},
+  2008\penalty0 (10):\penalty0 P10008, oct 2008.
+\newblock ISSN 1742-5468.
+\newblock \doi{10.1088/1742-5468/2008/10/P10008}.
+\newblock URL
+  \url{http://stacks.iop.org/1742-5468/2008/i=10/a=P10008?key=crossref.46968f6ec61eb8f907a760be1c5ace52}.
+
+\bibitem[Traag et~al.(2019)Traag, Waltman, and van Eck]{traag_2019}
+V~A Traag, L~Waltman, and N~J van Eck.
+\newblock From louvain to leiden: guaranteeing well-connected communities.
+\newblock \emph{Scientific Reports}, 9\penalty0 (1):\penalty0 5233, mar 2019.
+\newblock \doi{10.1038/s41598-019-41695-z}.
+\newblock URL \url{http://dx.doi.org/10.1038/s41598-019-41695-z}.
+
+\bibitem[Levine et~al.(2015)Levine, Simonds, Bendall, Davis, Amir, Tadmor,
+  Litvin, Fienberg, Jager, Zunder, Finck, Gedman, Radtke, Downing, Pe'er, and
+  Nolan]{levine_2015}
+Jacob~H Levine, Erin~F Simonds, Sean~C Bendall, Kara~L Davis, El-ad~D Amir,
+  Michelle~D Tadmor, Oren Litvin, Harris~G Fienberg, Astraea Jager, Eli~R
+  Zunder, Rachel Finck, Amanda~L Gedman, Ina Radtke, James~R Downing, Dana
+  Pe'er, and Garry~P Nolan.
+\newblock Data-driven phenotypic dissection of {AML} reveals progenitor-like
+  cells that correlate with prognosis.
+\newblock \emph{Cell}, 162\penalty0 (1):\penalty0 184--197, jul 2015.
+\newblock \doi{10.1016/j.cell.2015.05.047}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.cell.2015.05.047}.
+
+\bibitem[Newman and Girvan(2004)]{newman_2004}
+M~E~J Newman and M~Girvan.
+\newblock Finding and evaluating community structure in networks.
+\newblock \emph{Physical Review. E, Statistical, Nonlinear, and Soft Matter
+  Physics}, 69\penalty0 (2 Pt 2):\penalty0 026113, feb 2004.
+\newblock ISSN 1539-3755.
+\newblock \doi{10.1103/{PhysRevE}.69.026113}.
+\newblock URL \url{http://dx.doi.org/10.1103/{PhysRevE}.69.026113}.
+
+\bibitem[Traag et~al.(2011)Traag, Van~Dooren, and Nesterov]{traag_2011}
+V.~A. Traag, P.~Van~Dooren, and Y.~Nesterov.
+\newblock Narrow scope for resolution-limit-free community detection.
+\newblock \emph{Physical Review E}, 84\penalty0 (1), jul 2011.
+\newblock ISSN 1539-3755.
+\newblock \doi{10.1103/{PhysRevE}.84.016114}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/{PhysRevE}.84.016114}.
+
+\bibitem[Reichardt and Bornholdt(2006)]{reichardt_2006}
+{Jörg} Reichardt and Stefan Bornholdt.
+\newblock Statistical mechanics of community detection.
+\newblock \emph{Physical Review E}, 74\penalty0 (1), jul 2006.
+\newblock ISSN 1539-3755.
+\newblock \doi{10.1103/{PhysRevE}.74.016110}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/{PhysRevE}.74.016110}.
+
+\bibitem[{Lähnemann} et~al.(2020){Lähnemann}, {Köster}, Szczurek,
+  {McCarthy}, Hicks, Robinson, Vallejos, Campbell, Beerenwinkel, Mahfouz,
+  Pinello, Skums, Stamatakis, Attolini, Aparicio, Baaijens, Balvert, Barbanson,
+  Cappuccio, Corleone, Dutilh, Florescu, Guryev, Holmer, Jahn, Lobo, Keizer,
+  Khatri, Kielbasa, Korbel, Kozlov, Kuo, Lelieveldt, Mandoiu, Marioni,
+  Marschall, {Mölder}, Niknejad, Raczkowski, Reinders, Ridder, Saliba,
+  Somarakis, Stegle, Theis, Yang, Zelikovsky, {McHardy}, Raphael, Shah, and
+  {Schönhuth}]{lhnemann_2020}
+David {Lähnemann}, Johannes {Köster}, Ewa Szczurek, Davis~J {McCarthy},
+  Stephanie~C Hicks, Mark~D Robinson, Catalina~A Vallejos, Kieran~R Campbell,
+  Niko Beerenwinkel, Ahmed Mahfouz, Luca Pinello, Pavel Skums, Alexandros
+  Stamatakis, Camille Stephan-Otto Attolini, Samuel Aparicio, Jasmijn Baaijens,
+  Marleen Balvert, Buys~de Barbanson, Antonio Cappuccio, Giacomo Corleone,
+  Bas~E Dutilh, Maria Florescu, Victor Guryev, Rens Holmer, Katharina Jahn,
+  Thamar~Jessurun Lobo, Emma~M Keizer, Indu Khatri, Szymon~M Kielbasa, Jan~O
+  Korbel, Alexey~M Kozlov, Tzu-Hao Kuo, Boudewijn P~F Lelieveldt, Ion~I
+  Mandoiu, John~C Marioni, Tobias Marschall, Felix {Mölder}, Amir Niknejad,
+  Lukasz Raczkowski, Marcel Reinders, Jeroen~de Ridder, Antoine-Emmanuel
+  Saliba, Antonios Somarakis, Oliver Stegle, Fabian~J Theis, Huan Yang, Alex
+  Zelikovsky, Alice~C {McHardy}, Benjamin~J Raphael, Sohrab~P Shah, and
+  Alexander {Schönhuth}.
+\newblock Eleven grand challenges in single-cell data science.
+\newblock \emph{Genome Biology}, 21\penalty0 (1):\penalty0 31, feb 2020.
+\newblock \doi{10.1186/s13059-020-1926-6}.
+\newblock URL \url{http://dx.doi.org/10.1186/s13059-020-1926-6}.
+
+\bibitem[Fortunato and {Barthélemy}(2007)]{fortunato_2007}
+Santo Fortunato and Marc {Barthélemy}.
+\newblock Resolution limit in community detection.
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, 104\penalty0 (1):\penalty0 36--41, jan 2007.
+\newblock \doi{10.1073/pnas.0605965104}.
+\newblock URL \url{http://dx.doi.org/10.1073/pnas.0605965104}.
+
+\bibitem[{Guimerà} et~al.(2004){Guimerà}, Sales-Pardo, and
+  Amaral]{guimer_2004}
+Roger {Guimerà}, Marta Sales-Pardo, and {Luís} A.~Nunes Amaral.
+\newblock Modularity from fluctuations in random graphs and complex networks.
+\newblock \emph{Physical Review E}, 70\penalty0 (2), aug 2004.
+\newblock ISSN 1539-3755.
+\newblock \doi{10.1103/{PhysRevE}.70.025101}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/{PhysRevE}.70.025101}.
+
+\bibitem[Baran et~al.(2019)Baran, Bercovich, Sebe-Pedros, Lubling, Giladi,
+  Chomsky, Meir, Hoichman, Lifshitz, and Tanay]{baran_2019}
+Yael Baran, Akhiad Bercovich, Arnau Sebe-Pedros, Yaniv Lubling, Amir Giladi,
+  Elad Chomsky, Zohar Meir, Michael Hoichman, Aviezer Lifshitz, and Amos Tanay.
+\newblock {MetaCell}: analysis of single-cell {RNA}-seq data using k-nn graph
+  partitions.
+\newblock \emph{Genome Biology}, 20\penalty0 (1):\penalty0 206, oct 2019.
+\newblock ISSN 1474-{760X}.
+\newblock \doi{10.1186/s13059-019-1812-2}.
+\newblock URL
+  \url{https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1812-2}.
+
+\bibitem[Xu and Su(2015)]{xu_2015}
+Chen Xu and Zhengchang Su.
+\newblock Identification of cell types from single-cell transcriptomes using a
+  novel clustering method.
+\newblock \emph{Bioinformatics}, 31\penalty0 (12):\penalty0 1974--1980, jun
+  2015.
+\newblock \doi{10.1093/bioinformatics/btv088}.
+\newblock URL \url{http://dx.doi.org/10.1093/bioinformatics/btv088}.
+
+\bibitem[Miao et~al.(2020)Miao, Moreno, Huang, Papatheodorou, Brazma, and
+  Teichmann]{miao_2020}
+Zhichao Miao, Pablo Moreno, Ni~Huang, Irene Papatheodorou, Alvis Brazma, and
+  Sarah~A Teichmann.
+\newblock Putative cell type discovery from single-cell gene expression data.
+\newblock \emph{Nature Methods}, 17\penalty0 (6):\penalty0 621--628, jun 2020.
+\newblock ISSN 1548-7091.
+\newblock \doi{10.1038/s41592-020-0825-9}.
+\newblock URL \url{http://www.nature.com/articles/s41592-020-0825-9}.
+
+\bibitem[Holland et~al.(1983)Holland, Laskey, and Leinhardt]{holland_1983}
+Paul~W. Holland, Kathryn~Blackmond Laskey, and Samuel Leinhardt.
+\newblock Stochastic blockmodels: First steps.
+\newblock \emph{Social networks}, 5\penalty0 (2):\penalty0 109--137, jun 1983.
+\newblock ISSN 03788733.
+\newblock \doi{10.1016/0378-8733(83)90021-7}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/0378873383900217}.
+
+\bibitem[Peixoto(2017)]{peixoto_2017}
+Tiago~P Peixoto.
+\newblock Nonparametric bayesian inference of the microcanonical stochastic
+  block model.
+\newblock \emph{Physical review. E}, 95\penalty0 (1-1):\penalty0 012317, jan
+  2017.
+\newblock \doi{10.1103/{PhysRevE}.95.012317}.
+\newblock URL \url{http://dx.doi.org/10.1103/{PhysRevE}.95.012317}.
+
+\bibitem[Karrer and Newman(2011)]{karrer_2011}
+Brian Karrer and M~E~J Newman.
+\newblock Stochastic blockmodels and community structure in networks.
+\newblock \emph{Physical Review. E, Statistical, Nonlinear, and Soft Matter
+  Physics}, 83\penalty0 (1 Pt 2):\penalty0 016107, jan 2011.
+\newblock \doi{10.1103/{PhysRevE}.83.016107}.
+\newblock URL \url{http://dx.doi.org/10.1103/{PhysRevE}.83.016107}.
+
+\bibitem[Peixoto(2013)]{peixoto_2013}
+Tiago~P Peixoto.
+\newblock Parsimonious module inference in large networks.
+\newblock \emph{Physical Review Letters}, 110\penalty0 (14):\penalty0 148701,
+  apr 2013.
+\newblock \doi{10.1103/{PhysRevLett}.110.148701}.
+\newblock URL \url{http://dx.doi.org/10.1103/{PhysRevLett}.110.148701}.
+
+\bibitem[Peixoto(2014{\natexlab{a}})]{peixoto_2014}
+Tiago~P Peixoto.
+\newblock Efficient monte carlo and greedy heuristic for the inference of
+  stochastic block models.
+\newblock \emph{Physical Review. E, Statistical, Nonlinear, and Soft Matter
+  Physics}, 89\penalty0 (1):\penalty0 012804, jan 2014{\natexlab{a}}.
+\newblock \doi{10.1103/{PhysRevE}.89.012804}.
+\newblock URL \url{http://dx.doi.org/10.1103/{PhysRevE}.89.012804}.
+
+\bibitem[Peixoto(2014{\natexlab{b}})]{peixoto_2014_h}
+Tiago~P. Peixoto.
+\newblock Hierarchical block structures and high-resolution model selection in
+  large networks.
+\newblock \emph{Physical Review X}, 4\penalty0 (1):\penalty0 011047, mar
+  2014{\natexlab{b}}.
+\newblock ISSN 2160-3308.
+\newblock \doi{10.1103/{PhysRevX}.4.011047}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/{PhysRevX}.4.011047}.
+
+\bibitem[Tian et~al.(2019)Tian, Dong, Freytag, Lê~Cao, Su, {JalalAbadi},
+  Amann-Zalcenstein, Weber, Seidi, Jabbari, Naik, and Ritchie]{tian_2019}
+Luyi Tian, Xueyi Dong, Saskia Freytag, Kim-Anh Lê~Cao, Shian Su, Abolfazl
+  {JalalAbadi}, Daniela Amann-Zalcenstein, Tom~S Weber, Azadeh Seidi, Jafar~S
+  Jabbari, Shalin~H Naik, and Matthew~E Ritchie.
+\newblock Benchmarking single cell {RNA}-sequencing analysis pipelines using
+  mixture control experiments.
+\newblock \emph{Nature Methods}, 16\penalty0 (6):\penalty0 479--487, may 2019.
+\newblock ISSN 1548-7091.
+\newblock \doi{10.1038/s41592-019-0425-8}.
+\newblock URL \url{http://www.nature.com/articles/s41592-019-0425-8}.
+
+\bibitem[Kang et~al.(2018)Kang, Subramaniam, Targ, Nguyen, Maliskova,
+  {McCarthy}, Wan, Wong, Byrnes, Lanata, Gate, Mostafavi, Marson, Zaitlen,
+  Criswell, and Ye]{kang_2018}
+Hyun~Min Kang, Meena Subramaniam, Sasha Targ, Michelle Nguyen, Lenka Maliskova,
+  Elizabeth {McCarthy}, Eunice Wan, Simon Wong, Lauren Byrnes, Cristina~M
+  Lanata, Rachel~E Gate, Sara Mostafavi, Alexander Marson, Noah Zaitlen,
+  Lindsey~A Criswell, and Chun~Jimmie Ye.
+\newblock Multiplexed droplet single-cell {RNA}-sequencing using natural
+  genetic variation.
+\newblock \emph{Nature Biotechnology}, 36\penalty0 (1):\penalty0 89--94, 2018.
+\newblock ISSN 1087-0156.
+\newblock \doi{10.1038/nbt.4042}.
+\newblock URL \url{http://www.nature.com/doifinder/10.1038/nbt.4042}.
+
+\bibitem[Mereu et~al.(2020)Mereu, Lafzi, Moutinho, Ziegenhain, {McCarthy},
+  {Álvarez-Varela}, Batlle, Sagar, {Grün}, Lau, Boutet, Sanada, Ooi, Jones,
+  Kaihara, Brampton, Talaga, Sasagawa, Tanaka, Hayashi, Braeuning, Fischer,
+  Sauer, Trefzer, Conrad, Adiconis, Nguyen, Regev, Levin, Parekh, Janjic,
+  Wange, Bagnoli, Enard, Gut, Sandberg, Nikaido, Gut, Stegle, and
+  Heyn]{mereu_2020}
+Elisabetta Mereu, Atefeh Lafzi, Catia Moutinho, Christoph Ziegenhain, Davis~J
+  {McCarthy}, {Adrián} {Álvarez-Varela}, Eduard Batlle, Sagar, Dominic
+  {Grün}, Julia~K Lau, {Stéphane}~C Boutet, Chad Sanada, Aik Ooi, Robert~C
+  Jones, Kelly Kaihara, Chris Brampton, Yasha Talaga, Yohei Sasagawa, Kaori
+  Tanaka, Tetsutaro Hayashi, Caroline Braeuning, Cornelius Fischer, Sascha
+  Sauer, Timo Trefzer, Christian Conrad, Xian Adiconis, Lan~T Nguyen, Aviv
+  Regev, Joshua~Z Levin, Swati Parekh, Aleksandar Janjic, Lucas~E Wange,
+  Johannes~W Bagnoli, Wolfgang Enard, Marta Gut, Rickard Sandberg, Itoshi
+  Nikaido, Ivo Gut, Oliver Stegle, and Holger Heyn.
+\newblock Benchmarking single-cell {RNA}-sequencing protocols for cell atlas
+  projects.
+\newblock \emph{Nature Biotechnology}, 38\penalty0 (6):\penalty0 747--755, jun
+  2020.
+\newblock ISSN 1087-0156.
+\newblock \doi{10.1038/s41587-020-0469-4}.
+\newblock URL \url{http://www.nature.com/articles/s41587-020-0469-4}.
+
+\bibitem[Sasagawa et~al.(2018)Sasagawa, Danno, Takada, Ebisawa, Tanaka,
+  Hayashi, Kurisaki, and Nikaido]{sasagawa_2018}
+Yohei Sasagawa, Hiroki Danno, Hitomi Takada, Masashi Ebisawa, Kaori Tanaka,
+  Tetsutaro Hayashi, Akira Kurisaki, and Itoshi Nikaido.
+\newblock Quartz-seq2: a high-throughput single-cell {RNA}-sequencing method
+  that effectively uses limited sequence reads.
+\newblock \emph{Genome Biology}, 19\penalty0 (1):\penalty0 29, mar 2018.
+\newblock \doi{10.1186/s13059-018-1407-3}.
+\newblock URL \url{http://dx.doi.org/10.1186/s13059-018-1407-3}.
+
+\bibitem[Zheng et~al.(2017)Zheng, Terry, Belgrader, Ryvkin, Bent, Wilson,
+  Ziraldo, Wheeler, {McDermott}, Zhu, Gregory, Shuga, Montesclaros, Underwood,
+  Masquelier, Nishimura, Schnall-Levin, Wyatt, Hindson, Bharadwaj, Wong, Ness,
+  Beppu, Deeg, {McFarland}, Loeb, Valente, Ericson, Stevens, Radich, Mikkelsen,
+  Hindson, and Bielas]{zheng_2017}
+Grace X~Y Zheng, Jessica~M Terry, Phillip Belgrader, Paul Ryvkin, Zachary~W
+  Bent, Ryan Wilson, Solongo~B Ziraldo, Tobias~D Wheeler, Geoff~P {McDermott},
+  Junjie Zhu, Mark~T Gregory, Joe Shuga, Luz Montesclaros, Jason~G Underwood,
+  Donald~A Masquelier, Stefanie~Y Nishimura, Michael Schnall-Levin, Paul~W
+  Wyatt, Christopher~M Hindson, Rajiv Bharadwaj, Alexander Wong, Kevin~D Ness,
+  Lan~W Beppu, H~Joachim Deeg, Christopher {McFarland}, Keith~R Loeb, William~J
+  Valente, Nolan~G Ericson, Emily~A Stevens, Jerald~P Radich, Tarjei~S
+  Mikkelsen, Benjamin~J Hindson, and Jason~H Bielas.
+\newblock Massively parallel digital transcriptional profiling of single cells.
+\newblock \emph{Nature Communications}, 8:\penalty0 14049, jan 2017.
+\newblock \doi{10.1038/ncomms14049}.
+\newblock URL \url{http://dx.doi.org/10.1038/ncomms14049}.
+
+\bibitem[Jaitin et~al.(2014)Jaitin, Kenigsberg, Keren-Shaul, Elefant, Paul,
+  Zaretsky, Mildner, Cohen, Jung, Tanay, and Amit]{jaitin_2014}
+Diego~Adhemar Jaitin, Ephraim Kenigsberg, Hadas Keren-Shaul, Naama Elefant,
+  Franziska Paul, Irina Zaretsky, Alexander Mildner, Nadav Cohen, Steffen Jung,
+  Amos Tanay, and Ido Amit.
+\newblock Massively parallel single-cell {RNA}-seq for marker-free
+  decomposition of tissues into cell types.
+\newblock \emph{Science}, 343\penalty0 (6172):\penalty0 776--779, feb 2014.
+\newblock \doi{10.1126/science.1247651}.
+\newblock URL \url{http://dx.doi.org/10.1126/science.1247651}.
+
+\bibitem[Goldstein et~al.(2017)Goldstein, Chen, Dunne, Mir, Hubschle, Guillory,
+  Yuan, Zhang, Stinson, Jaiswal, Pahuja, Mann, Schaal, Chan, Anandakrishnan,
+  Lin, Espinoza, Husain, Shapiro, Swaminathan, Wei, Srinivasan, Seshagiri, and
+  Modrusan]{goldstein_2017}
+Leonard~D Goldstein, Ying-Jiun~Jasmine Chen, Jude Dunne, Alain Mir, Hermann
+  Hubschle, Joseph Guillory, Wenlin Yuan, Jingli Zhang, Jeremy Stinson, Bijay
+  Jaiswal, Kanika~Bajaj Pahuja, Ishminder Mann, Thomas Schaal, Leo Chan,
+  Sangeetha Anandakrishnan, Chun-Wah Lin, Patricio Espinoza, Syed Husain,
+  Harris Shapiro, Karthikeyan Swaminathan, Sherry Wei, Maithreyan Srinivasan,
+  Somasekar Seshagiri, and Zora Modrusan.
+\newblock Massively parallel nanowell-based single-cell gene expression
+  profiling.
+\newblock \emph{{BMC} Genomics}, 18\penalty0 (1):\penalty0 519, jul 2017.
+\newblock \doi{10.1186/s12864-017-3893-1}.
+\newblock URL \url{http://dx.doi.org/10.1186/s12864-017-3893-1}.
+
+\bibitem[Paul et~al.(2015)Paul, Arkin, Giladi, Jaitin, Kenigsberg, Keren-Shaul,
+  Winter, Lara-Astiaso, Gury, Weiner, David, Cohen, Lauridsen, Haas, Schlitzer,
+  Mildner, Ginhoux, Jung, Trumpp, Porse, Tanay, and Amit]{paul_2015}
+Franziska Paul, Ya'ara Arkin, Amir Giladi, Diego~Adhemar Jaitin, Ephraim
+  Kenigsberg, Hadas Keren-Shaul, Deborah Winter, David Lara-Astiaso, Meital
+  Gury, Assaf Weiner, Eyal David, Nadav Cohen, Felicia Kathrine~Bratt
+  Lauridsen, Simon Haas, Andreas Schlitzer, Alexander Mildner, Florent Ginhoux,
+  Steffen Jung, Andreas Trumpp, Bo~Torben Porse, Amos Tanay, and Ido Amit.
+\newblock Transcriptional heterogeneity and lineage commitment in myeloid
+  progenitors.
+\newblock \emph{Cell}, 163\penalty0 (7):\penalty0 1663--1677, dec 2015.
+\newblock ISSN 00928674.
+\newblock \doi{10.1016/j.cell.2015.11.013}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0092867415014932}.
+
+\bibitem[Wolf et~al.(2019)Wolf, Hamey, Plass, Solana, Dahlin, {Göttgens},
+  Rajewsky, Simon, and Theis]{wolf_2019}
+F~Alexander Wolf, Fiona~K Hamey, Mireya Plass, Jordi Solana, Joakim~S Dahlin,
+  Berthold {Göttgens}, Nikolaus Rajewsky, Lukas Simon, and Fabian~J Theis.
+\newblock {PAGA}: graph abstraction reconciles clustering with trajectory
+  inference through a topology preserving map of single cells.
+\newblock \emph{Genome Biology}, 20\penalty0 (1):\penalty0 59, mar 2019.
+\newblock \doi{10.1186/s13059-019-1663-x}.
+\newblock URL \url{http://dx.doi.org/10.1186/s13059-019-1663-x}.
+
+\bibitem[Peixoto(2020)]{peixoto_2020}
+Tiago~P Peixoto.
+\newblock Merge-split markov chain monte carlo for community detection.
+\newblock \emph{arXiv}, mar 2020.
+\newblock \doi{arXiv:2003.07070}.
+\newblock URL \url{https://arxiv.org/abs/2003.07070}.
+
+\end{thebibliography}

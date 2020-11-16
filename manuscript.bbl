@@ -1,0 +1,334 @@
+\begin{thebibliography}{10}
+
+\bibitem{svensson_2018}
+Svensson V, Vento-Tormo R, Teichmann SA.
+\newblock Exponential scaling of single-cell {RNA}-seq in the past decade.
+\newblock Nature Protocols. 2018;13(4):599--604.
+\newblock doi:{10.1038/nprot.2017.149}.
+
+\bibitem{guo_2018}
+Guo J, Grow EJ, Mlcochova H, Maher GJ, Lindskog C, Nie X, et~al.
+\newblock The adult human testis transcriptional cell atlas.
+\newblock Cell Research. 2018;28(12):1141--1157.
+\newblock doi:{10.1038/s41422-018-0099-2}.
+
+\bibitem{ventotormo_2018}
+Vento-Tormo R, Efremova M, Botting RA, Turco MY, Vento-Tormo M, Meyer KB,
+  et~al.
+\newblock Single-cell reconstruction of the early maternal-fetal interface in
+  humans.
+\newblock Nature. 2018;563(7731):347--353.
+\newblock doi:{10.1038/s41586-018-0698-6}.
+
+\bibitem{rozenblattrosen_2020}
+Rozenblatt-Rosen O, Regev A, Oberdoerffer P, Nawy T, Hupalowska A, Rood JE,
+  et~al.
+\newblock The Human Tumor Atlas Network: Charting Tumor Transitions across
+  Space and Time at Single-Cell Resolution.
+\newblock Cell. 2020;181(2):236--249.
+\newblock doi:{10.1016/j.cell.2020.03.053}.
+
+\bibitem{tirosh_2016}
+Tirosh I, Izar B, Prakadan SM, Wadsworth MH, Treacy D, Trombetta JJ, et~al.
+\newblock Dissecting the multicellular ecosystem of metastatic melanoma by
+  single-cell {RNA}-seq.
+\newblock Science. 2016;352(6282):189--196.
+\newblock doi:{10.1126/science.aad0501}.
+
+\bibitem{patel_2014}
+Patel AP, Tirosh I, Trombetta JJ, Shalek AK, Gillespie SM, Wakimoto H, et~al.
+\newblock Single-cell {RNA}-seq highlights intratumoral heterogeneity in
+  primary glioblastoma.
+\newblock Science. 2014;344(6190):1396--1401.
+\newblock doi:{10.1126/science.1254257}.
+
+\bibitem{neftel_2019}
+Neftel C, Laffy J, Filbin MG, Hara T, Shore ME, Rahme GJ, et~al.
+\newblock An integrative model of cellular states, plasticity, and genetics for
+  glioblastoma.
+\newblock Cell. 2019;178(4):835--849.e21.
+\newblock doi:{10.1016/j.cell.2019.06.024}.
+
+\bibitem{rosenberg_2018}
+Rosenberg AB, Roco CM, Muscat RA, Kuchina A, Sample P, Yao Z, et~al.
+\newblock Single-cell profiling of the developing mouse brain and spinal cord
+  with split-pool barcoding.
+\newblock Science. 2018;360(6385):176--182.
+\newblock doi:{10.1126/science.aam8999}.
+
+\bibitem{wagner_2018}
+Wagner DE, Weinreb C, Collins ZM, Briggs JA, Megason SG, Klein AM.
+\newblock Single-cell mapping of gene expression landscapes and lineage in the
+  zebrafish embryo.
+\newblock Science. 2018;360(6392):981--987.
+\newblock doi:{10.1126/science.aar4362}.
+
+\bibitem{plass_2018}
+Plass M, Solana J, Wolf FA, Ayoub S, Misios A, Glažar P, et~al.
+\newblock Cell type atlas and lineage tree of a whole complex animal by
+  single-cell transcriptomics.
+\newblock Science. 2018;360(6391).
+\newblock doi:{10.1126/science.aaq1723}.
+
+\bibitem{regev_2017}
+Regev A, Teichmann SA, Lander ES, Amit I, Benoist C, Birney E, et~al.
+\newblock The human cell atlas.
+\newblock eLife. 2017;6.
+\newblock doi:{10.7554/{eLife}.27041}.
+
+\bibitem{wang_2017}
+Wang B, Zhu J, Pierson E, Ramazzotti D, Batzoglou S.
+\newblock Visualization and analysis of single-cell {RNA}-seq data by
+  kernel-based similarity learning.
+\newblock Nature Methods. 2017;14(4):414--416.
+\newblock doi:{10.1038/nmeth.4207}.
+
+\bibitem{lin_2017}
+Lin P, Troup M, Ho JWK.
+\newblock {CIDR}: Ultrafast and accurate clustering through imputation for
+  single-cell {RNA}-seq data.
+\newblock Genome Biology. 2017;18(1):59.
+\newblock doi:{10.1186/s13059-017-1188-0}.
+
+\bibitem{huh_2020}
+Huh R, Yang Y, Jiang Y, Shen Y, Li Y.
+\newblock {SAME}-clustering: Single-cell Aggregated Clustering via Mixture
+  Model Ensemble.
+\newblock Nucleic Acids Research. 2020;48(1):86--95.
+\newblock doi:{10.1093/nar/gkz959}.
+
+\bibitem{kiselev_2017}
+Kiselev VY, Kirschner K, Schaub MT, Andrews T, Yiu A, Chandra T, et~al.
+\newblock {SC3}: consensus clustering of single-cell {RNA}-seq data.
+\newblock Nature Methods. 2017;14(5):483--486.
+\newblock doi:{10.1038/nmeth.4236}.
+
+\bibitem{li_2020}
+Li X, Wang K, Lyu Y, Pan H, Zhang J, Stambolian D, et~al.
+\newblock Deep learning enables accurate clustering with batch effect removal
+  in single-cell {RNA}-seq analysis.
+\newblock Nature Communications. 2020;11(1):2338.
+\newblock doi:{10.1038/s41467-020-15851-3}.
+
+\bibitem{krzak_2019}
+Krzak M, Raykov Y, Boukouvalas A, Cutillo L, Angelini C.
+\newblock Benchmark and Parameter Sensitivity Analysis of Single-Cell {RNA}
+  Sequencing Clustering Methods.
+\newblock Frontiers in genetics. 2019;10:1253.
+\newblock doi:{10.3389/fgene.2019.01253}.
+
+\bibitem{kiselev_2019}
+Kiselev VY, Andrews TS, Hemberg M.
+\newblock Challenges in unsupervised clustering of single-cell {RNA}-seq data.
+\newblock Nature Reviews Genetics. 2019;20(5):273--282.
+\newblock doi:{10.1038/s41576-018-0088-9}.
+
+\bibitem{du_2018}
+{Duò} A, Robinson MD, Soneson C.
+\newblock A systematic performance evaluation of clustering methods for
+  single-cell {RNA}-seq data.
+\newblock F1000Research. 2018;7:1141.
+\newblock doi:{10.12688/f1000research.15666.2}.
+
+\bibitem{butler_2018}
+Butler A, Hoffman P, Smibert P, Papalexi E, Satija R.
+\newblock Integrating single-cell transcriptomic data across different
+  conditions, technologies, and species.
+\newblock Nature Biotechnology. 2018;36(5):411--420.
+\newblock doi:{10.1038/nbt.4096}.
+
+\bibitem{wolf_2018}
+Wolf FA, Angerer P, Theis FJ.
+\newblock {SCANPY}: large-scale single-cell gene expression data analysis.
+\newblock Genome Biology. 2018;19(1):15.
+\newblock doi:{10.1186/s13059-017-1382-0}.
+
+\bibitem{blondel_2008}
+Blondel VD, Guillaume JL, Lambiotte R, Lefebvre E.
+\newblock Fast unfolding of communities in large networks.
+\newblock Journal of Statistical Mechanics: Theory and Experiment.
+  2008;2008(10):P10008.
+\newblock doi:{10.1088/1742-5468/2008/10/P10008}.
+
+\bibitem{traag_2019}
+Traag VA, Waltman L, van Eck NJ.
+\newblock From Louvain to Leiden: guaranteeing well-connected communities.
+\newblock Scientific Reports. 2019;9(1):5233.
+\newblock doi:{10.1038/s41598-019-41695-z}.
+
+\bibitem{levine_2015}
+Levine JH, Simonds EF, Bendall SC, Davis KL, Amir EaD, Tadmor MD, et~al.
+\newblock Data-Driven Phenotypic Dissection of {AML} Reveals Progenitor-like
+  Cells that Correlate with Prognosis.
+\newblock Cell. 2015;162(1):184--197.
+\newblock doi:{10.1016/j.cell.2015.05.047}.
+
+\bibitem{newman_2004}
+Newman MEJ, Girvan M.
+\newblock Finding and evaluating community structure in networks.
+\newblock Physical Review E, Statistical, Nonlinear, and Soft Matter Physics.
+  2004;69(2 Pt 2):026113.
+\newblock doi:{10.1103/{PhysRevE}.69.026113}.
+
+\bibitem{traag_2011}
+Traag VA, Van~Dooren P, Nesterov Y.
+\newblock Narrow scope for resolution-limit-free community detection.
+\newblock Physical Review E. 2011;84(1).
+\newblock doi:{10.1103/{PhysRevE}.84.016114}.
+
+\bibitem{reichardt_2006}
+Reichardt J, Bornholdt S.
+\newblock Statistical mechanics of community detection.
+\newblock Physical Review E. 2006;74(1).
+\newblock doi:{10.1103/{PhysRevE}.74.016110}.
+
+\bibitem{lhnemann_2020}
+{Lähnemann} D, {Köster} J, Szczurek E, {McCarthy} DJ, Hicks SC, Robinson MD,
+  et~al.
+\newblock Eleven grand challenges in single-cell data science.
+\newblock Genome Biology. 2020;21(1):31.
+\newblock doi:{10.1186/s13059-020-1926-6}.
+
+\bibitem{fortunato_2007}
+Fortunato S, {Barthélemy} M.
+\newblock Resolution limit in community detection.
+\newblock Proceedings of the National Academy of Sciences of the United States
+  of America. 2007;104(1):36--41.
+\newblock doi:{10.1073/pnas.0605965104}.
+
+\bibitem{guimer_2004}
+{Guimerà} R, Sales-Pardo M, Amaral LAN.
+\newblock Modularity from fluctuations in random graphs and complex networks.
+\newblock Physical Review E. 2004;70(2).
+\newblock doi:{10.1103/{PhysRevE}.70.025101}.
+
+\bibitem{baran_2019}
+Baran Y, Bercovich A, Sebe-Pedros A, Lubling Y, Giladi A, Chomsky E, et~al.
+\newblock {MetaCell}: analysis of single-cell {RNA}-seq data using K-nn graph
+  partitions.
+\newblock Genome Biology. 2019;20(1):206.
+\newblock doi:{10.1186/s13059-019-1812-2}.
+
+\bibitem{xu_2015}
+Xu C, Su Z.
+\newblock Identification of cell types from single-cell transcriptomes using a
+  novel clustering method.
+\newblock Bioinformatics. 2015;31(12):1974--1980.
+\newblock doi:{10.1093/bioinformatics/btv088}.
+
+\bibitem{miao_2020}
+Miao Z, Moreno P, Huang N, Papatheodorou I, Brazma A, Teichmann SA.
+\newblock Putative cell type discovery from single-cell gene expression data.
+\newblock Nature Methods. 2020;17(6):621--628.
+\newblock doi:{10.1038/s41592-020-0825-9}.
+
+\bibitem{holland_1983}
+Holland PW, Laskey KB, Leinhardt S.
+\newblock Stochastic blockmodels: First steps.
+\newblock Social networks. 1983;5(2):109--137.
+\newblock doi:{10.1016/0378-8733(83)90021-7}.
+
+\bibitem{peixoto_2017}
+Peixoto TP.
+\newblock Nonparametric Bayesian inference of the microcanonical stochastic
+  block model.
+\newblock Physical review E. 2017;95(1-1):012317.
+\newblock doi:{10.1103/{PhysRevE}.95.012317}.
+
+\bibitem{karrer_2011}
+Karrer B, Newman MEJ.
+\newblock Stochastic blockmodels and community structure in networks.
+\newblock Physical Review E, Statistical, Nonlinear, and Soft Matter Physics.
+  2011;83(1 Pt 2):016107.
+\newblock doi:{10.1103/{PhysRevE}.83.016107}.
+
+\bibitem{peixoto_2013}
+Peixoto TP.
+\newblock Parsimonious module inference in large networks.
+\newblock Physical Review Letters. 2013;110(14):148701.
+\newblock doi:{10.1103/{PhysRevLett}.110.148701}.
+
+\bibitem{peixoto_2014}
+Peixoto TP.
+\newblock Efficient Monte Carlo and greedy heuristic for the inference of
+  stochastic block models.
+\newblock Physical Review E, Statistical, Nonlinear, and Soft Matter Physics.
+  2014;89(1):012804.
+\newblock doi:{10.1103/{PhysRevE}.89.012804}.
+
+\bibitem{peixoto_2014_h}
+Peixoto TP.
+\newblock Hierarchical Block Structures and High-Resolution Model Selection in
+  Large Networks.
+\newblock Physical Review X. 2014;4(1):011047.
+\newblock doi:{10.1103/{PhysRevX}.4.011047}.
+
+\bibitem{tian_2019}
+Tian L, Dong X, Freytag S, Lê~Cao KA, Su S, {JalalAbadi} A, et~al.
+\newblock Benchmarking single cell {RNA}-sequencing analysis pipelines using
+  mixture control experiments.
+\newblock Nature Methods. 2019;16(6):479--487.
+\newblock doi:{10.1038/s41592-019-0425-8}.
+
+\bibitem{kang_2018}
+Kang HM, Subramaniam M, Targ S, Nguyen M, Maliskova L, {McCarthy} E, et~al.
+\newblock Multiplexed droplet single-cell {RNA}-sequencing using natural
+  genetic variation.
+\newblock Nature Biotechnology. 2018;36(1):89--94.
+\newblock doi:{10.1038/nbt.4042}.
+
+\bibitem{mereu_2020}
+Mereu E, Lafzi A, Moutinho C, Ziegenhain C, {McCarthy} DJ, {Álvarez-Varela} A,
+  et~al.
+\newblock Benchmarking single-cell {RNA}-sequencing protocols for cell atlas
+  projects.
+\newblock Nature Biotechnology. 2020;38(6):747--755.
+\newblock doi:{10.1038/s41587-020-0469-4}.
+
+\bibitem{sasagawa_2018}
+Sasagawa Y, Danno H, Takada H, Ebisawa M, Tanaka K, Hayashi T, et~al.
+\newblock Quartz-Seq2: a high-throughput single-cell {RNA}-sequencing method
+  that effectively uses limited sequence reads.
+\newblock Genome Biology. 2018;19(1):29.
+\newblock doi:{10.1186/s13059-018-1407-3}.
+
+\bibitem{zheng_2017}
+Zheng GXY, Terry JM, Belgrader P, Ryvkin P, Bent ZW, Wilson R, et~al.
+\newblock Massively parallel digital transcriptional profiling of single cells.
+\newblock Nature Communications. 2017;8:14049.
+\newblock doi:{10.1038/ncomms14049}.
+
+\bibitem{jaitin_2014}
+Jaitin DA, Kenigsberg E, Keren-Shaul H, Elefant N, Paul F, Zaretsky I, et~al.
+\newblock Massively parallel single-cell {RNA}-seq for marker-free
+  decomposition of tissues into cell types.
+\newblock Science. 2014;343(6172):776--779.
+\newblock doi:{10.1126/science.1247651}.
+
+\bibitem{goldstein_2017}
+Goldstein LD, Chen YJJ, Dunne J, Mir A, Hubschle H, Guillory J, et~al.
+\newblock Massively parallel nanowell-based single-cell gene expression
+  profiling.
+\newblock {BMC} Genomics. 2017;18(1):519.
+\newblock doi:{10.1186/s12864-017-3893-1}.
+
+\bibitem{paul_2015}
+Paul F, Arkin Y, Giladi A, Jaitin DA, Kenigsberg E, Keren-Shaul H, et~al.
+\newblock Transcriptional heterogeneity and lineage commitment in myeloid
+  progenitors.
+\newblock Cell. 2015;163(7):1663--1677.
+\newblock doi:{10.1016/j.cell.2015.11.013}.
+
+\bibitem{wolf_2019}
+Wolf FA, Hamey FK, Plass M, Solana J, Dahlin JS, {Göttgens} B, et~al.
+\newblock {PAGA}: graph abstraction reconciles clustering with trajectory
+  inference through a topology preserving map of single cells.
+\newblock Genome Biology. 2019;20(1):59.
+\newblock doi:{10.1186/s13059-019-1663-x}.
+
+\bibitem{peixoto_2020}
+Peixoto TP.
+\newblock Merge-split Markov chain Monte Carlo for community detection.
+\newblock arXiv. 2020;doi:{arXiv:2003.07070}.
+
+\end{thebibliography}

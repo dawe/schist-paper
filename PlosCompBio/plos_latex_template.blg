@@ -1,0 +1,100 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: plos_latex_template.aux
+The style file: plos2015.bst
+I found no \bibdata command---while reading file plos_latex_template.aux
+Warning--I didn't find a database entry for "svensson_2018"
+Warning--I didn't find a database entry for "guo_2018"
+Warning--I didn't find a database entry for "ventotormo_2018"
+Warning--I didn't find a database entry for "rozenblattrosen_2020"
+Warning--I didn't find a database entry for "tirosh_2016"
+Warning--I didn't find a database entry for "patel_2014"
+Warning--I didn't find a database entry for "neftel_2019"
+Warning--I didn't find a database entry for "rosenberg_2018"
+Warning--I didn't find a database entry for "wagner_2018"
+Warning--I didn't find a database entry for "plass_2018"
+Warning--I didn't find a database entry for "regev_2017"
+Warning--I didn't find a database entry for "wang_2017"
+Warning--I didn't find a database entry for "lin_2017"
+Warning--I didn't find a database entry for "huh_2020"
+Warning--I didn't find a database entry for "kiselev_2017"
+Warning--I didn't find a database entry for "li_2020"
+Warning--I didn't find a database entry for "krzak_2019"
+Warning--I didn't find a database entry for "kiselev_2019"
+Warning--I didn't find a database entry for "du_2018"
+Warning--I didn't find a database entry for "butler_2018"
+Warning--I didn't find a database entry for "wolf_2018"
+Warning--I didn't find a database entry for "blondel_2008"
+Warning--I didn't find a database entry for "traag_2019"
+Warning--I didn't find a database entry for "levine_2015"
+Warning--I didn't find a database entry for "newman_2004"
+Warning--I didn't find a database entry for "traag_2011"
+Warning--I didn't find a database entry for "reichardt_2006"
+Warning--I didn't find a database entry for "lhnemann_2020"
+Warning--I didn't find a database entry for "fortunato_2007"
+Warning--I didn't find a database entry for "guimer_2004"
+Warning--I didn't find a database entry for "baran_2019"
+Warning--I didn't find a database entry for "xu_2015"
+Warning--I didn't find a database entry for "miao_2020"
+Warning--I didn't find a database entry for "holland_1983"
+Warning--I didn't find a database entry for "peixoto_2017"
+Warning--I didn't find a database entry for "karrer_2011"
+Warning--I didn't find a database entry for "peixoto_2013"
+Warning--I didn't find a database entry for "peixoto_2014"
+Warning--I didn't find a database entry for "peixoto_2014_h"
+Warning--I didn't find a database entry for "wolf_2019"
+Warning--I didn't find a database entry for "mereu_2020"
+Warning--I didn't find a database entry for "tian_2019"
+Warning--I didn't find a database entry for "kang_2018"
+Warning--I didn't find a database entry for "paul_2015"
+Warning--I didn't find a database entry for "sasagawa_2018"
+Warning--I didn't find a database entry for "zheng_2017"
+Warning--I didn't find a database entry for "jaitin_2014"
+Warning--I didn't find a database entry for "goldstein_2017"
+Warning--I didn't find a database entry for "peixoto_2020"
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 0 entries,
+            3058 wiz_defined-function locations,
+            673 strings with 4873 characters,
+and the built_in function-call counts, 27 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 16
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There was 1 error message)
