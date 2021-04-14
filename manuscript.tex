@@ -102,7 +102,7 @@ for\space use\space with\space LaTeX}\@eha
 }
 
 \begin{document}
-\title{Nested Stochastic Block Models Applied to the Analysis of Single Cell Data}
+\title{Stochastic Block Models Applied to the Analysis of Single Cell Data}
 \author[1,2]{Leonardo Morelli}
 \author[1,3]{Valentina Giansanti}
 \author[1]{Davide Cittaro}
@@ -113,7 +113,7 @@ for\space use\space with\space LaTeX}\@eha
 
 \section*{Abstract}
 
-Single cell profiling has been proven to be a powerful tool in molecular biology to understand the complex behaviours of heterogeneous system. While properties of single cells is the primary endpoint of such analysis, these are typically clustered to underpin the common determinants that can be used to describe functional properties of the cell mixture under investigation. Several approaches have been proposed to identify cell clusters; while this is matter of active research, one popular approach is based on community detection in neighbourhood graphs by optimisation of modularity. In this paper we propose an alternative solution to this problem, based on nested Stochastic Block Models; we show a threefold advantage of our approach as it is able to correctly identify cell groups, it returns a meaningful hierarchical structure and, lastly, it provides a statistical measure of association between cells and the assigned clusters.
+Single cell profiling has been proven to be a powerful tool in molecular biology to understand the complex behaviours of heterogeneous system. While properties of single cells is the primary endpoint of such analysis, these are typically clustered to underpin the common determinants that can be used to describe functional properties of the cell mixture under investigation. Several approaches have been proposed to identify cell clusters; while this is matter of active research, one popular approach is based on community detection in neighbourhood graphs by optimisation of modularity. In this paper we propose an alternative solution to this problem, based on Stochastic Block Models; we show a threefold advantage of our approach as it is able to correctly identify cell groups, it returns a meaningful hierarchical structure and, lastly, it provides a statistical measure of association between cells and the assigned clusters.
 
 
 \section*{Background}
@@ -144,7 +144,7 @@ so that inference is performed by minimizing the information required to describ
 
 In this work we propose nSBM for the analysis of single cell data, in particular scRNA-seq data. This approach identifies cell groups in a statistical robust way and, moreover, it is able to determine the likelihood of the grouping, thus allowing model selection. In addition, it is possible to measure the confidence of assignment to groups. We show that such information may be exploited to perfect the notion of cell groups and the identification of markers.
 
-We developed \emph{schist} (\href{https://github.com/dawe/schist}{https:/\slash github.com\slash dawe\slash schist}), a python library compatible with \emph{scanpy}, to facilitate the adoption of nested stochastic block models in single-cell analysis.
+We developed \emph{schist} (\href{https://github.com/dawe/schist}{https:/\slash github.com\slash dawe\slash schist}), a python library compatible with \emph{scanpy}, to facilitate the adoption of stochastic block models in single-cell analysis.
 
 \section*{Results}
 
@@ -156,6 +156,9 @@ Once \emph{schist} has fitted a model, it evaluates the difference in entropy gi
 %As the core object of \emph{graph-tool }used by \emph{schist}, the \emph{NestedBlockState}, cannot be serialised by \emph{scanpy}'s IO infrastructure, we implemented simple read\slash write functions to dump \emph{AnnData} is h5ad format, together with the \emph{NestedBlockState} as a separate file using python's \emph{pickle} library.
 
 \subsection*{nSBM does not return artificial cell groupings}
+
+\textcolor{red}{TO BE UPDATED}
+
 One of the most relevant difference between nSBM and other methods to cluster single cells is that it relies on robust statistical modelling. In this sense, the number of groups identified strictly mirrors the amount of information contained in the data. An important consequence is that absence of information can be properly handled. To show this property we performed a simple experiment on a randomised \emph{k}NN graph. To this end we collected data for 3k PBMC (available as preprocessed data in \emph{scanpy}) and shuffled the edges of the prebuilt \emph{k}NN graph, this to keep the general graph properties unchanged. We tested that the degree distribution does not change after randomisation (Kolmogorov-Smirnov $D=0.0431$, $p=0.993$). We found that the default strategy, based on maximisation of modularity, identifies 24 cell groups, whereas nSBM does not identify any cell group. 
 
 \begin{figure}[H]
@@ -167,6 +170,10 @@ One of the most relevant difference between nSBM and other methods to cluster si
 This experiment is a deliberate extreme case. The quality of grouping proposed by a standard approach can be disputed in many ways, and the UMAP embedding indeed reflects the absence of any information. Nevertheless, real-world data may include an unknown amount of random noise. Hence, It is important to identify cell groups that are not artefacts arising from processing and that do not reflect the information contained in the dataset. 
 
 \subsection*{nSBM correctly identifies cell populations}
+
+\textcolor{red}{TO BE UPDATED, possibly with some simulation study}
+
+
 To benchmark \emph{schist}, we tested our approach on scRNA-seq mixology data \cite{tian_2019}, in particular on a mixture of 5 cell lines profiled with Chromium 10x platform. At a first evaluation of the UMAP embedding, all lines appear well separated. Only the lung cancer line H1975 shows a certain degree of heterogeneity with some cells being embedded in other cell groups (Fig. \ref{Figure1}A). Inference on the neighbourhood graph is influenced by the graph structure itself, therefore we built multiple graphs changing the number of principal components used in PCA reduction and the number of neighbours in the \emph{k}NN graph. We then calculated the Adjusted Rand Index (\emph{ARI}) between the cell line assignments (ground truth) and the cell groups identified by nSBM at each level. We found a peak of $ARI=0.977$ with 30 principal components (PC) and 30 neighbours. In general, higher number of components and neighbours has a positive impact on the performance (Fig. \ref{Figure1}B). Conversely, if few PCs (10) or neighbors (5) are used, performances degrade, with a minimum $ARI=0.669$ at 20 PCs and 5 neighbours. If fewer PCs are used, a smaller fraction of the total variance, hence less information, is used to build the \emph{k}NN graph; if fewer neighbours are chosen, the graph is sparser and the model is fit from less edges (Fig. S1). Running MCMC algorithm recovers the performances of the majority of the configurations (Fig. S2).
 
 \begin{figure}[H]
@@ -180,20 +187,10 @@ As a high separation between cell lines is observable, optimisation of modularit
 
 These observations show that nSBM is able to perform accurate identification of cell groups, without the need of an arbitrary threshold on the resolution parameter. These data also hint at the possibility to identify rare cell types in larger populations.
 
-\subsection*{Cell affinities can be used to evaluate cluster purity}
-The computational framework underlying \emph{schist} calculates the model entropy, that is the amount of information required to describe a block configuration. Given that minimisation of such quantity can be used to perform model selection, it can be also used to evaluate the impact of modifying the assignment of a cell to a cluster. Once a model is minimised, \emph{schist} performs an exhaustive exploration of all model entropies resulting from moving all cells into all possible clusters. The differences in entropies could be interpreted as affinities of cells to given clusters. Such affinities are, in fact, probability values and could be used to evaluate the internal consistency of a given cell cluster. 
+\subsection*{Comparison with other methods}
 
-\begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio,width=\textwidth,height=0.6\textheight]{Figure_3.png}
-\caption[]{Analysis of cell cluster consistency. Every panel reports a UMAP embedding of a PBMC + HEK293 cells profiled on different platform. Cells are annotated by cell type and by consistency value, which is assigned to cell clusters at nSBM level 1. The charts next to UMAPs show the correlation between consistency and diversity index for each cell cluster. Technologies showed here are (A) Chromium 10x v3, (B) Quartz-seq 2, (C) MARS-seq and (D) iCELL8.}\label{Figure3}
-\end{figure}
+\textcolor{red}{TO BE FILLED with SSCAF?}
 
-To this end we calculate the entropy of the group-wise distribution of cell affinities, which is maximal when all cells have affinity equal to 1 for a given group. We tested this idea on four datasets recently published to benchmark single cell technologies in the Human Cell Atlas project \cite{mereu_2020}; in particular, we chose two technologies resulting in high quality data: Quartz-seq2 \cite{sasagawa_2018} and Chromium 10x v3 \cite{zheng_2017}, and two technologies resulting in more noisy data: MARS-seq \cite{jaitin_2014} and iCell8 \cite{goldstein_2017} (Fig. \ref{Figure3}).
-
-Cluster consistency is not a measure of the data quality, in fact we identify low consistency groups in all datasets. High consistency, instead, appears to be linked to the biological purity of the cells and it is inverse to the diversity index, estimated using cell annotation from the original paper. Consequently, filtering low consistency groups increases concordance with biological groups, at the cost of a reduced number of cells (Fig. S5). 
-
-Similarly, we can use cell affinities to derive a stability parameter, a measure of the tendency for a cell to be stably associated to given clusters at all levels of the hierarchy. To this end, we first calculate the cell-wise entropy $H_{i,h}$ of cell affinity at each hierarchy level \emph{h}, then we define the stability as $S_i = 1 - \max(H_i)$. While we conceived this measure to identify and exclude cells with dubious assignment, we found that it may be more useful to assess the general data quality: the fraction of cells having $S>0.95$ was 0.783, 0.795, 0.831 and 0.855 for the iCELL8, MARS-seq, Chromium 10x and Quartz-seq2 technology respectively, in line with the evaluation on increasing performances of those platforms in \cite{mereu_2020}.
 
 \subsection*{Model hierarchy contains biological information}
 The hierarchical model of cell groups implies that a relationship exists between groups. We next wanted to explore if the hierarchy proposed by the nSBM had a biological interpretation. To this end, we analysed data for hematopoietic differentiation \cite{paul_2015}, previously used to benchmark the consistency of cell grouping with differentiation trajectories by graph abstraction \cite{wolf_2019}. Standard processing of those data reveals three major branchings (Erythroids, Neutrophils and Monocytes) stemming from the progenitor cells (Fig. S3A). After applying nSBM, we identify 27 groups at level 3 of the hierarchy (Fig. S3B), compared to the 24 using Leiden method at default resolution (Fig. S4). We found that the hierarchy proposed by our model is consistent with the developmental model (Fig. \ref{Figure2}). Of note, we found that clustering with Leiden method produces cell groups that are mixed and split at different resolutions (0.1 - 1), in a non hierarchical manner (Fig. S4); we spotted several occurrences of such phenomenon, \emph{e.g.} group 9 at resolution $r=0.4$ splits into groups 0 and 6 at $r=0.3$ or group 3 at $r=0.6$ splits in groups 4, 8 and 12 at $r=0.5$.
@@ -211,9 +208,19 @@ In all, these data suggest that not only nSBM is able to identify consistent cel
 
 %\subsection*{Hierarchic model constrains differential gene tests}
 %Current approaches to test for gene markers in scRNA-seq data rely on pairwise or one-vs-rest comparisons among cell groups. This strategy assumes that cell groups are independent which, in general, may not be true. A notable exception is the recently introduced treeclimbR \cite{huang_2020} which has been specifically developed to perform differential tests over a tree structure. We reasoned that we could superpose the hierarchical structure inferred by \emph{schist} by fitting a linear model with mixed-effect, so that we model the dependencies using the inferred tree.
+\subsection*{Cell affinities can be used for label transfer}
+
+\textcolor{red}{TO BE DONE}
+
+\subsection*{PPBM?}
+
+\textcolor{red}{TO BE DONE}
 
 
 \subsection*{Analysis of runtimes}
+
+\textcolor{red}{TO BE UPDATED WITH NEW DATA}
+
 Minimisation of the nSBM is a process that may require a large amount of computational resources. The analysis of a relatively small scRNA-seq dataset, such as the ones in \cite{mereu_2020}, may require several minutes to be processed. This could be a serious limitation to the adoption of nSBM in the analysis of single cell data, especially because several parameters should be tested. To overcome this limitation, it was suggested to let a greedy merge-split MCMC algoritthm \cite{peixoto_2020} to explore the solutions and stop iterations when the difference in entropy is below a defined threshold. We tested this approach on a commodity hardware (MacBook Air, dual core 1.6 GHz i5 processor, 16 GB RAM) and compared to the default approach. Results are reported in Table \ref{Table1}. The merge-split algorithm greatly reduces the time needed to propose the final model. In addition, the partitions found are largely overlapping the ones found by the default approach. 
 
 \begin{table}[h!]
