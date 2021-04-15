@@ -193,6 +193,8 @@ These observations show that nSBM is able to perform accurate identification of 
 
 
 \subsection*{Model hierarchy contains biological information}
+
+\textcolor{red}{TO BE UPDATED, possibly with Visium data. The point here should be that hierarchy is more consistent with tissue type, then we talk about development}
 The hierarchical model of cell groups implies that a relationship exists between groups. We next wanted to explore if the hierarchy proposed by the nSBM had a biological interpretation. To this end, we analysed data for hematopoietic differentiation \cite{paul_2015}, previously used to benchmark the consistency of cell grouping with differentiation trajectories by graph abstraction \cite{wolf_2019}. Standard processing of those data reveals three major branchings (Erythroids, Neutrophils and Monocytes) stemming from the progenitor cells (Fig. S3A). After applying nSBM, we identify 27 groups at level 3 of the hierarchy (Fig. S3B), compared to the 24 using Leiden method at default resolution (Fig. S4). We found that the hierarchy proposed by our model is consistent with the developmental model (Fig. \ref{Figure2}). Of note, we found that clustering with Leiden method produces cell groups that are mixed and split at different resolutions (0.1 - 1), in a non hierarchical manner (Fig. S4); we spotted several occurrences of such phenomenon, \emph{e.g.} group 9 at resolution $r=0.4$ splits into groups 0 and 6 at $r=0.3$ or group 3 at $r=0.6$ splits in groups 4, 8 and 12 at $r=0.5$.
 
 
@@ -214,7 +216,7 @@ In all, these data suggest that not only nSBM is able to identify consistent cel
 
 \subsection*{PPBM?}
 
-\textcolor{red}{TO BE DONE}
+\textcolor{red}{TO BE DONE. Maybe this is the right place to introduce the choice of the appropriate hierarchy level}
 
 
 \subsection*{Analysis of runtimes}
@@ -225,24 +227,24 @@ Minimisation of the nSBM is a process that may require a large amount of computa
 
 \begin{table}[h!]
 \centering
- \begin{tabular}{|| l c c c c  ||}
+ \begin{tabular}{|| l c c c c c ||}
 %  \begin{tabular}{|| m{7em} | m{5em} | m{7em} | m{7em} | m{5em} ||}
  \hline
- \textbf{Dataset} & \textbf{Cells} & \textbf{Minimize} & \textbf{Merge-split MCMC} & \textbf{Overlap} \\ [0.5ex] 
+ \textbf{Dataset} & \textbf{Cells} & \textbf{Edges} & \textbf{Leiden} & \textbf{PPBM} & \textbf{NSBM} \\ [0.5ex] 
  \hline\hline
- sc-mixology \cite{tian_2019} & 860 & 01:11 & 00:03 & 0.884 \\ 
+% sc-mixology \cite{tian_2019} & 860 & 01:11 & 00:03 & 0.884 \\ 
+ %\hline
+ Chromium 10x \cite{mereu_2020} & 1523 & 21447 & 00:24 & 01:34 & 03:29\\ 
  \hline
- Quartzseq \cite{mereu_2020} & 1266 & 00:31 & 00:02 & 0.726 \\ 
+ Quartz-seq2 \cite{mereu_2020} & 1266 & 14603 & 00:16 & 00:30 & 02:10 \\
  \hline
- MARS-seq \cite{mereu_2020} & 1401 & 00:29 & 00:08 & 0.834 \\
+ MARS-seq \cite{mereu_2020} & 1401 & 21756 & 00:24 & 01:10 & 06:11 \\
  \hline
- Chromium 10X \cite{mereu_2020} & 1523 & 00:40 & 00:04 & 0.695 \\
+ iCELL8 \cite{mereu_2020} & 1830 & 30636 & 00:34 & 01:31 & 09:06 \\
  \hline
- iCELL8 \cite{mereu_2020} & 1830 & 00:54 & 00:07 & 0.623 \\
+ Paul15 \cite{paul_2015} & 2730 & 51475 & 01:21 & 03:35 & 12:17\\ 
  \hline
- Paul15 \cite{paul_2015} & 2730 & 02:37 & 00:10 & 0.575 \\ 
- \hline
- Planaria \cite{plass_2018} & 21612 & 13:12 & 03:29 & 0.589 \\
+ Planaria \cite{plass_2018} & 21612 & 173667 & 06:32 & 34:12 & 3:17:08 \\
  \hline
 % 4 & 545 & 18744 & 7560 \\
 % \hline
