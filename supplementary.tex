@@ -98,6 +98,8 @@ for\space use\space with\space LaTeX}\@eha
   \leftskip=1.8em
   \makebox[0pt][r]{\theenmark. \rule{0pt}{\dimexpr\ht\strutbox+\baselineskip}}%
 }
+\renewcommand{\thefigure}{S\arabic{figure}}
+
 
 \begin{document}
 \title{Nested Stochastic Block Models Applied to the Analysis of Single Cell Data}
@@ -131,8 +133,8 @@ for\space use\space with\space LaTeX}\@eha
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[keepaspectratio,width=\textwidth,height=0.75\textheight]{Figure_S4.png}
-\caption[]{Low dimension embedding of single cells for hematopoietic differentiation colored according to Leiden clustering at decreasing resolution, from 1.0 to 0.1. Lowering the distribution does not grant that cells are grouped in a hierarchical way, \emph{e.g.\ }group 3 at resolution \emph{r}=0.3 splits in groups 2 and 0 at resolution \emph{r}=0.2.}\label{MPFigure:76168960-F76F-44B1-A5FA-A31681CDAFFD}
+\includegraphics[keepaspectratio,width=\textwidth,height=0.75\textheight]{Figure_Paul15_Leiden_r.png}
+\caption[]{Low dimension embedding of single cells for hematopoietic differentiation colored according to Leiden clustering at decreasing resolution, from 1.0 to 0.1. Lowering the distribution does not grant that cells are grouped in a hierarchical way, \emph{e.g.\ } in the Erythroid branch groups 7 and 15 at resolution \emph{r}=1 are merged or split at coarser resolutions ($\gamma=0.6$ and $\gamma=0.3$)}\label{Figure_Paul15_Leiden_r}
 \end{figure}
 
 \begin{figure}[htbp]
