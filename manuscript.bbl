@@ -103,6 +103,13 @@ Kiselev VY, Kirschner K, Schaub MT, Andrews T, Yiu A, Chandra T, et~al.
 \newblock Nature Methods. 2017;14(5):483--486.
 \newblock doi:{10.1038/nmeth.4236}.
 
+\bibitem{Ranjan_2021}
+Ranjan B, Schmidt F, Sun W, Park J, Honardoost MA, Tan J, et~al.
+\newblock scConsensus: combining supervised and unsupervised clustering for
+  cell type identification in single-cell RNA sequencing data.
+\newblock BMC Bioinformatics. 2021;22(1):186.
+\newblock doi:{10.1186/s12859-021-04028-4}.
+
 \bibitem{li_2020}
 Li X, Wang K, Lyu Y, Pan H, Zhang J, Stambolian D, et~al.
 \newblock Deep learning enables accurate clustering with batch effect removal
@@ -142,6 +149,13 @@ Wolf FA, Angerer P, Theis FJ.
 \newblock {SCANPY}: large-scale single-cell gene expression data analysis.
 \newblock Genome Biology. 2018;19(1):15.
 \newblock doi:{10.1186/s13059-017-1382-0}.
+
+\bibitem{Bergen_2020}
+Bergen V, Lange M, Peidli S, Wolf FA, Theis FJ.
+\newblock Generalizing RNA velocity to transient cell states through dynamical
+  modeling.
+\newblock Nature Biotechnology. 2020;38(12):1408–1414.
+\newblock doi:{10.1038/s41587-020-0591-3}.
 
 \bibitem{blondel_2008}
 Blondel VD, Guillaume JL, Lambiotte R, Lefebvre E.
@@ -209,6 +223,12 @@ Baran Y, Bercovich A, Sebe-Pedros A, Lubling Y, Giladi A, Chomsky E, et~al.
 \newblock Genome Biology. 2019;20(1):206.
 \newblock doi:{10.1186/s13059-019-1812-2}.
 
+\bibitem{Tang_Sackton_2020}
+Tang M, Kaymaz Y, Logeman BL, Eichhorn S, Liang ZS, Dulac C, et~al.
+\newblock Evaluating Single-Cell Cluster Stability Using The Jaccard Similarity
+  Index.
+\newblock Bioinformatics. 2020;doi:{10.1093/bioinformatics/btaa956}.
+
 \bibitem{xu_2015}
 Xu C, Su Z.
 \newblock Identification of cell types from single-cell transcriptomes using a
@@ -263,6 +283,18 @@ Peixoto TP.
 \newblock Physical Review X. 2014;4(1):011047.
 \newblock doi:{10.1103/{PhysRevX}.4.011047}.
 
+\bibitem{Peixoto_2021_consensus}
+Peixoto TP.
+\newblock Revealing Consensus and Dissensus between Network Partitions.
+\newblock Physical Review X. 2021;11(2):021003.
+\newblock doi:{10.1103/PhysRevX.11.021003}.
+
+\bibitem{Zhang_Peixoto_2020}
+Zhang L, Peixoto TP.
+\newblock Statistical inference of assortative community structures.
+\newblock Physical Review Research. 2020;2(4):043271.
+\newblock doi:{10.1103/PhysRevResearch.2.043271}.
+
 \bibitem{tian_2019}
 Tian L, Dong X, Freytag S, Lê~Cao KA, Su S, {JalalAbadi} A, et~al.
 \newblock Benchmarking single cell {RNA}-sequencing analysis pipelines using
@@ -277,41 +309,6 @@ Kang HM, Subramaniam M, Targ S, Nguyen M, Maliskova L, {McCarthy} E, et~al.
 \newblock Nature Biotechnology. 2018;36(1):89--94.
 \newblock doi:{10.1038/nbt.4042}.
 
-\bibitem{mereu_2020}
-Mereu E, Lafzi A, Moutinho C, Ziegenhain C, {McCarthy} DJ, {Álvarez-Varela} A,
-  et~al.
-\newblock Benchmarking single-cell {RNA}-sequencing protocols for cell atlas
-  projects.
-\newblock Nature Biotechnology. 2020;38(6):747--755.
-\newblock doi:{10.1038/s41587-020-0469-4}.
-
-\bibitem{sasagawa_2018}
-Sasagawa Y, Danno H, Takada H, Ebisawa M, Tanaka K, Hayashi T, et~al.
-\newblock Quartz-Seq2: a high-throughput single-cell {RNA}-sequencing method
-  that effectively uses limited sequence reads.
-\newblock Genome Biology. 2018;19(1):29.
-\newblock doi:{10.1186/s13059-018-1407-3}.
-
-\bibitem{zheng_2017}
-Zheng GXY, Terry JM, Belgrader P, Ryvkin P, Bent ZW, Wilson R, et~al.
-\newblock Massively parallel digital transcriptional profiling of single cells.
-\newblock Nature Communications. 2017;8:14049.
-\newblock doi:{10.1038/ncomms14049}.
-
-\bibitem{jaitin_2014}
-Jaitin DA, Kenigsberg E, Keren-Shaul H, Elefant N, Paul F, Zaretsky I, et~al.
-\newblock Massively parallel single-cell {RNA}-seq for marker-free
-  decomposition of tissues into cell types.
-\newblock Science. 2014;343(6172):776--779.
-\newblock doi:{10.1126/science.1247651}.
-
-\bibitem{goldstein_2017}
-Goldstein LD, Chen YJJ, Dunne J, Mir A, Hubschle H, Guillory J, et~al.
-\newblock Massively parallel nanowell-based single-cell gene expression
-  profiling.
-\newblock {BMC} Genomics. 2017;18(1):519.
-\newblock doi:{10.1186/s12864-017-3893-1}.
-
 \bibitem{paul_2015}
 Paul F, Arkin Y, Giladi A, Jaitin DA, Kenigsberg E, Keren-Shaul H, et~al.
 \newblock Transcriptional heterogeneity and lineage commitment in myeloid
@@ -325,6 +322,14 @@ Wolf FA, Hamey FK, Plass M, Solana J, Dahlin JS, {Göttgens} B, et~al.
   inference through a topology preserving map of single cells.
 \newblock Genome Biology. 2019;20(1):59.
 \newblock doi:{10.1186/s13059-019-1663-x}.
+
+\bibitem{mereu_2020}
+Mereu E, Lafzi A, Moutinho C, Ziegenhain C, {McCarthy} DJ, {Álvarez-Varela} A,
+  et~al.
+\newblock Benchmarking single-cell {RNA}-sequencing protocols for cell atlas
+  projects.
+\newblock Nature Biotechnology. 2020;38(6):747--755.
+\newblock doi:{10.1038/s41587-020-0469-4}.
 
 \bibitem{peixoto_2020}
 Peixoto TP.
