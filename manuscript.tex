@@ -203,17 +203,16 @@ When grouping is performed by optimization of modularity, there is often the imp
 \caption[]{Analysis of spatial transcriptomics of cerebellum by Visium HD. In the first panel, original tissue annotation is given. Tissues are well defined at default resolution for the standard approach. When resolution is decreased to $\gamma = 0.5$, cells from the dentate gyrus are merged to the hippocampus. When nSBM is used, the structure of the pyramidal is maintained at different levels of the hierarchy}\label{Figure_Visium}
 \end{figure}
 
-In another context, we tested the effect on the interpretation of the hierarchy varying the resolution parameters. We analysed data for hematopoietic differentiation \cite{paul_2015}, previously used to benchmark the consistency of cell grouping with differentiation trajectories by graph abstraction \cite{wolf_2019}. Data show three major branchings (Erythroids, Neutrophils and Monocytes) stemming from the progenitor cells (Fig. \textcolor{red}{S3A}). After applying Leiden method at default resolution we identified 24 groups. By lowering the $\gamma$ parameter we could observe cell groups that merge and split at different resolutions in a non hierarchcal manner (Fig. \ref{Figure_Paul15_Leiden_r}). 
+In another context, we tested the effect on the interpretation of the hierarchy varying the resolution parameters. We analysed data for hematopoietic differentiation \cite{paul_2015}, previously used to benchmark the consistency of cell grouping with differentiation trajectories by graph abstraction \cite{wolf_2019} (Fig. \ref{Figure_Hemato_Supp}A). Data show three major branchings (Erythroids, Neutrophils and Monocytes) stemming from the progenitor cells, mostly recapitulated by level 2 of the hierarchy computed by \emph{schist} (Fig. \ref{Figure_Hemato_Lineage}). Not only the hierarchic model recapitulates the branching trajectories, also the cell groups appear to be consistent with the estimated pseudotime. After applying Leiden method at default resolution we identified 24 groups. By lowering the $\gamma$ parameter we could observe cell groups that merge and split at different resolutions disrupting the hierarchy (Fig. \ref{Figure_Paul15_Leiden_r}). 
 
 
-%\begin{figure}[H]
-%\centering
-%\includegraphics[keepaspectratio,width=\textwidth,height=0.55\textheight]{Figure_2.png}
-%\caption[]{Analysis of hematopoietic differentiation. Each panel presents a low dimensional embedding of single cells next to a radial tree representation of the nSBM hierarchy. Cells are colored according to groupings at level 5 of the hierarchy, group 0 marks the progenitor population (A). In subsequent panels, cells are colored using a signature of erythroid lineage (B), monocytes (C) or neutrophils (D).}\label{Figure2}
-%\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio,width=\textwidth,height=0.55\textheight]{Figure_Hemato_Lineage.png}
+\caption[]{Analysis of hematopoietic differentiation. Each panel presents a low dimensional embedding of single cells next to a radial tree representation of the nSBM hierarchy. Cells are colored according to groupings at level 2 of the hierarchy, group 0 marks the most primitive population (A). In subsequent panels, cells are colored using a signature of erythroid lineage (B), monocytes (C) or neutrophils (D).}\label{Figure_Hemato_Lineage}
+\end{figure}
 
-
-In all, these data suggest that \textcolor{red}{SAY SOMETHING HERE}.
+In all, these data show that the common intuition that $\gamma$ parameter acts as a thresholding factor over a hierarchy is wrong. Not only the hierarchy is not conserved, but also very different cell types may be mixed in spurious clusters. Conversely, the nSBM is able to represent hierarchical relations in appropriate way. Moreover, the hierarchy appears to be more robust in aggregating different cell types at coarser scales.
 
 
 %\subsection*{Hierarchic model constrains differential gene tests}
@@ -275,6 +274,7 @@ Minimisation of the nSBM is a process that may require a large amount of computa
 \end{table}
 
 \section*{Conclusions}
+\textcolor{red}{TO BE UPDATED}
 
 Identification of cells sharing similar properties in single cell experiments is of paramount importance. A large number of approaches have been described, although the standardisation of analysis pipelines converged to methods that are based on modularity optimisation. We tackled the biological problem using a different approach, nSBM, which has several advantages over existing techniques. The most important advantage is the hierarchical definition of cell groups which eliminates the choice of an arbitrary threshold on clustering resolution. In addition, we showed that the hierarchy itself could have a biological interpretation, implying that the hierarchical model is a valid representation of the cell ensemble. Our approach introduces the evaluation of cluster consistency, which can be used to isolate cells with heterogeneous identity. Lastly, a statistical way to evaluate models is made available, allowing for reliable model selection. This last capability has the obvious advantage that the choice of parameters, hence the definition of cell clusters, could be conditioned to an evaluation metric which is robust and easy to understand (\emph{i.e.} the model entropy).
 
