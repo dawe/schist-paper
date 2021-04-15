@@ -206,21 +206,29 @@ When grouping is performed by optimization of modularity, there is often the imp
 In another context, we tested the effect on the interpretation of the hierarchy varying the resolution parameters. We analysed data for hematopoietic differentiation \cite{paul_2015}, previously used to benchmark the consistency of cell grouping with differentiation trajectories by graph abstraction \cite{wolf_2019}. Data show three major branchings (Erythroids, Neutrophils and Monocytes) stemming from the progenitor cells (Fig. \textcolor{red}{S3A}). After applying Leiden method at default resolution we identified 24 groups. By lowering the $\gamma$ parameter we could observe cell groups that merge and split at different resolutions in a non hierarchcal manner (Fig. \ref{Figure_Paul15_Leiden_r}). 
 
 
-\begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio,width=\textwidth,height=0.55\textheight]{Figure_2.png}
-\caption[]{Analysis of hematopoietic differentiation. Each panel presents a low dimensional embedding of single cells next to a radial tree representation of the nSBM hierarchy. Cells are colored according to groupings at level 5 of the hierarchy, group 0 marks the progenitor population (A). In subsequent panels, cells are colored using a signature of erythroid lineage (B), monocytes (C) or neutrophils (D).}\label{Figure2}
-\end{figure}
+%\begin{figure}[H]
+%\centering
+%\includegraphics[keepaspectratio,width=\textwidth,height=0.55\textheight]{Figure_2.png}
+%\caption[]{Analysis of hematopoietic differentiation. Each panel presents a low dimensional embedding of single cells next to a radial tree representation of the nSBM hierarchy. Cells are colored according to groupings at level 5 of the hierarchy, group 0 marks the progenitor population (A). In subsequent panels, cells are colored using a signature of erythroid lineage (B), monocytes (C) or neutrophils (D).}\label{Figure2}
+%\end{figure}
 
 
-In all, these data suggest that not only nSBM is able to identify consistent cell groups at different scales, but also that the hierarchy proposed by the model has a direct biological interpretation.
+In all, these data suggest that \textcolor{red}{SAY SOMETHING HERE}.
 
 
 %\subsection*{Hierarchic model constrains differential gene tests}
 %Current approaches to test for gene markers in scRNA-seq data rely on pairwise or one-vs-rest comparisons among cell groups. This strategy assumes that cell groups are independent which, in general, may not be true. A notable exception is the recently introduced treeclimbR \cite{huang_2020} which has been specifically developed to perform differential tests over a tree structure. We reasoned that we could superpose the hierarchical structure inferred by \emph{schist} by fitting a linear model with mixed-effect, so that we model the dependencies using the inferred tree.
 \subsection*{Cell affinities can be used for label transfer}
 
-\textcolor{red}{TO BE DONE}
+The modelling approach we adopted allows the estimation of the information required to describe a graph given any partitioning scheme. Differences in entropy can be used to perform model selection, that is we can choose which model better describes the data. We sought to exploit this property to address the task of annotating cells according to a reference sample. To this end we analyzed datasets from \cite{mereu_2020}, which describe mixtures of human PBMC and HEK293T cells profiled with various technologies. We choose cells profiled with Chromium 10X and MARS-seq platforms ((Fig. \ref{Figure_Label_Transfer}A-B), as those were found to be at the extremes of capability to distinguish cell types. After preprocessing raw data according to the parameters given in \cite{mereu_2020}, we integrated both datasets into a unified representation using Harmony \cite{Korsunsky_2019}, and computed the \emph{k}NN graph from the resulting unified representation. Note that the original cell type is known for both datasets. We retained cell type annotation for cells derived from 10X, while we assigned a 'Unknown' label to all cells derived from MARS-seq. We then calculated the cell affinity matrix, that is we computed the difference in entropy that can be observed by assigning each cell to each annotation cluster, this being either one of the original cell types or 'Unknown'. Once the matrix has been computed, each cell from the MARS-seq data is assigned to the group with the highest likelihood. The rationale behind this approach is that if cells belong to the same annotation group, then more information is required to describe the graph if they are annotated as different cell types; cells from the MARS-seq should retain their unannotated label if and only if there is not enough evidence to associate them to another group. In parallel, we also relabeled MARS-seq data according to the closest annotated cell in the reference \emph{k}NN graph. Finally we calculated the accuracy of label transfer of both methods using known annotations; we found that the \emph{k}NN approach (Fig. \ref{Figure_Label_Transfer}C) performs worse than an approach based on Stochastic Block Models (Fig. \ref{Figure_Label_Transfer}C). In the latter, approximately 4\% of cells remain unlabeled. Interestingly, we found that for the largest part of these cells, the second choice by affinity was indeed the appropriate one (Fig. \ref{hist_label_second}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio,width=\textwidth,height=0.55\textheight]{Figure_Label_Transfer.png}
+\caption[]{Label transfer using SBM. Annotated data from Chromium 10X (A) and  MARS-seq (B) were merged using Harmony. MARS-seq cells were relabeled according to the \emph{k}NN graph (C) or by exploiting the Stochastic Block Model (D). }\label{Figure_Label_Transfer}
+\end{figure}
+
+
 
 \subsection*{PPBM?}
 
