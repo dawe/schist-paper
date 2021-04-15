@@ -190,7 +190,17 @@ These observations show that nSBM is able to perform accurate identification of 
 \textcolor{red}{TO BE FILLED with SSCAF?}
 
 
-\subsection*{Model hierarchy contains biological information}
+\subsection*{Hierarchy modelling is accurate in defining biological properties}
+
+When grouping is performed by optimization of modularity, there is often the implicit assumption that the resolution parameter reflects a hierarchical structure of the graph, that is communities are consistently grouped at lower resolutions. Not only this assumption is wrong, but it may also lead to spurious groupings in real experiments, whereas nSBM inherently encodes hierarchies by merging communities in a tree. To show this effect we took advantage of public spatial RNA dataset of murine cerebellum profiled with 10X Visium HD technology [\textcolor{red}{REF}], as provided by the recently introduced package SquidPy \cite{Palla_Theis_2021}, for which we chose to stick to the given tissue annotation by the package authors. At default resolution, modularity optimization resolves the tissue structure, as does the first level of the nSBM hierarchy (Fig. \ref{Figure_Visium}). When resolution is decreased (\emph{e.g.} $\gamma = 0.5$), the dentate gyrus is incorrectly merged to the hippocampus, whereas nSBM correctly identifies the pyramidal layer.
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio,width=\textwidth,height=0.55\textheight]{Figure_Visium_Spatial.png}
+\caption[]{Analysis of spatial transcriptomics of cerebellum by Visium HD. In the first panel, original tissue annotation is given. Tissues are well defined at default resolution for the standard approach. When resolution is decreased to $\gamma = 0.5$, cells from the dentate gyrus are merged to the hippocampus. When nSBM is used, the structure of the pyramidal is maintained at different levels of the hierarchy}\label{Figure_Visium}
+\end{figure}
+
+
 
 \textcolor{red}{TO BE UPDATED, possibly with Visium data. The point here should be that hierarchy is more consistent with tissue type, then we talk about development}
 The hierarchical model of cell groups implies that a relationship exists between groups. We next wanted to explore if the hierarchy proposed by the nSBM had a biological interpretation. To this end, we analysed data for hematopoietic differentiation \cite{paul_2015}, previously used to benchmark the consistency of cell grouping with differentiation trajectories by graph abstraction \cite{wolf_2019}. Standard processing of those data reveals three major branchings (Erythroids, Neutrophils and Monocytes) stemming from the progenitor cells (Fig. S3A). After applying nSBM, we identify 27 groups at level 3 of the hierarchy (Fig. S3B), compared to the 24 using Leiden method at default resolution (Fig. S4). We found that the hierarchy proposed by our model is consistent with the developmental model (Fig. \ref{Figure2}). Of note, we found that clustering with Leiden method produces cell groups that are mixed and split at different resolutions (0.1 - 1), in a non hierarchical manner (Fig. S4); we spotted several occurrences of such phenomenon, \emph{e.g.} group 9 at resolution $r=0.4$ splits into groups 0 and 6 at $r=0.3$ or group 3 at $r=0.6$ splits in groups 4, 8 and 12 at $r=0.5$.
