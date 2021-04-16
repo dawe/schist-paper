@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  16 APR 2021 14:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  16 APR 2021 14:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1176,19 +1176,15 @@ Package pdftex.def Info: Figure_Visium_Spatial.png  used on input line 202.
 File: Figure_Hemato_Lineage.png Graphic file (type png)
 <use Figure_Hemato_Lineage.png>
 Package pdftex.def Info: Figure_Hemato_Lineage.png  used on input line 211.
-(pdftex.def)             Requested size: 402.18193pt x 839.94496pt.
- [4 <./Figure_Visium_Spatial.png>]
-Overfull \vbox (166.70912pt too high) has occurred while \output is active []
-
-
-[5 <./Figure_Hemato_Lineage.png>]
+(pdftex.def)             Requested size: 245.10532pt x 511.86655pt.
+ [4 <./Figure_Visium_Spatial.png>] [5 <./Figure_Hemato_Lineage.png>]
 <Figure_Label_Transfer.png, id=170, 719.8092pt x 1001.1804pt>
 File: Figure_Label_Transfer.png Graphic file (type png)
 <use Figure_Label_Transfer.png>
 Package pdftex.def Info: Figure_Label_Transfer.png  used on input line 226.
-(pdftex.def)             Requested size: 402.18193pt x 559.40451pt.
- [6] [7 <./Figure_Label_Transfer.png>]
-[8] (./manuscript.bbl [9]
+(pdftex.def)             Requested size: 365.61792pt x 508.54817pt.
+
+[6] [7 <./Figure_Label_Transfer.png>] [8] (./manuscript.bbl [9]
 Underfull \hbox (badness 1377) in paragraph at lines 141--146
 \T1/cmr/m/n/10 across dif-fer-ent con-di-tions, tech-nolo-gies, and species.  N
 a-ture Biotech-nol-ogy. 2018;36(5):411--420.
@@ -1235,10 +1231,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  13602 strings out of 492616
@@ -1247,7 +1239,7 @@ Here is how much of TeX's memory you used:
  17196 multiletter control sequences out of 15000+600000
  22095 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,12n,43p,3419b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,43p,3419b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{figure.caption.4} has been referenced but does no
 t exist, replaced by a fixed one
 
@@ -1273,10 +1265,10 @@ ve/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive
 019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/201
 9/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on manuscript.pdf (11 pages, 9900732 bytes).
+Output written on manuscript.pdf (11 pages, 9901565 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 263 compressed objects within 3 object streams
+ 299 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
  94 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
