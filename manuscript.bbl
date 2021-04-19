@@ -150,6 +150,18 @@ Wolf FA, Angerer P, Theis FJ.
 \newblock Genome Biology. 2018;19(1):15.
 \newblock doi:{10.1186/s13059-017-1382-0}.
 
+\bibitem{Setty_2019}
+Setty M, Kiseliovas V, Levine J, Gayoso A, Mazutis L, Pe’er D.
+\newblock Characterization of cell fate probabilities in single-cell data with
+  Palantir.
+\newblock Nature Biotechnology. 2019;37(4):451–460.
+\newblock doi:{10.1038/s41587-019-0068-4}.
+
+\bibitem{Lange_2020}
+Lange M, Bergen V, Klein M, Setty M, Reuter B, Bakhti M, et~al.
+\newblock CellRank for directed single-cell fate mapping.
+\newblock BioRxiv. 2020;doi:{10.1101/2020.10.19.345983}.
+
 \bibitem{Bergen_2020}
 Bergen V, Lange M, Peidli S, Wolf FA, Theis FJ.
 \newblock Generalizing RNA velocity to transient cell states through dynamical

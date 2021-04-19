@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  16 APR 2021 14:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  19 APR 2021 13:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1160,56 +1160,64 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 115.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<FIgure_Random.png, id=124, 546.6021pt x 506.3718pt>
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 147.
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 155.
+ [2]
+<FIgure_Random.png, id=129, 546.6021pt x 506.3718pt>
 File: FIgure_Random.png Graphic file (type png)
 <use FIgure_Random.png>
 Package pdftex.def Info: FIgure_Random.png  used on input line 167.
 (pdftex.def)             Requested size: 315.73666pt x 292.49821pt.
  [3 <./FIgure_Random.png>]
-<Figure_Visium_Spatial.png, id=139, 457.71pt x 750.8853pt>
+<Figure_Visium_Spatial.png, id=143, 457.71pt x 750.8853pt>
 File: Figure_Visium_Spatial.png Graphic file (type png)
 <use Figure_Visium_Spatial.png>
 Package pdftex.def Info: Figure_Visium_Spatial.png  used on input line 202.
 (pdftex.def)             Requested size: 245.15529pt x 402.1837pt.
-<Figure_Hemato_Lineage.png, id=145, 479.8728pt x 1002.144pt>
+<Figure_Hemato_Lineage.png, id=149, 479.8728pt x 1002.144pt>
 File: Figure_Hemato_Lineage.png Graphic file (type png)
 <use Figure_Hemato_Lineage.png>
 Package pdftex.def Info: Figure_Hemato_Lineage.png  used on input line 211.
 (pdftex.def)             Requested size: 245.10532pt x 511.86655pt.
  [4 <./Figure_Visium_Spatial.png>] [5 <./Figure_Hemato_Lineage.png>]
-<Figure_Label_Transfer.png, id=170, 719.8092pt x 1001.1804pt>
+<Figure_Label_Transfer.png, id=175, 719.8092pt x 1001.1804pt>
 File: Figure_Label_Transfer.png Graphic file (type png)
 <use Figure_Label_Transfer.png>
-Package pdftex.def Info: Figure_Label_Transfer.png  used on input line 226.
+Package pdftex.def Info: Figure_Label_Transfer.png  used on input line 227.
 (pdftex.def)             Requested size: 365.61792pt x 508.54817pt.
-
-[6] [7 <./Figure_Label_Transfer.png>] [8] (./manuscript.bbl [9]
+ [6] [7 <./Figure_Label_Transfer.png>] [8] (./manuscript.bbl [9]
 Underfull \hbox (badness 1377) in paragraph at lines 141--146
 \T1/cmr/m/n/10 across dif-fer-ent con-di-tions, tech-nolo-gies, and species.  N
 a-ture Biotech-nol-ogy. 2018;36(5):411--420.
  []
 
 [10]
-Underfull \hbox (badness 3701) in paragraph at lines 266--270
+Underfull \hbox (badness 3701) in paragraph at lines 278--282
 []\T1/cmr/m/n/10 Peixoto TP.  Par-si-mo-nious mod-ule in-fer-ence in large net-
 works.  Phys-i-cal Re-view Let-ters.
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 272--278
+Underfull \hbox (badness 1509) in paragraph at lines 284--290
 []\T1/cmr/m/n/10 Peixoto TP.  Ef-fi-cient Monte Carlo and greedy heuris-tic for
  the in-fer-ence of stochas-tic block
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 272--278
+Underfull \hbox (badness 1077) in paragraph at lines 284--290
 \T1/cmr/m/n/10 mod-els.  Phys-i-cal Re-view E, Sta-tis-ti-cal, Non-lin-ear, and
  Soft Mat-ter Physics. 2014;89(1):012804.
  []
 
 
-Underfull \hbox (badness 6001) in paragraph at lines 333--336
+Underfull \hbox (badness 6001) in paragraph at lines 345--348
 []\T1/cmr/m/n/10 Peixoto TP.  Merge-split Markov chain Monte Carlo for com-mu-n
 ity de-tec-tion.  arXiv.
  []
@@ -1223,23 +1231,23 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[MPListing] on input line 49.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
 [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
  (./manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13602 strings out of 492616
- 199925 string characters out of 6129481
- 306192 words of memory out of 5000000
- 17196 multiletter control sequences out of 15000+600000
- 22095 words of font info for 63 fonts, out of 8000000 for 9000
+ 13629 strings out of 492616
+ 200604 string characters out of 6129481
+ 305150 words of memory out of 5000000
+ 17217 multiletter control sequences out of 15000+600000
+ 22022 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,11n,43p,3419b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,43p,3583b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{figure.caption.4} has been referenced but does no
 t exist, replaced by a fixed one
 
@@ -1255,20 +1263,21 @@ sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></us
 r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
 local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/loc
-al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2
-019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/201
-9/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/
-texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on manuscript.pdf (11 pages, 9901565 bytes).
+ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on manuscript.pdf (11 pages, 9928295 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
- 94 named destinations out of 1000 (max. 500000)
+ 307 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
+ 96 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
