@@ -307,6 +307,13 @@ Zhang L, Peixoto TP.
 \newblock Physical Review Research. 2020;2(4):043271.
 \newblock doi:{10.1103/PhysRevResearch.2.043271}.
 
+\bibitem{Tian_2019}
+Tian L, Dong X, Freytag S, Lê~Cao KA, Su S, JalalAbadi A, et~al.
+\newblock Benchmarking single cell RNA-sequencing analysis pipelines using
+  mixture control experiments.
+\newblock Nature Methods. 2019;16(6):479–487.
+\newblock doi:{10.1038/s41592-019-0425-8}.
+
 \bibitem{Palla_Theis_2021}
 Palla G, Spitzer H, Klein M, Fischer DS, Schaar AC, Kuemmerle LB, et~al.
 \newblock Squidpy: a scalable framework for spatial single cell analysis.
