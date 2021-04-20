@@ -238,22 +238,35 @@ i^Q = \underset{x}{\mathrm{argmax}} |Q_x|
 \label{Equation_MODmax}
 \end{equation}
 
-Where $Q_x$ is modularity at level $x$. We tabulated values arising from both the approaches in Table \ref{table_optimal}, together with the $i^D$ that is defined similarly to Eq. \ref{Equation_RMT} using the number of known annotated groups $D$ in place of $\hat{k}$
+Where $Q_x$ is modularity at level $x$. We tabulated values arising from both the approaches in Table \ref{table_optimal}
 
 \begin{table}[h!]
 \centering
- \begin{tabular}{|| l c c c c c c c c c ||}
+ \begin{tabular}{|| l c c c c c c c ||}
  \hline
- \textbf{Dataset} & \textbf{Cells} & \textbf{D} & \textbf{D} & \textbf{nD} & \textbf{$\hat{k}$} & \textbf{$i$} & \textbf{$B_i$} & \textbf{Annotated groups} & \textbf{Annotated groups} \\ [0.5ex] 
+ \textbf{Dataset} & \textbf{Cells} & \textbf{$D$}  & \textbf{$\hat{k}$} & \textbf{$i^k$} & \textbf{$B_k$} & \textbf{$i^Q$} & \textbf{$B_Q$} \\ [0.5ex] 
 
  \hline\hline
-% sc-mixology \cite{Tian_2019} & 860 & 5 & 00:08 & 00:55 & 01:23 \\ 
-
+ sc-mixology \cite{Tian_2019} & 860 & 5  & 21 & 1 & 6 & 1 & 6 \\ 
+\hline
+ Chromium 10x \cite{mereu_2020} & 1523 & 8  & 43 & 0 & 58 & 1 & 13 \\
+ \hline
+ Quartz-seq2 \cite{mereu_2020} & 1266 & 8  & 37 & 0 & 62 & 1 & 12 \\
+ \hline
+ MARS-seq \cite{mereu_2020} & 1401 & 9  & 9 & 1 & 16 & 1 & 16 \\
+ \hline
+ iCELL8 \cite{mereu_2020} & 1830 & 9  & 20 & 1 & 21 & 2 & 6 \\
+ \hline
+ Mouse brain \cite{Gracia_Villacampa_2020} & 2688 & 15  & 8 & 2 & 8 & 1 & 23 \\
+ \hline
+ Planaria \cite{plass_2018} & 21612 & $51^\ast$ & 8 & 2 & 8 & 1 & 23 \\
+ \hline
 \end{tabular}
-\caption{foo bar}
+\caption{Selection of the optimal level in the nSBM hierarchy. For each dataset we report the number of groups $D$ that were given by the authors. The optimal level selection should recover a number of groups in the order of magnitude of $D$. Value of $D$ in Planaria dataset is derived from manual curation of Louvain clustering. $\hat{k}$:  number of groups according to RMT, $i^k$: level selected according to RMT criterion, $B_k$: number of partitions at level $i^k$, $i^Q$: level at which modularity is maximal, $B_Q$: number of groups at level $i^Q$}
 \label{table_optimal}
 \end{table}
 
+\textcolor{red}{Add conclusions for this paragraph}
 %\subsection*{PPBM?}
 
 %\textcolor{red}{TO BE DONE. Maybe this is the right place to introduce the choice of the appropriate hierarchy level}
@@ -261,7 +274,7 @@ Where $Q_x$ is modularity at level $x$. We tabulated values arising from both th
 
 \subsection*{Analysis of runtimes}
 
-Minimisation of the nSBM is a process that may require a large amount of computational resources. The analysis of a relatively small scRNA-seq dataset, such as the ones in \cite{mereu_2020}, may require several minutes to be processed. This could be a serious limitation to the adoption of nSBM in the analysis of single cell data, especially because several parameters should be tested. To overcome this limitation, it was suggested to let a greedy merge-split MCMC algoritthm \cite{peixoto_2020} to explore the solutions and stop iterations when the difference in entropy is below a defined threshold. We tested this approach on a commodity hardware (MacBook Air, dual core 1.6 GHz i5 processor, 16 GB RAM) and compared to the default approach. Results are reported in Table \ref{Table1}. The merge-split algorithm greatly reduces the time needed to propose the final model. In addition, the partitions found are largely overlapping the ones found by the default approach. 
+Minimisation of the nSBM is a process that requires a large amount of computational resources. While the underlying \texttt{graph-tool} library is efficient in exploring the solution space using a multiflip MCMC sampling strategy, the number of required iterations before convergence is considerable and the running time scales linearly with the number of edges. Moreover, to collect a consensus partition, we minimize multiple models (default: 100) that need to be averaged. To give a reference, we collected runtimes for some example datasets in Table \ref{Table_runtime} on a commodity hardware (MacBook Air, dual core 1.6 GHz i5 processor, 16 GB RAM). Compared to Leiden approach, nSBM requires at best $\sim8\times$ times more and $\sim180\times$ times more, at worst (possibly due to limited memory for large networks). 
 
 \begin{table}[h!]
 \centering
@@ -280,7 +293,7 @@ Minimisation of the nSBM is a process that may require a large amount of computa
  \hline
  iCELL8 \cite{mereu_2020} & 1830 & 30636 & 00:34 & 01:31 & 09:06 \\
  \hline
- Paul15 \cite{paul_2015} & 2730 & 15444 & 00:34 & 02:53 & 06:55\\ 
+ Hematopoiesis \cite{paul_2015} & 2730 & 15444 & 00:34 & 02:53 & 06:55\\ 
  \hline
  Planaria \cite{plass_2018} & 21612 & 173667 & 06:32 & 34:12 & 3:17:08 \\
  \hline
@@ -290,7 +303,7 @@ Minimisation of the nSBM is a process that may require a large amount of computa
 % \hline
 \end{tabular}
 \caption{Time required to run different partitioning strategies implemented in \texttt{schist} on various datasets. Times are expressed in mm:ss. }
-\label{Table1}
+\label{Table_runtime}
 \end{table}
 
 \section*{Conclusions}
