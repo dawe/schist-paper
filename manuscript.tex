@@ -274,7 +274,9 @@ Where $Q_x$ is modularity at level $x$. We tabulated values arising from both th
 
 \subsection*{Analysis of runtimes}
 
-Minimisation of the nSBM is a process that requires a large amount of computational resources. While the underlying \texttt{graph-tool} library is efficient in exploring the solution space using a multiflip MCMC sampling strategy, the number of required iterations before convergence is considerable and the running time scales linearly with the number of edges. Moreover, to collect a consensus partition, we minimize multiple models (default: 100) that need to be averaged. To give a reference, we collected runtimes for some example datasets in Table \ref{Table_runtime} on a commodity hardware (MacBook Air, dual core 1.6 GHz i5 processor, 16 GB RAM). Compared to Leiden approach, nSBM requires at best $\sim8\times$ times more and $\sim180\times$ times more, at worst (possibly due to limited memory for large networks). 
+Minimisation of the nSBM is a process that requires a large amount of computational resources. While the underlying \texttt{graph-tool} library is efficient in exploring the solution space using a multiflip MCMC sampling strategy, the number of required iterations before convergence is considerable and the running time scales linearly with the number of edges. Moreover, to collect a consensus partition, we minimize multiple models (default: 100) that need to be averaged. To give a reference, we collected runtimes for some example datasets in Table \ref{Table_runtime} on a commodity hardware (MacBook Air, dual core 1.6 GHz i5 processor, 16 GB RAM). Compared to Leiden approach, nSBM requires at best $\sim8\times$ times more, and $\sim180\times$  at worst (possibly due to limited memory for large networks). 
+
+\textcolor{red}{Add conclusions for this paragraph}
 
 \begin{table}[h!]
 \centering
