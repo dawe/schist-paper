@@ -314,6 +314,11 @@ Tian L, Dong X, Freytag S, Lê~Cao KA, Su S, JalalAbadi A, et~al.
 \newblock Nature Methods. 2019;16(6):479–487.
 \newblock doi:{10.1038/s41592-019-0425-8}.
 
+\bibitem{Gracia_Villacampa_2020}
+Gracia~Villacampa E, Larsson L, Kvastad L, Andersson A, Carlson J, Lundeberg J.
+\newblock Genome-wide Spatial Expression Profiling in FFPE Tissues.
+\newblock BioRxiv. 2020;doi:{10.1101/2020.07.24.219758}.
+
 \bibitem{Palla_Theis_2021}
 Palla G, Spitzer H, Klein M, Fischer DS, Schaar AC, Kuemmerle LB, et~al.
 \newblock Squidpy: a scalable framework for spatial single cell analysis.
@@ -332,6 +337,12 @@ Wolf FA, Hamey FK, Plass M, Solana J, Dahlin JS, {Göttgens} B, et~al.
   inference through a topology preserving map of single cells.
 \newblock Genome Biology. 2019;20(1):59.
 \newblock doi:{10.1186/s13059-019-1663-x}.
+
+\bibitem{Zappia_Oshlack_2017}
+Zappia L, Phipson B, Oshlack A.
+\newblock Splatter: simulation of single-cell RNA sequencing data.
+\newblock Genome Biology. 2017;18(1):174.
+\newblock doi:{10.1186/s13059-017-1305-0}.
 
 \bibitem{mereu_2020}
 Mereu E, Lafzi A, Moutinho C, Ziegenhain C, {McCarthy} DJ, {Álvarez-Varela} A,
