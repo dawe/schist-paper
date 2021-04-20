@@ -222,16 +222,37 @@ After preprocessing raw data according to the parameters given in \cite{mereu_20
 
 The Nested Stochastic Block Model, hence \texttt{schist}, fits a hierarchical model of communities into a graph. When it comes to analysis of single cell data, it means that the cells are best described by the hierarchy itself and that cells \emph{can} be grouped consistently at each level of the tree. In addition, the size of groups at the deepest level scales as $O(N/\log{N})$ \cite{peixoto_2014_h}, where $N$ is the number of cells. Given the current throughput in single cell experiments ($\sim$10k cells), the number of groups becomes intractable. For this reason, in most of single cell experiments, it is preferable to identify an optimal level of the hierarchy that best resembles the cell properties at the scale they can be validated. 
 
-A possible strategy is based on Random Matrix Theory, as suggested by the authors of the SC3 package  \cite{kiselev_2017}, for which a suitable number of clusters, $\hat{k}$, is determined by the number of eigenvalues of the $\boldsymbol Z^\top\boldsymbol Z$ matrix (where $\boldsymbol Z$ is the normalized count matrix) significantly different at $p<.001$ from the appropriate Tracy-Widom distribution. According to this strategy, the optimal level $i$ is the one that minimizes the number of partitions and $\hat{k}$:
+A possible strategy is based on Random Matrix Theory, as suggested by the authors of the SC3 package  \cite{kiselev_2017}, for which a suitable number of clusters, $\hat{k}$, is determined by the number of eigenvalues of the $\boldsymbol Z^\top\boldsymbol Z$ matrix (where $\boldsymbol Z$ is the normalized count matrix) significantly different at $p<.001$ from the appropriate Tracy-Widom distribution. According to this strategy, the optimal level $i^k$ is the one that minimizes the number of partitions and $\hat{k}$:
 
 \begin{equation}
-i = \underset{x}{\mathrm{argmin}} |B_x - \hat{k}|
+i^k = \underset{x}{\mathrm{argmin}} |B_x - \hat{k}|
 \label{Equation_RMT}
 \end{equation}
 
 where $B_x$ is the number of non empty partitions at level $x$.
 
-An alternative strategy is to evaluate the behaviour of modularity at different hierarchy levels. While nSBM does not optimize the graph modularity, we observed that this tends to be maximal for the level better describing known cell populations. 
+An alternative strategy is to evaluate the behaviour of modularity at different hierarchy levels. While nSBM does not optimize the graph modularity $Q$, we observed that this tends to be maximal for the level better describing known cell populations, so the optimal level $i^Q$ is
+
+\begin{equation}
+i^Q = \underset{x}{\mathrm{argmax}} |Q_x|
+\label{Equation_MODmax}
+\end{equation}
+
+Where $Q_x$ is modularity at level $x$. We tabulated values arising from both the approaches in Table \ref{table_optimal}, together with the $i^D$ that is defined similarly to Eq. \ref{Equation_RMT} using the number of known annotated groups $D$ in place of $\hat{k}$
+
+\begin{table}[h!]
+\centering
+ \begin{tabular}{|| l c c c c c c c c c ||}
+ \hline
+ \textbf{Dataset} & \textbf{Cells} & \textbf{D} & \textbf{D} & \textbf{nD} & \textbf{$\hat{k}$} & \textbf{$i$} & \textbf{$B_i$} & \textbf{Annotated groups} & \textbf{Annotated groups} \\ [0.5ex] 
+
+ \hline\hline
+% sc-mixology \cite{Tian_2019} & 860 & 5 & 00:08 & 00:55 & 01:23 \\ 
+
+\end{tabular}
+\caption{foo bar}
+\label{table_optimal}
+\end{table}
 
 %\subsection*{PPBM?}
 
@@ -268,7 +289,7 @@ Minimisation of the nSBM is a process that may require a large amount of computa
 % 5 & 88 & 788 & 6344 \\ [1ex] 
 % \hline
 \end{tabular}
-\caption{Time required to minimise the nSBM using the default minimization method compared to the greedy merge-split MCMC. Times are expressed in mm:ss. Partition overlap measures concordance between the two models over the full hierarchy. Timing is the average after 3 initialisations.}
+\caption{Time required to run different partitioning strategies implemented in \texttt{schist} on various datasets. Times are expressed in mm:ss. }
 \label{Table1}
 \end{table}
 
