@@ -306,33 +306,39 @@ Minimisation of the nSBM is a process that requires a large amount of computatio
 
 \section*{Conclusions}
 
-Identification of cells sharing similar properties in single cell experiments is of paramount importance. A large number of approaches have been described, although the standardisation of analysis pipelines converged to methods that are based on modularity optimisation. We tackled the biological problem using a different approach, nSBM, which has several advantages over existing techniques. The most important advantage is the hierarchical definition of cell groups which eliminates the choice of an arbitrary threshold on clustering resolution. In addition, we showed that the hierarchy itself could have a biological interpretation, implying that the hierarchical model is a valid representation of the cell ensemble. Our approach introduces the evaluation of cluster consistency, which can be used to isolate cells with heterogeneous identity. Lastly, a statistical way to evaluate models is made available, allowing for reliable model selection. This last capability has the obvious advantage that the choice of parameters, hence the definition of cell clusters, could be conditioned to an evaluation metric which is robust and easy to understand (\emph{i.e.} the model entropy).
+Identification of cells sharing similar properties in single cell experiments is of paramount importance. A large number of approaches have been described, although the standardisation of analysis pipelines converged to methods that are based on modularity optimisation. We tackled the biological problem using a different approach, nSBM, which has several advantages over existing techniques. The most important advantage is the hierarchical definition of cell groups which eliminates the choice of an arbitrary threshold on clustering resolution. In addition, we showed that the hierarchy itself could have a biological interpretation, implying that the hierarchical model is a valid representation of the cell ensemble. \textcolor{red}{Our approach introduces the evaluation of cluster consistency, which can be used to isolate cells with heterogeneous identity}. 
 
-The major drawback of adopting this strategy is the substantial increase of runtimes. According to the developers of \emph{graph-tool}, runtimes are proportional to the number of edges in the neighbourhood graph and while it supports CPU-level parallelisation, a model minimisation is hundreds times slower than the extremely fast Leiden approach. Nevertheless, we show that a greedy merge-split MCMC algorithm can overcome this limitation, achieving performances that allow the usage of \emph{schist} on standard desktop hardware to analyse various single cell datasets.
+The Bayesian formulation of Stochastic Block Models provides the possibility to perform inference on a graph for any partition configuration, thus allowing reliable model selection using an interpretable measure, entropy. We exploited this property to perform label transfer with high accuracy and with the possibility to discard cells with unreliable assignments. In all, \texttt{schist} facilitates the adoption of nSBM by the bioinformatics community and exposes a robust framework to perform tasks that go beyond the principled identification of cell clusters. 
 
+The major drawback of adopting this strategy is the substantial increase of runtimes. As observed, model minimisation may be hundred times slower than the extremely fast Leiden approach. It should be noted that \texttt{schist} initializes multiple models that are treated by multiple concurrent processes. \texttt{graph-tool} itself supports CPU-level parallelization for some of its tasks. These optimizations are well suited for clustered computing infrastructure. Further development, possibly including GPU-level parallelization, is surely required to accomodate the large size of datasets that are being produced.
 
 \section*{Materials and Methods}
 
-\textcolor{red}{TO BE UPDATED}
+Unless differently stated, all the analysis were produced using \texttt{scanpy} v1.7.1 \cite{wolf_2018} and \texttt{schist} v0.7.6 and the corresponding dependencies. All models were initialized 100 times, here including Leiden partitioning for which we also calculated the consensus partition.
 
 \subsection*{Analysis of Random data}
-Data were retrieved in \emph{scanpy} environment using \emph{sc.datasets.pbmc3k\_processed()} function. The random \emph{k}NN graph was obtained shuffling the node labels of each edge. nSBM was performed with 3 initialisations using merge-split MCMC approach. UMAP embedding was recomputed after randomisation using the shuffled graph.
 
+Data were retrieved in \texttt{scanpy} environment using \texttt{sc.datasets.pbmc3k\_processed()} function. The random \emph{k}NN graph was obtained shuffling the node labels of each edge. UMAP embedding was recomputed after randomisation using the shuffled graph.
 
 \subsection*{Analysis of cell mixtures}
 
-Data and metadata for five cell mixture profiled by Chromium 10x were downloaded from the sc-mixology repository (\href{https://github.com/LuyiTian/sc_mixology}{https:/\slash github.com\slash LuyiTian\slash sc\_mixology}). Data were analysed using scanpy v1.4.6 \cite{wolf_2018}. Cells with less than 200 genes were excluded, as genes detected in less than 3 cells. Cells with less than 5\% of mitochondrial genes were retained for subsequent analysis. Data were normalised and log-transformed; number of genes and percentage of mitochondrial genes were regressed out. nSBM was initialised three times
+Data and metadata for five cell mixture profiled by Chromium 10x were downloaded from the sc-mixology repository (\href{https://github.com/LuyiTian/sc_mixology}{https:/\slash github.com\slash LuyiTian\slash sc\_mixology}). Cells with less than 200 genes were excluded, as genes detected in less than 3 cells. Cells with less than 5\% of mitochondrial genes were retained for subsequent analysis. Data were normalised and log-transformed; number of genes and percentage of mitochondrial genes were regressed out. \emph{k}NN graph was built with default parameters (50 components and 15 nearest neighbors). Data were assessed by SCCAF using cell line annotation. Mean cross-validated accuracy was set as target for all the models.
+
+\subsection*{Analysis of Visium H\&E data}
+\textcolor{red}{TOBEDONE}
 
 \subsection*{Analysis of hematopoietic differentiation}
 
-Data were retrieved using scanpy's built-in functions and were processed as in \cite{wolf_2019}, except for \emph{k}NN graph built using 30 principal components, 30 neighbours and diffmap as embedding. Gene signatures were calculated using the following gene lists
+Data were retrieved using \texttt{scanpy}'s built-in functions and were processed as in \cite{wolf_2019}, except for \emph{k}NN graph built using 30 principal components, 30 neighbours and diffmap as embedding. Gene signatures were calculated using the following gene lists
+
 \begin{itemize}
 \item Erythroids: Gata1, Klf1, Epor, Gypa, Hba-a2, Hba-a1, Spi1
 \item Neutrophils, Elane, Cebpe, Ctsg, Mpo, Gfi1
 \item Monocytes, Irf8, Csf1r, Ctsg, Mpo
 \end{itemize}
 
-nSBM was completed with 3 initialisations
+\subsection*{Label transfer}
+\textcolor{red}{TO BE DONE}
 
 \subsection*{Analysis of cluster consistency}
 
