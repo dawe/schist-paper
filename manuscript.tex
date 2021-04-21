@@ -238,7 +238,7 @@ i^Q = \underset{x}{\mathrm{argmax}} |Q_x|
 \label{Equation_MODmax}
 \end{equation}
 
-Where $Q_x$ is modularity at level $x$. We tabulated values arising from both the approaches in Table \ref{table_optimal}
+Where $Q_x$ is modularity at level $x$. We collected values arising from both the approaches for some datasets used in this work (Table \ref{table_optimal})
 
 \begin{table}[h!]
 \centering
@@ -266,7 +266,7 @@ Where $Q_x$ is modularity at level $x$. We tabulated values arising from both th
 \label{table_optimal}
 \end{table}
 
-\textcolor{red}{Add conclusions for this paragraph}
+As expected, the larger the network, the higher the optimal level. For relatively small datasets (\emph{i.e.} less than 10k cells), the first level of the hierarchy contains a number of groups in line with how many observable populations are. 
 %\subsection*{PPBM?}
 
 %\textcolor{red}{TO BE DONE. Maybe this is the right place to introduce the choice of the appropriate hierarchy level}
@@ -274,16 +274,14 @@ Where $Q_x$ is modularity at level $x$. We tabulated values arising from both th
 
 \subsection*{Analysis of runtimes}
 
-Minimisation of the nSBM is a process that requires a large amount of computational resources. While the underlying \texttt{graph-tool} library is efficient in exploring the solution space using a multiflip MCMC sampling strategy, the number of required iterations before convergence is considerable and the running time scales linearly with the number of edges. Moreover, to collect a consensus partition, we minimize multiple models (default: 100) that need to be averaged. To give a reference, we collected runtimes for some example datasets in Table \ref{Table_runtime} on a commodity hardware (MacBook Air, dual core 1.6 GHz i5 processor, 16 GB RAM). Compared to Leiden approach, nSBM requires at best $\sim8\times$ times more, and $\sim180\times$  at worst (possibly due to limited memory for large networks). 
-
-\textcolor{red}{Add conclusions for this paragraph}
+Minimisation of the nSBM is a process that requires a large amount of computational resources. While the underlying \texttt{graph-tool} library is efficient in exploring the solution space using a multiflip MCMC sampling strategy, the number of required iterations before convergence is considerable and the running time scales linearly with the number of edges. Moreover, to collect a consensus partition, we minimize multiple models (default: 100) that need to be averaged. To give a reference, we report runtimes for some example datasets in Table \ref{Table_runtime} on a commodity hardware (MacBook Air, dual core 1.6 GHz i5 processor, 16 GB RAM). Compared to Leiden approach, nSBM requires at best $\sim8\times$ times more, and $\sim180\times$  at worst (possibly due to limited memory for large networks). A reasonably fast alternative to the nSBM is the Planted Partition Block Model (PPBM), for which we also report runtimes. The PPBM \cite{Zhang_Peixoto_2020} is able to find statistically significant assortative modules and eliminates the resolution parameter; differently from nSBM, PPBM is not hierarchic.
 
 \begin{table}[h!]
 \centering
  \begin{tabular}{|| l c c c c c ||}
 %  \begin{tabular}{|| m{7em} | m{5em} | m{7em} | m{7em} | m{5em} ||}
  \hline
- \textbf{Dataset} & \textbf{Cells} & \textbf{Edges} & \textbf{Leiden} & \textbf{PPBM} & \textbf{NSBM} \\ [0.5ex] 
+ \textbf{Dataset} & \textbf{Cells} & \textbf{Edges} & \textbf{Leiden} & \textbf{PPBM} & \textbf{nSBM} \\ [0.5ex] 
  \hline\hline
  sc-mixology \cite{Tian_2019} & 860 & 9186 & 00:08 & 00:55 & 01:23 \\ 
  \hline
@@ -299,17 +297,12 @@ Minimisation of the nSBM is a process that requires a large amount of computatio
  \hline
  Planaria \cite{plass_2018} & 21612 & 173667 & 06:32 & 34:12 & 3:17:08 \\
  \hline
-% 4 & 545 & 18744 & 7560 \\
-% \hline
-% 5 & 88 & 788 & 6344 \\ [1ex] 
-% \hline
 \end{tabular}
 \caption{Time required to run different partitioning strategies implemented in \texttt{schist} on various datasets. Times are expressed in mm:ss. }
 \label{Table_runtime}
 \end{table}
 
 \section*{Conclusions}
-\textcolor{red}{TO BE UPDATED}
 
 Identification of cells sharing similar properties in single cell experiments is of paramount importance. A large number of approaches have been described, although the standardisation of analysis pipelines converged to methods that are based on modularity optimisation. We tackled the biological problem using a different approach, nSBM, which has several advantages over existing techniques. The most important advantage is the hierarchical definition of cell groups which eliminates the choice of an arbitrary threshold on clustering resolution. In addition, we showed that the hierarchy itself could have a biological interpretation, implying that the hierarchical model is a valid representation of the cell ensemble. Our approach introduces the evaluation of cluster consistency, which can be used to isolate cells with heterogeneous identity. Lastly, a statistical way to evaluate models is made available, allowing for reliable model selection. This last capability has the obvious advantage that the choice of parameters, hence the definition of cell clusters, could be conditioned to an evaluation metric which is robust and easy to understand (\emph{i.e.} the model entropy).
 
