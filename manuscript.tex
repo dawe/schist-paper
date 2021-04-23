@@ -301,7 +301,7 @@ As expected, the larger the network, the higher the optimal level. For relativel
 
 \subsection*{Analysis of runtimes}
 
-Minimisation of the nSBM is a process that requires a large amount of computational resources. While the underlying \texttt{graph-tool} library is efficient in exploring the solution space using a multiflip MCMC sampling strategy, the number of required iterations before convergence is considerable and the running time scales linearly with the number of edges. Moreover, to collect a consensus partition, we minimize multiple models (default: 100) that need to be averaged. To give a reference, we report runtimes for some example datasets in Table \ref{Table_runtime} on a commodity hardware (MacBook Air, dual core 1.6 GHz i5 processor, 16 GB RAM). Compared to Leiden approach, nSBM requires at best $\sim8\times$ times more, and $\sim180\times$  at worst (possibly due to limited memory for large networks). A reasonably fast alternative to the nSBM is the Planted Partition Block Model (PPBM), for which we also report runtimes. The PPBM \cite{Zhang_Peixoto_2020} is able to find statistically significant assortative modules and eliminates the resolution parameter; differently from nSBM, PPBM is not hierarchic.
+Minimisation of the nSBM is a process that requires a large amount of computational resources. While the underlying \texttt{graph-tool} library is efficient in exploring the solution space using a multiflip MCMC sampling strategy, the number of required iterations before convergence is considerable and the running time scales linearly with the number of edges. Moreover, to collect a consensus partition, we minimize multiple models (default: 100) that need to be averaged. To give a reference, we report runtimes for some example datasets in Table \ref{Table_runtime} on a commodity hardware (\textcolor{red}{dual core 1.6 GHz i5 processor, 16 GB RAM}). Compared to Leiden approach, nSBM requires at best $\sim6\times$ times more, and $\sim30\times$  at worst. A reasonably fast alternative to the nSBM is the Planted Partition Block Model (PPBM), for which we also report runtimes. The PPBM \cite{Zhang_Peixoto_2020} is able to find statistically significant assortative modules and eliminates the resolution parameter; differently from nSBM, PPBM is not hierarchic.
 
 \begin{table}[h!]
 \centering
@@ -310,22 +310,32 @@ Minimisation of the nSBM is a process that requires a large amount of computatio
  \hline
  \textbf{Dataset} & \textbf{Cells} & \textbf{Edges} & \textbf{Leiden} & \textbf{PPBM} & \textbf{nSBM} \\ [0.5ex] 
  \hline\hline
- sc-mixology \cite{Tian_2019} & 860 & 9186 & 00:08 & 00:55 & 01:23 \\ 
+ sc-mixology \cite{Tian_2019} & 860 & 9186 & 00:06 & 00:13 & 00:36 \\ 
  \hline
- Chromium 10x \cite{mereu_2020} & 1523 & 21447 & 00:24 & 01:34 & 03:29\\ 
+ Quartz-seq2 \cite{mereu_2020} & 1266 & 14603 & 00:10 & 00:19 & 00:45 \\
  \hline
- Quartz-seq2 \cite{mereu_2020} & 1266 & 14603 & 00:16 & 00:30 & 02:10 \\
+ MARS-seq \cite{mereu_2020} & 1401 & 21756 & 00:20 & 00:34 & 02:14 \\
  \hline
- MARS-seq \cite{mereu_2020} & 1401 & 21756 & 00:24 & 01:10 & 06:11 \\
+ iCELL8 \cite{mereu_2020} & 1830 & 30636 & 00:23 & 00:40 & 03:02 \\
  \hline
- iCELL8 \cite{mereu_2020} & 1830 & 30636 & 00:34 & 01:31 & 09:06 \\
+ Chromium 10x \cite{mereu_2020} & 1523 & 21447 & 00:14 & 00:26 & 01:07 \\ 
  \hline
- Hematopoiesis \cite{paul_2015} & 2730 & 15444 & 00:34 & 02:53 & 06:55\\ 
+ Islet \textcolor{red}{??} & 2108 & 32023 & 00:20 & 00:42 & 03:13 \\
  \hline
- Planaria \cite{plass_2018} & 21612 & 173667 & 06:32 & 34:12 & 3:17:08 \\
+ Hematopoiesis \cite{paul_2015} & 2730 & 15444 & 00:37 & 01:27 & 05:52\\ 
+ \hline
+ Zeisel Cortex \textcolor{red}{??} & 3005 & 54460 & 00:59 & 00:53 & 07:32 \\
+ \hline
+ \textcolor{red}{Pancreas velocity} \textcolor{red}{??} & 3696 & 74670 & 01:15 & 01:29 & 10:56 \\
+ \hline
+ Baron Pancreas \textcolor{red}{??} & 8569 & 294480 & 03:51 & 07:35 & 1:33:40 \\
+ \hline
+ Airzani Liver \textcolor{red}{??} & 10368 & 354440 & 04:13 & 09:47 & 1:42:23 \\
+ \hline
+ Planaria \cite{plass_2018} & 21612 & 173667 & 05:41 & 13:52 & 1:20:40 \\
  \hline
 \end{tabular}
-\caption{Time required to run different partitioning strategies implemented in \texttt{schist} on various datasets. Times are expressed in mm:ss. }
+\caption{Time required to run different partitioning strategies implemented in \texttt{schist} on various datasets. All approaches fit 100 models. Number of nodes and edges refer to the structure of the \emph{k}NN graph as built by \texttt{scanpy}. Times are expressed in mm:ss. }
 \label{Table_runtime}
 \end{table}
 
