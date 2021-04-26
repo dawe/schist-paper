@@ -338,12 +338,6 @@ Wolf FA, Hamey FK, Plass M, Solana J, Dahlin JS, {Göttgens} B, et~al.
 \newblock Genome Biology. 2019;20(1):59.
 \newblock doi:{10.1186/s13059-019-1663-x}.
 
-\bibitem{Zappia_Oshlack_2017}
-Zappia L, Phipson B, Oshlack A.
-\newblock Splatter: simulation of single-cell RNA sequencing data.
-\newblock Genome Biology. 2017;18(1):174.
-\newblock doi:{10.1186/s13059-017-1305-0}.
-
 \bibitem{mereu_2020}
 Mereu E, Lafzi A, Moutinho C, Ziegenhain C, {McCarthy} DJ, {Álvarez-Varela} A,
   et~al.
@@ -352,6 +346,12 @@ Mereu E, Lafzi A, Moutinho C, Ziegenhain C, {McCarthy} DJ, {Álvarez-Varela} A,
 \newblock Nature Biotechnology. 2020;38(6):747--755.
 \newblock doi:{10.1038/s41587-020-0469-4}.
 
+\bibitem{Zappia_Oshlack_2017}
+Zappia L, Phipson B, Oshlack A.
+\newblock Splatter: simulation of single-cell RNA sequencing data.
+\newblock Genome Biology. 2017;18(1):174.
+\newblock doi:{10.1186/s13059-017-1305-0}.
+
 \bibitem{Korsunsky_2019}
 Korsunsky I, Millard N, Fan J, Slowikowski K, Zhang F, Wei K, et~al.
 \newblock Fast, sensitive and accurate integration of single-cell data with
@@ -359,9 +359,34 @@ Korsunsky I, Millard N, Fan J, Slowikowski K, Zhang F, Wei K, et~al.
 \newblock Nature Methods. 2019;16(12):1289–1296.
 \newblock doi:{10.1038/s41592-019-0619-0}.
 
-\bibitem{peixoto_2020}
-Peixoto TP.
-\newblock Merge-split Markov chain Monte Carlo for community detection.
-\newblock arXiv. 2020;doi:{arXiv:2003.07070}.
+\bibitem{Zeisel_2015}
+Zeisel A, Muñoz-Manchado AB, Codeluppi S, Lönnerberg P, La~Manno G, Juréus
+  A, et~al.
+\newblock Brain structure. Cell types in the mouse cortex and hippocampus
+  revealed by single-cell RNA-seq.
+\newblock Science. 2015;347(6226):1138–1142.
+\newblock doi:{10.1126/science.aaa1934}.
+
+\bibitem{Bastidas_Ponce_2019}
+Bastidas-Ponce A, Tritschler S, Dony L, Scheibner K, Tarquis-Medina M, Salinno
+  C, et~al.
+\newblock Comprehensive single cell mRNA profiling reveals a detailed roadmap
+  for pancreatic endocrinogenesis.
+\newblock Development. 2019;146(12).
+\newblock doi:{10.1242/dev.173849}.
+
+\bibitem{Baron_2016}
+Baron M, Veres A, Wolock SL, Faust AL, Gaujoux R, Vetere A, et~al.
+\newblock A Single-Cell Transcriptomic Map of the Human and Mouse Pancreas
+  Reveals Inter- and Intra-cell Population Structure.
+\newblock Cell Systems. 2016;3(4):346--360.e4.
+\newblock doi:{10.1016/j.cels.2016.08.011}.
+
+\bibitem{Aizarani_2019}
+Aizarani N, Saviano A, Sagar, Mailly L, Durand S, Herman JS, et~al.
+\newblock A human liver cell atlas reveals heterogeneity and epithelial
+  progenitors.
+\newblock Nature. 2019;572(7768):199–204.
+\newblock doi:{10.1038/s41586-019-1373-2}.
 
 \end{thebibliography}
