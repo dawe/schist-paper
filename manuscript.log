@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  26 APR 2021 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  26 APR 2021 13:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1019,19 +1019,19 @@ LaTeX Info: Redefining \cite on input line 694.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/xr.sty
 Package: xr 2019/01/05 v5.04 eXternal References (DPC)
 )
-Package xr Info: IMPORTING LABELS FROM supplementary.aux on input line 32.
+Package xr Info: IMPORTING LABELS FROM supplementary.aux on input line 33.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/newfloat.sty
 Package: newfloat 2018/03/04 v1.1a Defining new floating environments (AR)
 )
-Package newfloat Info: New float `MPEquation' with options `' on input line 45.
+Package newfloat Info: New float `MPEquation' with options `' on input line 46.
 
 \c@MPEquation=\count141
-Package newfloat Info: float type `MPEquation'=4 on input line 45.
+Package newfloat Info: float type `MPEquation'=4 on input line 46.
 \c@subMPEquation=\count142
-Package newfloat Info: New float `MPListing' with options `' on input line 48.
+Package newfloat Info: New float `MPListing' with options `' on input line 49.
 \c@MPListing=\count143
-Package newfloat Info: float type `MPListing'=8 on input line 48.
+Package newfloat Info: float type `MPListing'=8 on input line 49.
 \c@subMPListing=\count144
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -1050,34 +1050,34 @@ s
 (./manuscript.aux)
 \openout1 = `manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 110.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 111.
 
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 110.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 110.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 111.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 111.
 
  (/usr/local/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1132,7 +1132,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring OFF on input line 110.
+Package hyperref Info: Link coloring OFF on input line 111.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1141,461 +1141,68 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count152
 )
-LaTeX Info: Redefining \ref on input line 110.
-LaTeX Info: Redefining \pageref on input line 110.
-LaTeX Info: Redefining \nameref on input line 110.
+LaTeX Info: Redefining \ref on input line 111.
+LaTeX Info: Redefining \pageref on input line 111.
+LaTeX Info: Redefining \nameref on input line 111.
 
 (./manuscript.out) (./manuscript.out)
 \@outlinefile=\write4
 \openout4 = `manuscript.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 118.
+LaTeX Font Info:    Try loading font information for U+msa on input line 119.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 118.
+LaTeX Font Info:    Try loading font information for U+msb on input line 119.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 130.
 
-Package natbib Warning: Citation `svensson_2018' on page 1 undefined on input l
-ine 127.
-
-
-Package natbib Warning: Citation `guo_2018' on page 1 undefined on input line 1
-27.
-
-
-Package natbib Warning: Citation `ventotormo_2018' on page 1 undefined on input
- line 127.
-
-
-Package natbib Warning: Citation `rozenblattrosen_2020' on page 1 undefined on 
-input line 127.
-
-
-Package natbib Warning: Citation `tirosh_2016' on page 1 undefined on input lin
-e 127.
-
-
-Package natbib Warning: Citation `patel_2014' on page 1 undefined on input line
- 127.
-
-
-Package natbib Warning: Citation `neftel_2019' on page 1 undefined on input lin
-e 127.
-
-
-Package natbib Warning: Citation `rosenberg_2018' on page 1 undefined on input 
-line 127.
-
-
-Package natbib Warning: Citation `wagner_2018' on page 1 undefined on input lin
-e 127.
-
-
-Package natbib Warning: Citation `plass_2018' on page 1 undefined on input line
- 127.
-
-
-Package natbib Warning: Citation `regev_2017' on page 1 undefined on input line
- 127.
-
-
-Package natbib Warning: Citation `wang_2017' on page 1 undefined on input line 
-129.
-
-
-Package natbib Warning: Citation `lin_2017' on page 1 undefined on input line 1
-29.
-
-
-Package natbib Warning: Citation `huh_2020' on page 1 undefined on input line 1
-29.
-
-
-Package natbib Warning: Citation `kiselev_2017' on page 1 undefined on input li
-ne 129.
-
-
-Package natbib Warning: Citation `Ranjan_2021' on page 1 undefined on input lin
-e 129.
-
-
-Package natbib Warning: Citation `li_2020' on page 1 undefined on input line 12
-9.
-
-
-Package natbib Warning: Citation `krzak_2019' on page 1 undefined on input line
- 129.
-
-
-Package natbib Warning: Citation `kiselev_2019' on page 1 undefined on input li
-ne 129.
-
-
-Package natbib Warning: Citation `du_2018' on page 1 undefined on input line 12
-9.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 129.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-
-Package natbib Warning: Citation `butler_2018' on page 1 undefined on input lin
-e 129.
-
-
-Package natbib Warning: Citation `wolf_2018' on page 1 undefined on input line 
-129.
-
-
-Package natbib Warning: Citation `Setty_2019' on page 1 undefined on input line
- 129.
-
-
-Package natbib Warning: Citation `Lange_2020' on page 1 undefined on input line
- 129.
-
-
-Package natbib Warning: Citation `Bergen_2020' on page 1 undefined on input lin
-e 129.
-
-
-Package natbib Warning: Citation `blondel_2008' on page 1 undefined on input li
-ne 129.
-
-
-Package natbib Warning: Citation `traag_2019' on page 1 undefined on input line
- 129.
-
-
-Package natbib Warning: Citation `wolf_2018' on page 1 undefined on input line 
-129.
-
-
-Package natbib Warning: Citation `levine_2015' on page 1 undefined on input lin
-e 129.
-
-
-Package natbib Warning: Citation `newman_2004' on page 1 undefined on input lin
-e 129.
-
-
-Package natbib Warning: Citation `traag_2011' on page 1 undefined on input line
- 129.
-
-
-Package natbib Warning: Citation `reichardt_2006' on page 1 undefined on input 
-line 129.
-
-
-Package natbib Warning: Citation `lhnemann_2020' on page 1 undefined on input l
-ine 129.
-
-
-Package natbib Warning: Citation `fortunato_2007' on page 1 undefined on input 
-line 129.
-
-
-Package natbib Warning: Citation `guimer_2004' on page 1 undefined on input lin
-e 129.
-
-
-Package natbib Warning: Citation `baran_2019' on page 1 undefined on input line
- 129.
-
-
-Package natbib Warning: Citation `Tang_Sackton_2020' on page 1 undefined on inp
-ut line 129.
-
-
-Package natbib Warning: Citation `xu_2015' on page 1 undefined on input line 12
-9.
-
-
-Package natbib Warning: Citation `miao_2020' on page 1 undefined on input line 
-129.
-
-[1
+) [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `holland_1983' on page 2 undefined on input li
-ne 131.
-
-
-Package natbib Warning: Citation `peixoto_2017' on page 2 undefined on input li
-ne 131.
-
-
-Package natbib Warning: Citation `karrer_2011' on page 2 undefined on input lin
-e 131.
-
-
-Package natbib Warning: Citation `peixoto_2013' on page 2 undefined on input li
-ne 131.
-
-
-LaTeX Warning: Reference `Equation_posterior' on page 2 undefined on input line
- 139.
-
-
-Package natbib Warning: Citation `peixoto_2014' on page 2 undefined on input li
-ne 146.
-
-
-Package natbib Warning: Citation `peixoto_2014_h' on page 2 undefined on input 
-line 146.
-
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 154.
-
-Package natbib Warning: Citation `Peixoto_2021_consensus' on page 2 undefined o
-n input line 156.
-
-
-Package natbib Warning: Citation `Zhang_Peixoto_2020' on page 2 undefined on in
-put line 156.
-
-[2]
-<FIgure_Random.png, id=35, 546.6021pt x 506.3718pt>
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 155.
+ [2]
+<FIgure_Random.png, id=128, 546.6021pt x 506.3718pt>
 File: FIgure_Random.png Graphic file (type png)
 <use FIgure_Random.png>
-Package pdftex.def Info: FIgure_Random.png  used on input line 166.
+Package pdftex.def Info: FIgure_Random.png  used on input line 167.
 (pdftex.def)             Requested size: 290.22318pt x 268.86253pt.
-
-
-Package natbib Warning: Citation `Tian_2019' on page 3 undefined on input line 
-174.
-
-
-LaTeX Warning: Reference `FigureTian' on page 3 undefined on input line 174.
-
-
-LaTeX Warning: Reference `FigureTian' on page 3 undefined on input line 174.
-
-
-LaTeX Warning: Reference `FigureTian' on page 3 undefined on input line 174.
-
-
-Package natbib Warning: Citation `miao_2020' on page 3 undefined on input line 
-174.
-
-
-LaTeX Warning: Reference `FigureTian' on page 3 undefined on input line 174.
-
-
-LaTeX Warning: Reference `FigureTian' on page 3 undefined on input line 174.
-
-[3 <./FIgure_Random.png>]
-<FigureTian.png, id=48, 542.025pt x 264.99pt>
+ [3 <./FIgure_Random.png>]
+<FigureTian.png, id=150, 542.025pt x 264.99pt>
 File: FigureTian.png Graphic file (type png)
 <use FigureTian.png>
-Package pdftex.def Info: FigureTian.png  used on input line 178.
+Package pdftex.def Info: FigureTian.png  used on input line 179.
 (pdftex.def)             Requested size: 290.23276pt x 141.89157pt.
-
-
-Package natbib Warning: Citation `Gracia_Villacampa_2020' on page 4 undefined o
-n input line 188.
-
-
-Package natbib Warning: Citation `Palla_Theis_2021' on page 4 undefined on inpu
-t line 188.
-
-
-LaTeX Warning: Reference `Figure_Visium' on page 4 undefined on input line 188.
-
-
-<Figure_Visium_Spatial.png, id=49, 457.71pt x 750.8853pt>
+<Figure_Visium_Spatial.png, id=154, 457.71pt x 750.8853pt>
 File: Figure_Visium_Spatial.png Graphic file (type png)
 <use Figure_Visium_Spatial.png>
-Package pdftex.def Info: Figure_Visium_Spatial.png  used on input line 192.
+Package pdftex.def Info: Figure_Visium_Spatial.png  used on input line 193.
 (pdftex.def)             Requested size: 245.15529pt x 402.1837pt.
-[4 <./FigureTian.png>]
-
-Package natbib Warning: Citation `paul_2015' on page 5 undefined on input line 
-196.
-
-
-Package natbib Warning: Citation `wolf_2019' on page 5 undefined on input line 
-196.
-
-
-LaTeX Warning: Reference `Figure_Hemato_Lineage' on page 5 undefined on input l
-ine 196.
-
-<Figure_Hemato_Lineage.png, id=60, 479.8728pt x 1002.144pt>
+ [4 <./FigureTian.png>]
+<Figure_Hemato_Lineage.png, id=170, 479.8728pt x 1002.144pt>
 File: Figure_Hemato_Lineage.png Graphic file (type png)
 <use Figure_Hemato_Lineage.png>
-Package pdftex.def Info: Figure_Hemato_Lineage.png  used on input line 201.
+Package pdftex.def Info: Figure_Hemato_Lineage.png  used on input line 202.
 (pdftex.def)             Requested size: 290.2324pt x 606.10785pt.
-[5 <./Figure_Visium_Spatial.png>] [6 <./Figure_Hemato_Lineage.png>]
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 211.
-
-
-LaTeX Warning: Reference `table_stability' on page 7 undefined on input line 21
-1.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 220.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 222.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 224.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 226.
-
-
-Package natbib Warning: Citation `Zappia_Oshlack_2017' on page 7 undefined on i
-nput line 237.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 241.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 243.
-
-
-Package natbib Warning: Citation `Korsunsky_2019' on page 7 undefined on input 
-line 243.
-
-
-LaTeX Warning: Reference `Figure_Label_Transfer' on page 7 undefined on input l
-ine 243.
-
-[7]
-<Figure_Label_Transfer.png, id=89, 719.8092pt x 1001.1804pt>
+ [5 <./Figure_Visium_Spatial.png>] [6 <./Figure_Hemato_Lineage.png>] [7]
+<Figure_Label_Transfer.png, id=216, 719.8092pt x 1001.1804pt>
 File: Figure_Label_Transfer.png Graphic file (type png)
 <use Figure_Label_Transfer.png>
-Package pdftex.def Info: Figure_Label_Transfer.png  used on input line 247.
+Package pdftex.def Info: Figure_Label_Transfer.png  used on input line 248.
 (pdftex.def)             Requested size: 435.33763pt x 605.50978pt.
- [8]
-
-Package natbib Warning: Citation `peixoto_2014_h' on page 9 undefined on input 
-line 253.
-
-[9 <./Figure_Label_Transfer.png>]
-
-Package natbib Warning: Citation `kiselev_2017' on page 10 undefined on input l
-ine 255.
-
-
-LaTeX Warning: Reference `table_optimal' on page 10 undefined on input line 271
-.
-
-
-Package natbib Warning: Citation `Tian_2019' on page 10 undefined on input line
- 280.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 10 undefined on input lin
-e 282.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 10 undefined on input lin
-e 284.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 10 undefined on input lin
-e 286.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 10 undefined on input lin
-e 288.
-
-
-Package natbib Warning: Citation `Gracia_Villacampa_2020' on page 10 undefined 
-on input line 290.
-
-
-Package natbib Warning: Citation `plass_2018' on page 10 undefined on input lin
-e 292.
-
-
-LaTeX Warning: Reference `Table_runtime' on page 10 undefined on input line 307
-.
-
-
-Package natbib Warning: Citation `Zhang_Peixoto_2020' on page 10 undefined on i
-nput line 307.
-
-
-Package natbib Warning: Citation `Tian_2019' on page 10 undefined on input line
- 316.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 10 undefined on input lin
-e 318.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 10 undefined on input lin
-e 320.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 10 undefined on input lin
-e 322.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 10 undefined on input lin
-e 324.
-
-
-Package natbib Warning: Citation `paul_2015' on page 10 undefined on input line
- 328.
-
-
-Package natbib Warning: Citation `Zeisel_2015' on page 10 undefined on input li
-ne 330.
-
-
-Package natbib Warning: Citation `Bastidas_Ponce_2019' on page 10 undefined on 
-input line 332.
-
-
-Package natbib Warning: Citation `Baron_2016' on page 10 undefined on input lin
-e 334.
-
-
-Package natbib Warning: Citation `Aizarani_2019' on page 10 undefined on input 
-line 336.
-
-
-Package natbib Warning: Citation `plass_2018' on page 10 undefined on input lin
-e 338.
-
+ [8] [9 <./Figure_Label_Transfer.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10]
-
-Package natbib Warning: Citation `wolf_2018' on page 11 undefined on input line
- 355.
-
-[11]
-
-Package natbib Warning: Citation `wolf_2019' on page 12 undefined on input line
- 370.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 12 undefined on input lin
-e 383.
-
-(./manuscript.bbl [12]
+[10] [11] (./manuscript.bbl [12]
 Underfull \hbox (badness 1377) in paragraph at lines 141--146
 \T1/cmr/m/n/10 across dif-fer-ent con-di-tions, tech-nolo-gies, and species.  N
 a-ture Biotech-nol-ogy. 2018;36(5):411--420.
@@ -1621,49 +1228,34 @@ Underfull \hbox (badness 1077) in paragraph at lines 284--290
 
 [14])
 
-Package caption Warning: Unused \captionsetup[tabu] on input line 43.
+Package caption Warning: Unused \captionsetup[tabu] on input line 44.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[MPEquation] on input line 46.
+Package caption Warning: Unused \captionsetup[MPEquation] on input line 47.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[MPListing] on input line 49.
+Package caption Warning: Unused \captionsetup[MPListing] on input line 50.
 See the caption package documentation for explanation.
 
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 401.
 [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
- (./manuscript.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 401.
+ (./manuscript.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 401.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 401.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  13681 strings out of 492616
  201507 string characters out of 6129481
- 311735 words of memory out of 5000000
+ 314266 words of memory out of 5000000
  17249 multiletter control sequences out of 15000+600000
  23556 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,12n,43p,3729b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,43p,3729b,605s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{figure.caption.7} has been referenced but does no
 t exist, replaced by a fixed one
 
@@ -1698,10 +1290,10 @@ texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2019/texm
 f-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on manuscript.pdf (15 pages, 10056832 bytes).
+Output written on manuscript.pdf (15 pages, 10061054 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
+ 387 PDF objects out of 1000 (max. 8388607)
+ 339 compressed objects within 4 object streams
  113 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

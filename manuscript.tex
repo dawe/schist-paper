@@ -1,4 +1,5 @@
 % !TEX encoding = UTF-8 Unicode
+
 \documentclass[10pt]{article}
 \usepackage[top=20mm, bottom=20mm, left=20mm, right=20mm]{geometry}
 \geometry{a4paper}
@@ -363,7 +364,7 @@ Data were retrieved in \texttt{scanpy} environment using \texttt{sc.datasets.pbm
 Data and metadata for five cell mixture profiled by Chromium 10x were downloaded from the sc-mixology repository (\href{https://github.com/LuyiTian/sc_mixology}{https:/\slash github.com\slash LuyiTian\slash sc\_mixology}). Cells with less than 200 genes were excluded, as genes detected in less than 3 cells. Cells with less than 5\% of mitochondrial genes were retained for subsequent analysis. Data were normalised and log-transformed; number of genes and percentage of mitochondrial genes were regressed out. \emph{k}NN graph was built with default parameters (50 components and 15 nearest neighbors). Data were assessed by SCCAF using cell line annotation. Mean cross-validated accuracy was set as target for all the models.
 
 \subsection*{Analysis of Visium H\&E data}
-\textcolor{red}{TOBEDONE}
+Data were retrieved using \texttt{squidpy.datasets.visium\_hne\_adata()} built-in function, without further processing. Leiden clustering was performed using \texttt{schist.inference.leiden()} function, allowing for 100 initializations, with resolutions $\gamma = 1$ and $\gamma = 0.5$. 
 
 \subsection*{Analysis of hematopoietic differentiation}
 
@@ -375,12 +376,15 @@ Data were retrieved using \texttt{scanpy}'s built-in functions and were processe
 \item Monocytes, Irf8, Csf1r, Ctsg, Mpo
 \end{itemize}
 
+
+\subsection*{Processing of PBMC data from various platforms}
+Count matrices were downloaded from GEO using the following accession numbers: GSE133535 (Chromium 10Xv3), GSE133543 (Quartz-seq2), GSE133542 (MARS-seq) and GSE133541 (iCELL8). Data were processed according to the methods in the original paper \cite{mereu_2020}. Briefly, cells with less than 10,000 total number of reads as well as the cells having less than 65\% of the reads mapped to their reference genome were discarded. Cells in the 95th percentile of the number of genes/cell and those having less than 25\% mitochondrial gene content were included in the downstream analyses. Genes that were expressed in less than five cells were removed. Data were normalized and log-transformed, highly variable genes were detected at minimal dispersion equal to 0.5. Neighbourhood graph was built using 30 principal components and 20 neighbours. 
+
+
 \subsection*{Label transfer}
-\textcolor{red}{TO BE DONE}
 
-\subsection*{Analysis of cluster consistency}
+Processed data for MARS-seq or Quart-seq2 platforms were merged to data for 10X V3. Merged data were then processed using Harmony \cite{Korsunsky_2019} by the \texttt{scanpy.external.pp.harmony\_integrate()} function with default parameters. Cells not belonging to the 10X data were assigned an "Unknown" label. We calculated cell affinity to each annotation label using \texttt{schist.tl.calculated\_affinity()} function. We assigned the most affine annotation only to "Unknown" cells. For \emph{k}NN-based procedure, we built a \emph{k}NN graph on the merged data using \texttt{pynndescent } library on the 10XV3 subset of cells in the merged data, then we assigned "Unknown" cells to the closest entry in the graph. Assignment by \texttt{scanpy.tl.ingest()} was performed using default parameters.
 
-Count matrices were downloaded from GEO using the following accession numbers: GSE133535 (Chromium 10Xv3), GSE133543 (Quartz-seq2), GSE133542 (MARS-seq) and GSE133541 (iCELL8). Data were processed according to the methods in the original paper \cite{mereu_2020}. Briefly, cells with less than 10,000 total number of reads as well as the cells having less than 65\% of the reads mapped to their reference genome were discarded. Cells in the 95th percentile of the number of genes/cell and those having less than 25\% mitochondrial gene content were included in the downstream analyses. Genes that were expressed in less than five cells were removed. Data were normalized and log-transformed, highly variable genes were detected at minimal dispersion equal to 0.5. Neighbourhood graph was built using 30 principal components and 20 neighbours. nSBM was completed with 3 initialisations. 
 
 
 \section*{Acknowledgements}
