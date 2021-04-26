@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  22 APR 2021 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  26 APR 2021 18:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1180,20 +1180,12 @@ Package pdftex.def Info: Figure_Stability.png  used on input line 144.
 
 
  <./Figure_Stability.png>]
-<Figure_DE.png, id=47, 617.4267pt x 289.08pt>
-File: Figure_DE.png Graphic file (type png)
-<use Figure_DE.png>
-Package pdftex.def Info: Figure_DE.png  used on input line 151.
-(pdftex.def)             Requested size: 365.61792pt x 171.18648pt.
- [6
-
- <./Figure_DE.png>]
-<hist_label_second.png, id=54, 578.16pt x 289.08pt>
+<hist_label_second.png, id=47, 578.16pt x 289.08pt>
 File: hist_label_second.png Graphic file (type png)
 <use hist_label_second.png>
 Package pdftex.def Info: hist_label_second.png  used on input line 159.
 (pdftex.def)             Requested size: 483.6926pt x 241.8463pt.
- [7
+ [6
 
  <./hist_label_second.png>]
 
@@ -1219,16 +1211,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
 Package rerunfilecheck Info: File `supplementary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 13005 strings out of 492616
- 191516 string characters out of 6129481
+ 12997 strings out of 492616
+ 191399 string characters out of 6129481
  289811 words of memory out of 5000000
- 16703 multiletter control sequences out of 15000+600000
+ 16698 multiletter control sequences out of 15000+600000
  15912 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,11n,43p,821b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1242,10 +1230,10 @@ al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local
 /texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on supplementary.pdf (7 pages, 2616204 bytes).
+Output written on supplementary.pdf (6 pages, 2555928 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 89 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
