@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  27 APR 2021 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  27 APR 2021 15:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1249,15 +1249,18 @@ Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13673 strings out of 492616
- 201422 string characters out of 6129481
- 314232 words of memory out of 5000000
- 17246 multiletter control sequences out of 15000+600000
+ 13675 strings out of 492616
+ 201458 string characters out of 6129481
+ 314263 words of memory out of 5000000
+ 17247 multiletter control sequences out of 15000+600000
  22022 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,12n,43p,3621b,605s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.5} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.7} has been referenced but does no
 t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.5} has been referenced but does not 
+exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.4} has been referenced but does not 
 exist, replaced by a fixed one
@@ -1287,10 +1290,10 @@ texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2019/texm
 f-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on manuscript.pdf (14 pages, 10056202 bytes).
+Output written on manuscript.pdf (14 pages, 10056272 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 332 compressed objects within 4 object streams
- 110 named destinations out of 1000 (max. 500000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
+ 111 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

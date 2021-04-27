@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  27 APR 2021 13:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  27 APR 2021 15:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1009,17 +1009,22 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count138
 \c@affil=\count139
 )
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/xr.sty
+Package: xr 2019/01/05 v5.04 eXternal References (DPC)
+)
+Package xr Info: IMPORTING LABELS FROM manuscript.aux on input line 31.
+
 (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/newfloat.sty
 Package: newfloat 2018/03/04 v1.1a Defining new floating environments (AR)
 )
-Package newfloat Info: New float `MPEquation' with options `' on input line 40.
+Package newfloat Info: New float `MPEquation' with options `' on input line 42.
 
 \c@MPEquation=\count140
-Package newfloat Info: float type `MPEquation'=4 on input line 40.
+Package newfloat Info: float type `MPEquation'=4 on input line 42.
 \c@subMPEquation=\count141
-Package newfloat Info: New float `MPListing' with options `' on input line 43.
+Package newfloat Info: New float `MPListing' with options `' on input line 45.
 \c@MPListing=\count142
-Package newfloat Info: float type `MPListing'=8 on input line 43.
+Package newfloat Info: float type `MPListing'=8 on input line 45.
 \c@subMPListing=\count143
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -1038,36 +1043,36 @@ s
 (./supplementary.aux)
 \openout1 = `supplementary.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 106.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 104.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 104.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 106.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 106.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1122,7 +1127,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring OFF on input line 104.
+Package hyperref Info: Link coloring OFF on input line 106.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1131,20 +1136,20 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count151
 )
-LaTeX Info: Redefining \ref on input line 104.
-LaTeX Info: Redefining \pageref on input line 104.
-LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 106.
+LaTeX Info: Redefining \pageref on input line 106.
+LaTeX Info: Redefining \nameref on input line 106.
 
 (./supplementary.out) (./supplementary.out)
 \@outlinefile=\write4
 \openout4 = `supplementary.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 112.
+LaTeX Font Info:    Try loading font information for U+msa on input line 114.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 112.
+LaTeX Font Info:    Try loading font information for U+msb on input line 114.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1154,13 +1159,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Tian_NSBM0.png, id=12, 479.8728pt x 234.1548pt>
 File: Tian_NSBM0.png Graphic file (type png)
 <use Tian_NSBM0.png>
-Package pdftex.def Info: Tian_NSBM0.png  used on input line 118.
+Package pdftex.def Info: Tian_NSBM0.png  used on input line 120.
 (pdftex.def)             Requested size: 483.72313pt x 236.03357pt.
  [2 <./Tian_NSBM0.png>]
 <Figure_Hemato_Supp.png, id=22, 479.8728pt x 500.5902pt>
 File: Figure_Hemato_Supp.png Graphic file (type png)
 <use Figure_Hemato_Supp.png>
-Package pdftex.def Info: Figure_Hemato_Supp.png  used on input line 130.
+Package pdftex.def Info: Figure_Hemato_Supp.png  used on input line 132.
 (pdftex.def)             Requested size: 483.72313pt x 504.60675pt.
  [3
 
@@ -1168,13 +1173,13 @@ Package pdftex.def Info: Figure_Hemato_Supp.png  used on input line 130.
 <Figure_Paul15_Leiden_r.png, id=30, 826.5279pt x 1008.6483pt>
 File: Figure_Paul15_Leiden_r.png Graphic file (type png)
 <use Figure_Paul15_Leiden_r.png>
-Package pdftex.def Info: Figure_Paul15_Leiden_r.png  used on input line 137.
+Package pdftex.def Info: Figure_Paul15_Leiden_r.png  used on input line 139.
 (pdftex.def)             Requested size: 449.40831pt x 548.4327pt.
  [4 <./Figure_Paul15_Leiden_r.png>]
 <Figure_Stability.png, id=40, 511.1898pt x 516.4896pt>
 File: Figure_Stability.png Graphic file (type png)
 <use Figure_Stability.png>
-Package pdftex.def Info: Figure_Stability.png  used on input line 144.
+Package pdftex.def Info: Figure_Stability.png  used on input line 146.
 (pdftex.def)             Requested size: 365.61792pt x 369.40547pt.
  [5
 
@@ -1183,57 +1188,71 @@ Package pdftex.def Info: Figure_Stability.png  used on input line 144.
 <hist_label_second.png, id=47, 578.16pt x 289.08pt>
 File: hist_label_second.png Graphic file (type png)
 <use hist_label_second.png>
-Package pdftex.def Info: hist_label_second.png  used on input line 159.
+Package pdftex.def Info: hist_label_second.png  used on input line 161.
 (pdftex.def)             Requested size: 483.6926pt x 241.8463pt.
  [6
 
  <./hist_label_second.png>]
+<FigureOptimalLevel.png, id=54, 1011.78pt x 1680.7593pt>
+File: FigureOptimalLevel.png Graphic file (type png)
+<use FigureOptimalLevel.png>
+Package pdftex.def Info: FigureOptimalLevel.png  used on input line 168.
+(pdftex.def)             Requested size: 440.1825pt x 731.22699pt.
 
-Package caption Warning: Unused \captionsetup[table] on input line 37.
+
+LaTeX Warning: Float too large for page by 91.59117pt on input line 170.
+
+
+Package caption Warning: Unused \captionsetup[table] on input line 39.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[tabu] on input line 38.
+Package caption Warning: Unused \captionsetup[tabu] on input line 40.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[MPEquation] on input line 41.
+Package caption Warning: Unused \captionsetup[MPEquation] on input line 43.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[MPListing] on input line 44.
+Package caption Warning: Unused \captionsetup[MPListing] on input line 46.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
-(./supplementary.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+[7 <./FigureOptimalLevel.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+ (./supplementary.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `supplementary.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12997 strings out of 492616
- 191399 string characters out of 6129481
- 289811 words of memory out of 5000000
- 16698 multiletter control sequences out of 15000+600000
+ 13038 strings out of 492616
+ 192057 string characters out of 6129481
+ 292613 words of memory out of 5000000
+ 16731 multiletter control sequences out of 15000+600000
  15912 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,11n,43p,821b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/loc
-al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on supplementary.pdf (6 pages, 2555904 bytes).
+pdfTeX warning (dest): name{table.caption.17} has been referenced but does no
+t exist, replaced by a fixed one
+
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on supplementary.pdf (7 pages, 7294830 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
