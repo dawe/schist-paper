@@ -120,7 +120,7 @@ for\space use\space with\space LaTeX}\@eha
 
 \section*{Abstract}
 
-Single cell profiling has been proven to be a powerful tool in molecular biology to understand the complex behaviours of heterogeneous system. The definition of the  properties of single cells is the primary endpoint of such analysis, nevertheless cells are typically clustered to underpin the common determinants that can be used to describe functional properties of the cell mixture under investigation. Several approaches have been proposed to identify cell clusters; while this is matter of active research, one popular approach is based on community detection in neighbourhood graphs by optimisation of modularity. In this paper we propose an alternative and principled solution to this problem, based on Stochastic Block Models. We show that our approach is not only able to correctly identify cell groups, but also adds the possibility to perform inference on cell identities \textcolor{red}{SOMETHING MORE? Damn, I always struggle with abstracts}.
+Single cell profiling has been proven to be a powerful tool in molecular biology to understand the complex behaviours of heterogeneous system. The definition of the  properties of single cells is the primary endpoint of such analysis, cells are typically clustered to underpin the common determinants that can be used to describe functional properties of the cell mixture under investigation. Several approaches have been proposed to identify cell clusters; while this is matter of active research, one popular approach is based on community detection in neighbourhood graphs by optimisation of modularity. In this paper we propose an alternative and principled solution to this problem, based on Stochastic Block Models. We show that such approach not only is suitable for identification of cell groups, it also provides a solid framework to perform other relevant tasks in single cell analysis, such as label transfer. To encourage the use of Stochastic Block Models, we developed a python library, \texttt{schist}, that is compatible with the popular \texttt{scanpy} framework.
 
 
 \section*{Background}
@@ -148,7 +148,7 @@ so that inference is performed by minimizing the information required to describ
 
 In this work we propose nSBM for the analysis of single cell data, in particular scRNA-seq data. This approach identifies cell groups in a statistical robust way and, moreover, it is able to determine the likelihood of the grouping, thus allowing model selection. In addition, it is possible to measure the confidence of assignment to groups, a measure that can be exploited in various analysis tasks.
 
-We developed \texttt{schist} (\href{https://github.com/dawe/schist}{https:/\slash github.com\slash dawe\slash schist}), a python library compatible with \texttt{scanpy}, to facilitate the adoption of stochastic block models in single-cell analysis.
+We developed \texttt{schist} (\href{https://github.com/dawe/schist}{https:/\slash github.com\slash dawe\slash schist}), a python library compatible with \texttt{scanpy}, to facilitate the adoption of Stochastic Block Models in single-cell analysis.
 
 \section*{Results}
 
