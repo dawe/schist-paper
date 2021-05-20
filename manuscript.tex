@@ -110,9 +110,12 @@ for\space use\space with\space LaTeX}\@eha
 
 \begin{document}
 \title{Nested Stochastic Block Models Applied to the Analysis of Single Cell Data}
+
+
 \author[1,2]{Leonardo Morelli}
 \author[1,3]{Valentina Giansanti}
-\author[1]{Davide Cittaro}
+\author[1,\thanks{Corresponding author: cittaro.davide@hsr.it}]{Davide Cittaro}
+
 \affil[1]{Center for Omics Sciences, IRCCS San Raffaele Institute, Milan, Italy}
 \affil[2]{Universit\`{a} Vita-Salute San Raffaele, Milan, Italy} 
 \affil[3]{Department of Informatics, Systems and Communication, University of Milano-Bicocca, Milan, Italy}
@@ -161,7 +164,7 @@ Moreover, the Stochastic Block Model has no constraints on what type of modular 
 
 \subsection*{Absence of information is correctly handled by nSBM}
 
-One of the most relevant difference between SBM and other methods to cluster single cells is that it relies on robust statistical modelling. In this sense, the number of groups identified strictly mirrors the amount of information contained in the data. An important consequence is that absence of information can be properly handled. To show this property we performed a simple experiment on a randomised \emph{k}NN graph. We collected data for 3k PBMC (available as preprocessed data in \texttt{scanpy}) and shuffled the edges of the prebuilt \emph{k}NN graph, this to keep the general graph properties unchanged. We tested that the degree distribution does not change after randomisation (Kolmogorov-Smirnov $D=0.0733$, $p=0.703$). We found that the default strategy, based on maximisation of modularity, identifies 24 cell groups, whereas nSBM does not identify any cell group. 
+One of the most relevant difference between SBM and other methods to cluster single cells is that it relies on robust statistical modelling. In this sense, the number of groups identified strictly mirrors the amount of information contained in the data. An important consequence is that absence of information can be properly handled. To show this property we performed a simple experiment on a randomised \emph{k}NN graph. We collected data for 3k PBMC (available as preprocessed data in \texttt{scanpy}, Fig. \ref{FigureRandom}A) and shuffled the edges of the prebuilt \emph{k}NN graph, this to keep the general graph properties unchanged. We tested that the degree distribution does not change after randomisation (Kolmogorov-Smirnov $D=0.0733$, $p=0.703$). We found that the default strategy, based on maximisation of modularity, identifies 24 cell groups, whereas nSBM does not identify any cell group (Fig. \ref{FigureRandom}B). 
 
 \begin{figure}[H]
 \centering
@@ -387,14 +390,28 @@ Count matrices were downloaded from GEO using the following accession numbers: G
 Processed data for MARS-seq or Quart-seq2 platforms were merged to data for 10X V3. Merged data were then processed using Harmony \cite{Korsunsky_2019} by the \texttt{scanpy.external.pp.harmony\_integrate()} function with default parameters. Cells not belonging to the 10X data were assigned an "Unknown" label. We calculated cell affinity to each annotation label using \texttt{schist.tl.calculated\_affinity()} function. We assigned the most affine annotation only to "Unknown" cells. For \emph{k}NN-based procedure, we built a \emph{k}NN graph on the merged data using \texttt{pynndescent } library on the 10XV3 subset of cells in the merged data, then we assigned "Unknown" cells to the closest entry in the graph. Assignment by \texttt{scanpy.tl.ingest()} was performed using default parameters.
 
 
+\section*{Declarations}
 
-\section*{Acknowledgements}
+\subsection*{Ethics approval and consent to participate}
+Not applicable
 
+\subsection*{Consent for publication}
+Not applicable
+
+\subsection*{Availability of data and materials}
+No datasets were generated in the current study. The original third-party datasets that were analysed are included in the corresponding publications \cite{plass_2018,  mereu_2020, Tian_2019, paul_2015, Zeisel_2015, Bastidas_Ponce_2019, Baron_2016, Aizarani_2019} 
+
+\subsection*{Competing interests}
+The authors declare that they have no competing interests.
+
+\subsection*{Funding}
+This work has been supported by Accelerator Award: A26815 entitled: ”Single-cell cancer evolution in the clinic” funded through a partnership between Cancer Research UK and Fondazione AIRC.
+
+\subsection*{Authors' contributions}
+L.M., V.G. and D.C. performed the analysis and wrote the manuscript. L.M. and D.C wrote the software. D.C. conceived the study.
+
+\subsection*{Acknowledgements}
 We would like to thank Tiago de Paula Peixoto (Central European University, ISI Foundation) and Giovanni Petri (ISI Foundation) for the discussions and the precious hints. We also would like to thank all people at COSR, in particular Giovanni Tonon and Paolo Provero.
-This work has been supported by Accelerator Award: A26815 entitled:  "Single-cell cancer evolution in the clinic" funded through a partnership between Cancer Research UK and Fondazione AIRC.
-
-
-
 
 \bibliography{references}
 
