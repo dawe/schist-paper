@@ -346,18 +346,26 @@ Mereu E, Lafzi A, Moutinho C, Ziegenhain C, {McCarthy} DJ, {Álvarez-Varela} A,
 \newblock Nature Biotechnology. 2020;38(6):747--755.
 \newblock doi:{10.1038/s41587-020-0469-4}.
 
-\bibitem{Zappia_Oshlack_2017}
-Zappia L, Phipson B, Oshlack A.
-\newblock Splatter: simulation of single-cell RNA sequencing data.
-\newblock Genome Biology. 2017;18(1):174.
-\newblock doi:{10.1186/s13059-017-1305-0}.
-
 \bibitem{Korsunsky_2019}
 Korsunsky I, Millard N, Fan J, Slowikowski K, Zhang F, Wei K, et~al.
 \newblock Fast, sensitive and accurate integration of single-cell data with
   Harmony.
 \newblock Nature Methods. 2019;16(12):1289–1296.
 \newblock doi:{10.1038/s41592-019-0619-0}.
+
+\bibitem{Ayyaz_Kumar_2019}
+Ayyaz A, Kumar S, Sangiorgi B, Ghoshal B, Gosio J, Ouladan S, et~al.
+\newblock Single-cell transcriptomes of the regenerating intestine reveal a
+  revival stem cell.
+\newblock Nature. 2019;569(7754):121–125.
+\newblock doi:{10.1038/s41586-019-1154-y}.
+
+\bibitem{Fa_Wei_Zhou_Johnston_2021}
+Fa B, Wei T, Zhou Y, Johnston L, Yuan X, Ma Y, et~al.
+\newblock GapClust is a light-weight approach distinguishing rare cells from
+  voluminous single cell expression profiles.
+\newblock Nature Communications. 2021;12(1):4197.
+\newblock doi:{10.1038/s41467-021-24489-8}.
 
 \bibitem{Zeisel_2015}
 Zeisel A, Muñoz-Manchado AB, Codeluppi S, Lönnerberg P, La~Manno G, Juréus

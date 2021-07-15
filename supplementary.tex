@@ -101,6 +101,7 @@ for\space use\space with\space LaTeX}\@eha
   \makebox[0pt][r]{\theenmark. \rule{0pt}{\dimexpr\ht\strutbox+\baselineskip}}%
 }
 \renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
 
 
 \begin{document}
@@ -112,7 +113,41 @@ for\space use\space with\space LaTeX}\@eha
 \affil[2]{Universit\`{a} Vita-Salute San Raffaele, Milan, Italy} 
 \affil[3]{Department of Informatics, Systems and Communication, University of Milano-Bicocca, Milan, Italy}
 \maketitle
+
+\section*{Supplementary tables}
+\begin{table}[h!]
+\centering
+ \begin{tabular}{||c|c c||}
+%  \begin{tabular}{|| m{7em} | m{5em} | m{7em} | m{7em} | m{5em} ||}
+ \hline
+ \textbf{Noise level ($\sigma$)} & \textbf{Leiden} & \textbf{nSBM level 1}  \\ 
+ \hline\hline
+-- & 0.9228 & 0.8944 \\
+\hline 
+0.5 & 0.6249 & 0.7509 \\ 
+ \hline
+ 1.0  & 0.5966 & 0.7269 \\
+ \hline
+ 1.5  & 0.2833 & 0.3029 \\
+ \hline
+ 2.0  & 0.1405 & 0.1961 \\
+ \hline
+\end{tabular}
+\caption{\textcolor{red}{Effect of random noise }}
+\label{Table_Noise}
+\end{table}
+
+\clearpage
+
 \section*{Supplementary figures}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[keepaspectratio,width=\textwidth,height=0.375\textheight]{Random_Leiden_by_gamma.png}
+\caption[]{\textcolor{red}{foobarbaz}}
+\label{Modularity_Random_Res}
+\end{figure}
+\clearpage
 
 
 \begin{figure}[htbp]
