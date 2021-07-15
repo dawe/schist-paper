@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  15 JUL 2021 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  15 JUL 2021 17:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1164,499 +1164,66 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 126.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-
-Package natbib Warning: Citation `svensson_2018' on page 1 undefined on input l
-ine 131.
-
-
-Package natbib Warning: Citation `guo_2018' on page 1 undefined on input line 1
-31.
-
-
-Package natbib Warning: Citation `ventotormo_2018' on page 1 undefined on input
- line 131.
-
-
-Package natbib Warning: Citation `rozenblattrosen_2020' on page 1 undefined on 
-input line 131.
-
-
-Package natbib Warning: Citation `tirosh_2016' on page 1 undefined on input lin
-e 131.
-
-
-Package natbib Warning: Citation `patel_2014' on page 1 undefined on input line
- 131.
-
-
-Package natbib Warning: Citation `neftel_2019' on page 1 undefined on input lin
-e 131.
-
-
-Package natbib Warning: Citation `rosenberg_2018' on page 1 undefined on input 
-line 131.
-
-
-Package natbib Warning: Citation `wagner_2018' on page 1 undefined on input lin
-e 131.
-
-
-Package natbib Warning: Citation `plass_2018' on page 1 undefined on input line
- 131.
-
-
-Package natbib Warning: Citation `regev_2017' on page 1 undefined on input line
- 131.
-
-
-Package natbib Warning: Citation `wang_2017' on page 1 undefined on input line 
-133.
-
-
-Package natbib Warning: Citation `lin_2017' on page 1 undefined on input line 1
-33.
-
-
-Package natbib Warning: Citation `huh_2020' on page 1 undefined on input line 1
-33.
-
-
-Package natbib Warning: Citation `kiselev_2017' on page 1 undefined on input li
-ne 133.
-
-
-Package natbib Warning: Citation `Ranjan_2021' on page 1 undefined on input lin
-e 133.
-
-
-Package natbib Warning: Citation `li_2020' on page 1 undefined on input line 13
-3.
-
-
-Package natbib Warning: Citation `krzak_2019' on page 1 undefined on input line
- 133.
-
-
-Package natbib Warning: Citation `kiselev_2019' on page 1 undefined on input li
-ne 133.
-
-
-Package natbib Warning: Citation `du_2018' on page 1 undefined on input line 13
-3.
-
-
-Package natbib Warning: Citation `butler_2018' on page 1 undefined on input lin
-e 133.
-
-
-Package natbib Warning: Citation `wolf_2018' on page 1 undefined on input line 
-133.
-
-
-Package natbib Warning: Citation `Setty_2019' on page 1 undefined on input line
- 133.
-
-
-Package natbib Warning: Citation `Lange_2020' on page 1 undefined on input line
- 133.
-
-
-Package natbib Warning: Citation `Bergen_2020' on page 1 undefined on input lin
-e 133.
-
-
-Package natbib Warning: Citation `blondel_2008' on page 1 undefined on input li
-ne 133.
-
-
-Package natbib Warning: Citation `traag_2019' on page 1 undefined on input line
- 133.
-
-
-Package natbib Warning: Citation `wolf_2018' on page 1 undefined on input line 
-133.
-
-
-Package natbib Warning: Citation `levine_2015' on page 1 undefined on input lin
-e 133.
-
-
-Package natbib Warning: Citation `newman_2004' on page 1 undefined on input lin
-e 133.
-
-
-Package natbib Warning: Citation `traag_2011' on page 1 undefined on input line
- 133.
-
-
-Package natbib Warning: Citation `reichardt_2006' on page 1 undefined on input 
-line 133.
-
-
-Package natbib Warning: Citation `lhnemann_2020' on page 1 undefined on input l
-ine 133.
-
-
-Package natbib Warning: Citation `fortunato_2007' on page 1 undefined on input 
-line 133.
-
-
-Package natbib Warning: Citation `guimer_2004' on page 1 undefined on input lin
-e 133.
-
-
-Package natbib Warning: Citation `baran_2019' on page 1 undefined on input line
- 133.
-
-
-Package natbib Warning: Citation `Tang_Sackton_2020' on page 1 undefined on inp
-ut line 133.
-
-
-Package natbib Warning: Citation `xu_2015' on page 1 undefined on input line 13
-3.
-
-
-Package natbib Warning: Citation `miao_2020' on page 1 undefined on input line 
-133.
-
-[1
+) [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `holland_1983' on page 2 undefined on input li
-ne 135.
-
-
-Package natbib Warning: Citation `peixoto_2017' on page 2 undefined on input li
-ne 135.
-
-
-Package natbib Warning: Citation `karrer_2011' on page 2 undefined on input lin
-e 135.
-
-
-Package natbib Warning: Citation `peixoto_2013' on page 2 undefined on input li
-ne 135.
-
-
-LaTeX Warning: Reference `Equation_posterior' on page 2 undefined on input line
- 143.
-
-
-Package natbib Warning: Citation `peixoto_2014' on page 2 undefined on input li
-ne 150.
-
-
-Package natbib Warning: Citation `peixoto_2014_h' on page 2 undefined on input 
-line 150.
-
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 158.
+ [2]
+Package epstopdf Info: Source file: <FIgure_Random.eps>
+(epstopdf)                    date: 2021-07-15 17:13:11
+(epstopdf)                    size: 412757 bytes
+(epstopdf)             Output file: <FIgure_Random-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=FIgure_Random-eps-converte
+d-to.pdf FIgure_Random.eps>
+(epstopdf)             \includegraphics on input line 171.
+runsystem(repstopdf --outfile=FIgure_Random-eps-converted-to.pdf FIgure_Random.
+eps)...executed safely (allowed).
 
-Package natbib Warning: Citation `Peixoto_2021_consensus' on page 2 undefined o
-n input line 160.
-
-
-Package natbib Warning: Citation `Zhang_Peixoto_2020' on page 2 undefined on in
-put line 161.
-
-[2]
-
-LaTeX Warning: Reference `FigureRandom' on page 3 undefined on input line 167.
-
-
-LaTeX Warning: Reference `FigureRandom' on page 3 undefined on input line 167.
-
-<FIgure_Random.png, id=36, 546.6021pt x 506.3718pt>
-File: FIgure_Random.png Graphic file (type png)
-<use FIgure_Random.png>
-Package pdftex.def Info: FIgure_Random.png  used on input line 171.
-(pdftex.def)             Requested size: 290.22318pt x 268.86253pt.
-
-Package natbib Warning: Citation `Tian_2019' on page 3 undefined on input line 
-179.
-
-
-LaTeX Warning: Reference `FigureTian' on page 3 undefined on input line 179.
-
-
-LaTeX Warning: Reference `FigureTian' on page 3 undefined on input line 179.
-
-
-LaTeX Warning: Reference `FigureTian' on page 3 undefined on input line 179.
-
-
-Package natbib Warning: Citation `miao_2020' on page 3 undefined on input line 
-179.
-
-
-LaTeX Warning: Reference `FigureTian' on page 3 undefined on input line 179.
-
-
-LaTeX Warning: Reference `FigureTian' on page 3 undefined on input line 179.
-
-[3 <./FIgure_Random.png>]
+Package epstopdf Info: Result file: <FIgure_Random-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-07-15 17:13:35
+(epstopdf)                    size: 366273 bytes.
+<FIgure_Random-eps-converted-to.pdf, id=131, 996.72375pt x 997.7275pt>
+File: FIgure_Random-eps-converted-to.pdf Graphic file (type pdf)
+<use FIgure_Random-eps-converted-to.pdf>
+Package pdftex.def Info: FIgure_Random-eps-converted-to.pdf  used on input line
+ 171.
+(pdftex.def)             Requested size: 290.21356pt x 290.50581pt.
+ [3 <./FIgure_Random-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <FigureTian.eps>
 (epstopdf)                    date: 2021-07-15 17:04:53
 (epstopdf)                    size: 111747 bytes
 (epstopdf)             Output file: <FigureTian-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-07-15 17:05:11
+(epstopdf)                    size: 78113 bytes
 (epstopdf)             Command: <repstopdf --outfile=FigureTian-eps-converted-t
 o.pdf FigureTian.eps>
 (epstopdf)             \includegraphics on input line 183.
-runsystem(repstopdf --outfile=FigureTian-eps-converted-to.pdf FigureTian.eps)..
-.executed safely (allowed).
-
-Package epstopdf Info: Result file: <FigureTian-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-07-15 17:05:11
-(epstopdf)                    size: 78113 bytes.
-<FigureTian-eps-converted-to.pdf, id=51, 1038.88126pt x 501.875pt>
+Package epstopdf Info: Output file is already uptodate.
+<FigureTian-eps-converted-to.pdf, id=175, 1038.88126pt x 501.875pt>
 File: FigureTian-eps-converted-to.pdf Graphic file (type pdf)
 <use FigureTian-eps-converted-to.pdf>
 Package pdftex.def Info: FigureTian-eps-converted-to.pdf  used on input line 18
 3.
 (pdftex.def)             Requested size: 290.21898pt x 140.2024pt.
-
-
-Package natbib Warning: Citation `Gracia_Villacampa_2020' on page 4 undefined o
-n input line 193.
-
-
-Package natbib Warning: Citation `Palla_Theis_2021' on page 4 undefined on inpu
-t line 193.
-
-
-LaTeX Warning: Reference `Figure_Visium' on page 4 undefined on input line 193.
-
-
-<Figure_Visium_Spatial.png, id=52, 457.71pt x 750.8853pt>
+<Figure_Visium_Spatial.png, id=179, 457.71pt x 750.8853pt>
 File: Figure_Visium_Spatial.png Graphic file (type png)
 <use Figure_Visium_Spatial.png>
 Package pdftex.def Info: Figure_Visium_Spatial.png  used on input line 197.
 (pdftex.def)             Requested size: 245.15529pt x 402.1837pt.
-[4 <./FigureTian-eps-converted-to.pdf>]
-
-Package natbib Warning: Citation `paul_2015' on page 5 undefined on input line 
-201.
-
-
-Package natbib Warning: Citation `wolf_2019' on page 5 undefined on input line 
-201.
-
-
-LaTeX Warning: Reference `Figure_Hemato_Lineage' on page 5 undefined on input l
-ine 201.
-
-<Figure_Hemato_Lineage.png, id=87, 479.8728pt x 1002.144pt>
+ [4 <./FigureTian-eps-converted-to.pdf>]
+<Figure_Hemato_Lineage.png, id=224, 479.8728pt x 1002.144pt>
 File: Figure_Hemato_Lineage.png Graphic file (type png)
 <use Figure_Hemato_Lineage.png>
 Package pdftex.def Info: Figure_Hemato_Lineage.png  used on input line 206.
 (pdftex.def)             Requested size: 290.2324pt x 606.10785pt.
-[5 <./Figure_Visium_Spatial.png>] [6 <./Figure_Hemato_Lineage.png>]
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 216.
-
-
-LaTeX Warning: Reference `table_stability' on page 7 undefined on input line 21
-6.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 225.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 227.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 229.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 231.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 246.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 7 undefined on input line
- 248.
-
-
-Package natbib Warning: Citation `Korsunsky_2019' on page 7 undefined on input 
-line 248.
-
-
-LaTeX Warning: Reference `Figure_Label_Transfer' on page 7 undefined on input l
-ine 248.
-
-<Figure_Label_Transfer.png, id=103, 719.8092pt x 1001.1804pt>
+ [5 <./Figure_Visium_Spatial.png>] [6 <./Figure_Hemato_Lineage.png>]
+<Figure_Label_Transfer.png, id=251, 719.8092pt x 1001.1804pt>
 File: Figure_Label_Transfer.png Graphic file (type png)
 <use Figure_Label_Transfer.png>
 Package pdftex.def Info: Figure_Label_Transfer.png  used on input line 252.
 (pdftex.def)             Requested size: 435.33763pt x 605.50978pt.
-[7]
-
-Package natbib Warning: Citation `peixoto_2014_h' on page 8 undefined on input 
-line 258.
-
-[8 <./Figure_Label_Transfer.png>]
-
-Package natbib Warning: Citation `kiselev_2017' on page 9 undefined on input li
-ne 260.
-
-
-LaTeX Warning: Reference `table_optimal' on page 9 undefined on input line 276.
-
-
-
-Package natbib Warning: Citation `Tian_2019' on page 9 undefined on input line 
-285.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 9 undefined on input line
- 287.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 9 undefined on input line
- 289.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 9 undefined on input line
- 291.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 9 undefined on input line
- 293.
-
-
-Package natbib Warning: Citation `Gracia_Villacampa_2020' on page 9 undefined o
-n input line 295.
-
-
-Package natbib Warning: Citation `plass_2018' on page 9 undefined on input line
- 297.
-
-
-Package natbib Warning: Citation `Ayyaz_Kumar_2019' on page 9 undefined on inpu
-t line 306.
-
-
-Package natbib Warning: Citation `Fa_Wei_Zhou_Johnston_2021' on page 9 undefine
-d on input line 306.
-
-
-LaTeX Warning: Reference `Table_runtime' on page 9 undefined on input line 314.
-
-
-
-Package natbib Warning: Citation `Zhang_Peixoto_2020' on page 9 undefined on in
-put line 314.
-
-[9]
-
-Package natbib Warning: Citation `Tian_2019' on page 10 undefined on input line
- 323.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 10 undefined on input lin
-e 325.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 10 undefined on input lin
-e 327.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 10 undefined on input lin
-e 329.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 10 undefined on input lin
-e 331.
-
-
-Package natbib Warning: Citation `paul_2015' on page 10 undefined on input line
- 335.
-
-
-Package natbib Warning: Citation `Zeisel_2015' on page 10 undefined on input li
-ne 337.
-
-
-Package natbib Warning: Citation `Bastidas_Ponce_2019' on page 10 undefined on 
-input line 339.
-
-
-Package natbib Warning: Citation `Baron_2016' on page 10 undefined on input lin
-e 341.
-
-
-Package natbib Warning: Citation `Aizarani_2019' on page 10 undefined on input 
-line 343.
-
-
-Package natbib Warning: Citation `plass_2018' on page 10 undefined on input lin
-e 345.
-
-
-Package natbib Warning: Citation `guimer_2004' on page 10 undefined on input li
-ne 354.
-
-
-Package natbib Warning: Citation `wolf_2018' on page 10 undefined on input line
- 362.
-
-[10]
-
-Package natbib Warning: Citation `wolf_2019' on page 11 undefined on input line
- 377.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 11 undefined on input lin
-e 387.
-
-
-Package natbib Warning: Citation `Korsunsky_2019' on page 11 undefined on input
- line 392.
-
-[11]
-
-Package natbib Warning: Citation `plass_2018' on page 12 undefined on input lin
-e 404.
-
-
-Package natbib Warning: Citation `mereu_2020' on page 12 undefined on input lin
-e 404.
-
-
-Package natbib Warning: Citation `Tian_2019' on page 12 undefined on input line
- 404.
-
-
-Package natbib Warning: Citation `paul_2015' on page 12 undefined on input line
- 404.
-
-
-Package natbib Warning: Citation `Zeisel_2015' on page 12 undefined on input li
-ne 404.
-
-
-Package natbib Warning: Citation `Bastidas_Ponce_2019' on page 12 undefined on 
-input line 404.
-
-
-Package natbib Warning: Citation `Baron_2016' on page 12 undefined on input lin
-e 404.
-
-
-Package natbib Warning: Citation `Aizarani_2019' on page 12 undefined on input 
-line 404.
-
-(./manuscript.bbl [12]
+ [7] [8 <./Figure_Label_Transfer.png>] [9] [10] [11] (./manuscript.bbl [12]
 Underfull \hbox (badness 1377) in paragraph at lines 141--146
 \T1/cmr/m/n/10 across dif-fer-ent con-di-tions, tech-nolo-gies, and species.  N
 a-ture Biotech-nol-ogy. 2018;36(5):411--420.
@@ -1693,38 +1260,23 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[MPListing] on input line 50.
 See the caption package documentation for explanation.
 
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 421.
 [15]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 421.
- (./manuscript.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+ (./manuscript.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 421.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 421.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  13694 strings out of 492616
- 201842 string characters out of 6129481
- 307797 words of memory out of 5000000
+ 201934 string characters out of 6129481
+ 310341 words of memory out of 5000000
  17254 multiletter control sequences out of 15000+600000
  23128 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,12n,43p,3622b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,43p,3622b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{figure.caption.9} has been referenced but does no
 t exist, replaced by a fixed one
 
@@ -1760,10 +1312,10 @@ xmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/texm
 f-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on manuscript.pdf (15 pages, 10051885 bytes).
+Output written on manuscript.pdf (15 pages, 9573674 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
+ 461 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
  120 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
