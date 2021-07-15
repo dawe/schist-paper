@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  15 JUL 2021 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  15 JUL 2021 13:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1176,24 +1176,24 @@ File: FIgure_Random.png Graphic file (type png)
 Package pdftex.def Info: FIgure_Random.png  used on input line 171.
 (pdftex.def)             Requested size: 290.22318pt x 268.86253pt.
  [3 <./FIgure_Random.png>]
-<FigureTian.png, id=153, 542.025pt x 264.99pt>
+<FigureTian.png, id=154, 542.025pt x 264.99pt>
 File: FigureTian.png Graphic file (type png)
 <use FigureTian.png>
 Package pdftex.def Info: FigureTian.png  used on input line 183.
 (pdftex.def)             Requested size: 290.23276pt x 141.89157pt.
-<Figure_Visium_Spatial.png, id=157, 457.71pt x 750.8853pt>
+<Figure_Visium_Spatial.png, id=158, 457.71pt x 750.8853pt>
 File: Figure_Visium_Spatial.png Graphic file (type png)
 <use Figure_Visium_Spatial.png>
 Package pdftex.def Info: Figure_Visium_Spatial.png  used on input line 197.
 (pdftex.def)             Requested size: 245.15529pt x 402.1837pt.
  [4 <./FigureTian.png>]
-<Figure_Hemato_Lineage.png, id=173, 479.8728pt x 1002.144pt>
+<Figure_Hemato_Lineage.png, id=175, 479.8728pt x 1002.144pt>
 File: Figure_Hemato_Lineage.png Graphic file (type png)
 <use Figure_Hemato_Lineage.png>
 Package pdftex.def Info: Figure_Hemato_Lineage.png  used on input line 206.
 (pdftex.def)             Requested size: 290.2324pt x 606.10785pt.
  [5 <./Figure_Visium_Spatial.png>] [6 <./Figure_Hemato_Lineage.png>]
-<Figure_Label_Transfer.png, id=202, 719.8092pt x 1001.1804pt>
+<Figure_Label_Transfer.png, id=203, 719.8092pt x 1001.1804pt>
 File: Figure_Label_Transfer.png Graphic file (type png)
 <use Figure_Label_Transfer.png>
 Package pdftex.def Info: Figure_Label_Transfer.png  used on input line 252.
@@ -1246,27 +1246,24 @@ Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13692 strings out of 492616
- 201723 string characters out of 6129481
- 310279 words of memory out of 5000000
- 17253 multiletter control sequences out of 15000+600000
+ 13693 strings out of 492616
+ 201742 string characters out of 6129481
+ 310373 words of memory out of 5000000
+ 17255 multiletter control sequences out of 15000+600000
  23128 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,12n,43p,3622b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.7} has been referenced but does no
+pdfTeX warning (dest): name{figure.caption.9} has been referenced but does no
 t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.7} has been referenced but does not 
+exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.5} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.2} has been referenced but does not 
-exist, replaced by a fixed one
+pdfTeX warning (dest): name{table.caption.2} has been referenced but does not e
+xist, replaced by a fixed one
 
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{
 /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</u
@@ -1288,10 +1285,10 @@ xmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/texm
 f-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on manuscript.pdf (15 pages, 10070397 bytes).
+Output written on manuscript.pdf (15 pages, 10071078 bytes).
 PDF statistics:
  411 PDF objects out of 1000 (max. 8388607)
  362 compressed objects within 4 object streams
- 120 named destinations out of 1000 (max. 500000)
+ 119 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
