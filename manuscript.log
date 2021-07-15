@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  15 JUL 2021 14:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  15 JUL 2021 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1175,63 +1175,31 @@ File: FIgure_Random.png Graphic file (type png)
 <use FIgure_Random.png>
 Package pdftex.def Info: FIgure_Random.png  used on input line 171.
 (pdftex.def)             Requested size: 290.22318pt x 268.86253pt.
-
-
-LaTeX Warning: Reference `Modularity_Random_Res' on page 3 undefined on input l
-ine 175.
-
-
-LaTeX Warning: Reference `Table_Noise' on page 3 undefined on input line 175.
-
-[3 <./FIgure_Random.png>]
-<FigureTian.png, id=151, 542.025pt x 264.99pt>
-File: FigureTian.png Graphic file (type png)
-<use FigureTian.png>
-Package pdftex.def Info: FigureTian.png  used on input line 183.
-(pdftex.def)             Requested size: 290.23276pt x 141.89157pt.
-<Figure_Visium_Spatial.png, id=155, 457.71pt x 750.8853pt>
+ [3 <./FIgure_Random.png>]
+<FigureTian.pdf, id=154, 480.79625pt x 249.93375pt>
+File: FigureTian.pdf Graphic file (type pdf)
+<use FigureTian.pdf>
+Package pdftex.def Info: FigureTian.pdf  used on input line 183.
+(pdftex.def)             Requested size: 290.22601pt x 150.86905pt.
+<Figure_Visium_Spatial.png, id=158, 457.71pt x 750.8853pt>
 File: Figure_Visium_Spatial.png Graphic file (type png)
 <use Figure_Visium_Spatial.png>
 Package pdftex.def Info: Figure_Visium_Spatial.png  used on input line 197.
 (pdftex.def)             Requested size: 245.15529pt x 402.1837pt.
- [4 <./FigureTian.png>]
-
-LaTeX Warning: Reference `Figure_Hemato_Supp' on page 5 undefined on input line
- 201.
-
-
-LaTeX Warning: Reference `Figure_Paul15_Leiden_r' on page 5 undefined on input 
-line 201.
-
-<Figure_Hemato_Lineage.png, id=169, 479.8728pt x 1002.144pt>
+ [4 <./FigureTian.pdf>]
+<Figure_Hemato_Lineage.png, id=182, 479.8728pt x 1002.144pt>
 File: Figure_Hemato_Lineage.png Graphic file (type png)
 <use Figure_Hemato_Lineage.png>
 Package pdftex.def Info: Figure_Hemato_Lineage.png  used on input line 206.
 (pdftex.def)             Requested size: 290.2324pt x 606.10785pt.
-[5 <./Figure_Visium_Spatial.png>] [6 <./Figure_Hemato_Lineage.png>]
-
-LaTeX Warning: Reference `Figure_Stability' on page 7 undefined on input line 2
-16.
-
-
-LaTeX Warning: Reference `hist_label_second' on page 7 undefined on input line 
-248.
-
-<Figure_Label_Transfer.png, id=193, 719.8092pt x 1001.1804pt>
+ [5 <./Figure_Visium_Spatial.png>] [6 <./Figure_Hemato_Lineage.png>]
+<Figure_Label_Transfer.png, id=210, 719.8092pt x 1001.1804pt>
 File: Figure_Label_Transfer.png Graphic file (type png)
 <use Figure_Label_Transfer.png>
 Package pdftex.def Info: Figure_Label_Transfer.png  used on input line 252.
 (pdftex.def)             Requested size: 435.33763pt x 605.50978pt.
-[7] [8 <./Figure_Label_Transfer.png>]
-
-LaTeX Warning: Reference `FigureOptimalLevel' on page 9 undefined on input line
- 276.
-
-
-LaTeX Warning: Reference `Figure_Hemato_Supp' on page 9 undefined on input line
- 306.
-
-[9] [10] [11] (./manuscript.bbl [12]
+ [7] [8 <./Figure_Label_Transfer.png>] [9] [10] [11]
+(./manuscript.bbl [12]
 Underfull \hbox (badness 1377) in paragraph at lines 141--146
 \T1/cmr/m/n/10 across dif-fer-ent con-di-tions, tech-nolo-gies, and species.  N
 a-ture Biotech-nol-ogy. 2018;36(5):411--420.
@@ -1276,43 +1244,54 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 421.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 421.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 13688 strings out of 492616
- 201667 string characters out of 6129481
- 310093 words of memory out of 5000000
+ 13693 strings out of 492616
+ 201770 string characters out of 6129481
+ 310341 words of memory out of 5000000
  17254 multiletter control sequences out of 15000+600000
  23128 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,12n,43p,3622b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/loc
-al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2
-019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/201
-9/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2019/
-texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/te
-xmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/texmf-
-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on manuscript.pdf (15 pages, 10071288 bytes).
+pdfTeX warning (dest): name{figure.caption.9} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.7} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.2} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{
+/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/texmf-di
+st/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on manuscript.pdf (15 pages, 10152033 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
- 349 compressed objects within 4 object streams
- 115 named destinations out of 1000 (max. 500000)
+ 420 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 120 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
