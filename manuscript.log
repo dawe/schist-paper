@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  15 JUL 2021 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.8)  15 JUL 2021 20:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1170,60 +1170,36 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 158.
  [2]
-Package epstopdf Info: Source file: <FIgure_Random.eps>
-(epstopdf)                    date: 2021-07-15 17:13:11
-(epstopdf)                    size: 412757 bytes
-(epstopdf)             Output file: <FIgure_Random-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=FIgure_Random-eps-converte
-d-to.pdf FIgure_Random.eps>
-(epstopdf)             \includegraphics on input line 171.
-runsystem(repstopdf --outfile=FIgure_Random-eps-converted-to.pdf FIgure_Random.
-eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <FIgure_Random-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-07-15 17:13:35
-(epstopdf)                    size: 366273 bytes.
-<FIgure_Random-eps-converted-to.pdf, id=131, 996.72375pt x 997.7275pt>
-File: FIgure_Random-eps-converted-to.pdf Graphic file (type pdf)
-<use FIgure_Random-eps-converted-to.pdf>
-Package pdftex.def Info: FIgure_Random-eps-converted-to.pdf  used on input line
- 171.
-(pdftex.def)             Requested size: 290.21356pt x 290.50581pt.
- [3 <./FIgure_Random-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <FigureTian.eps>
-(epstopdf)                    date: 2021-07-15 17:04:53
-(epstopdf)                    size: 111747 bytes
-(epstopdf)             Output file: <FigureTian-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-07-15 17:05:11
-(epstopdf)                    size: 78113 bytes
-(epstopdf)             Command: <repstopdf --outfile=FigureTian-eps-converted-t
-o.pdf FigureTian.eps>
-(epstopdf)             \includegraphics on input line 183.
-Package epstopdf Info: Output file is already uptodate.
-<FigureTian-eps-converted-to.pdf, id=175, 1038.88126pt x 501.875pt>
-File: FigureTian-eps-converted-to.pdf Graphic file (type pdf)
-<use FigureTian-eps-converted-to.pdf>
-Package pdftex.def Info: FigureTian-eps-converted-to.pdf  used on input line 18
-3.
-(pdftex.def)             Requested size: 290.21898pt x 140.2024pt.
-<Figure_Visium_Spatial.png, id=179, 457.71pt x 750.8853pt>
+<FIgure_Random.pdf, id=131, 722.7pt x 722.7pt>
+File: FIgure_Random.pdf Graphic file (type pdf)
+<use FIgure_Random.pdf>
+Package pdftex.def Info: FIgure_Random.pdf  used on input line 171.
+(pdftex.def)             Requested size: 241.84409pt x 241.84409pt.
+ [3 <./FIgure_Random.pdf>]
+<FigureTian.pdf, id=188, 1445.4pt x 722.7pt>
+File: FigureTian.pdf Graphic file (type pdf)
+<use FigureTian.pdf>
+Package pdftex.def Info: FigureTian.pdf  used on input line 183.
+(pdftex.def)             Requested size: 483.6882pt x 241.84409pt.
+<Figure_Visium_Spatial.png, id=192, 457.71pt x 750.8853pt>
 File: Figure_Visium_Spatial.png Graphic file (type png)
 <use Figure_Visium_Spatial.png>
 Package pdftex.def Info: Figure_Visium_Spatial.png  used on input line 197.
 (pdftex.def)             Requested size: 245.15529pt x 402.1837pt.
- [4 <./FigureTian-eps-converted-to.pdf>]
-<Figure_Hemato_Lineage.png, id=224, 479.8728pt x 1002.144pt>
+ [4 <./FigureTian.pdf>]
+<Figure_Hemato_Lineage.png, id=249, 479.8728pt x 1002.144pt>
 File: Figure_Hemato_Lineage.png Graphic file (type png)
 <use Figure_Hemato_Lineage.png>
 Package pdftex.def Info: Figure_Hemato_Lineage.png  used on input line 206.
 (pdftex.def)             Requested size: 290.2324pt x 606.10785pt.
  [5 <./Figure_Visium_Spatial.png>] [6 <./Figure_Hemato_Lineage.png>]
-<Figure_Label_Transfer.png, id=251, 719.8092pt x 1001.1804pt>
+<Figure_Label_Transfer.png, id=276, 719.8092pt x 1001.1804pt>
 File: Figure_Label_Transfer.png Graphic file (type png)
 <use Figure_Label_Transfer.png>
 Package pdftex.def Info: Figure_Label_Transfer.png  used on input line 252.
 (pdftex.def)             Requested size: 435.33763pt x 605.50978pt.
- [7] [8 <./Figure_Label_Transfer.png>] [9] [10] [11] (./manuscript.bbl [12]
+ [7] [8 <./Figure_Label_Transfer.png>] [9] [10] [11]
+(./manuscript.bbl [12]
 Underfull \hbox (badness 1377) in paragraph at lines 141--146
 \T1/cmr/m/n/10 across dif-fer-ent con-di-tions, tech-nolo-gies, and species.  N
 a-ture Biotech-nol-ogy. 2018;36(5):411--420.
@@ -1270,8 +1246,8 @@ Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13694 strings out of 492616
- 201934 string characters out of 6129481
+ 13693 strings out of 492616
+ 201794 string characters out of 6129481
  310341 words of memory out of 5000000
  17254 multiletter control sequences out of 15000+600000
  23128 words of font info for 66 fonts, out of 8000000 for 9000
@@ -1312,10 +1288,10 @@ xmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/texm
 f-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on manuscript.pdf (15 pages, 9573674 bytes).
+Output written on manuscript.pdf (15 pages, 11781296 bytes).
 PDF statistics:
- 461 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
+ 487 PDF objects out of 1000 (max. 8388607)
+ 409 compressed objects within 5 object streams
  120 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

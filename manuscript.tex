@@ -168,7 +168,7 @@ One of the most relevant difference between the SBM and other methods to cluster
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio,width=0.6\textwidth,height=\textheight]{FIgure_Random.eps}
+\includegraphics[keepaspectratio,width=0.5\textwidth,height=\textheight]{FIgure_Random.pdf}
 \caption[]{Modeling randomised data. (A) UMAP embedding of ~3k PBMC after standard processing with Leiden approach (left) or nSBM (right). Cell grouping is consistent for both the approaches (Adjusted Rand Index $ARI=0.869$). (B) UMAP embedding of the same data after randomisation of \emph{k}NN graph edges. In this case nSBM does not return any cell grouping, while optimisation of modularity finds up to 24 different cell groups}\label{FigureRandom}
 \end{figure}
 
@@ -180,7 +180,7 @@ To benchmark \texttt{schist}, we tested it on scRNA-seq mixology data \cite{Tian
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio,width=0.6\textwidth,height=\textheight]{FigureTian.eps}
+\includegraphics[keepaspectratio,width=1\textwidth,height=\textheight]{FigureTian.pdf}
 \caption[]{Analysis of a mixture of 5 known cell lines. (A) UMAP embedding coloured and labeled by cell line identity. H1975 cells (orange) show two distinct groups reflecting an internal heterogeneity. (B) UMAP embedding showing cells coloured by level 1 of the hierarchy proposed by the nested Stochastic Block Model. (C) UMAP embedding showing cells coloured according to the Leiden method at resolution $\gamma = 1$. (D) UMAP embedding coloured by the classification made by SCCAF when partitions in (B) are used. (E) UMAP embedding coloured by the classification made by SCCAF when partitions in (C) are used.}\label{FigureTian}
 \end{figure}
 
