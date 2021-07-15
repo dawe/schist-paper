@@ -117,20 +117,22 @@ for\space use\space with\space LaTeX}\@eha
 \section*{Supplementary tables}
 \begin{table}[h!]
 \centering
- \begin{tabular}{||c|c c||}
+ \begin{tabular}{||c|c c|c c||}
 %  \begin{tabular}{|| m{7em} | m{5em} | m{7em} | m{7em} | m{5em} ||}
  \hline
- \textbf{Noise level ($\sigma$)} & \textbf{Leiden} & \textbf{nSBM level 1}  \\ 
+\multicolumn{1}{||c|}{\textbf{Noise level ($\sigma$)}} & \multicolumn{2}{c|}{\textbf{Leiden}} & \multicolumn{2}{c||}{\textbf{nSBM level 1}} \\
+
+ & $ARI$ & $N$ & $ARI$ & $N$  \\ 
  \hline\hline
--- & 0.9228 & 0.8944 \\
+-- & 0.9228 & 8 & 0.8944 & 6 \\
 \hline 
-0.5 & 0.6249 & 0.7509 \\ 
+0.5 & 0.6249 & 10 & 0.7509  & 10 \\ 
  \hline
- 1.0  & 0.5966 & 0.7269 \\
+ 1.0  & 0.5966 & 7 & 0.7269  & 6 \\
  \hline
- 1.5  & 0.2833 & 0.3029 \\
+ 1.5  & 0.2833 & 9 &0.3029 & 3 \\
  \hline
- 2.0  & 0.1405 & 0.1961 \\
+ 2.0  & 0.1405 & 12 & 0.1961 & 2 \\
  \hline
 \end{tabular}
 \caption{\textcolor{red}{Effect of random noise }}
@@ -150,12 +152,12 @@ for\space use\space with\space LaTeX}\@eha
 \clearpage
 
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[keepaspectratio,width=\textwidth,height=0.75\textheight]{Tian_NSBM0.png}
-\caption[]{Analysis of a mixture of 5 known cell lines. (A) UMAP  embedding of cell lines from the sc-mixology experiment coloured by the level 0 of the hierarchy proposed by the nested Stochastic Block Model (B) UMAP embedding coloured by the classification made by SCCAF when partitions in (A) are used.}\label{Tian_NSBM0}
-\end{figure}
-\clearpage
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[keepaspectratio,width=\textwidth,height=0.75\textheight]{Tian_NSBM0.png}
+%\caption[]{Analysis of a mixture of 5 known cell lines. (A) UMAP  embedding of cell lines from the sc-mixology experiment coloured by the level 0 of the hierarchy proposed by the nested Stochastic Block Model (B) UMAP embedding coloured by the classification made by SCCAF when partitions in (A) are used.}\label{Tian_NSBM0}
+%\end{figure}
+%\clearpage
 %\begin{figure}[htbp]
 %\centering
 %\includegraphics[keepaspectratio,width=\textwidth,height=0.75\textheight]{Figure_S2.png}
