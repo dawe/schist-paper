@@ -168,7 +168,7 @@ One of the most relevant difference between the SBM and other methods to cluster
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio,width=0.5\textwidth,height=\textheight]{FIgure_Random.pdf}
+\includegraphics[keepaspectratio,width=0.6\textwidth,height=\textheight]{FIgure_Random.pdf}
 \caption[]{Modeling randomised data. (A) UMAP embedding of ~3k PBMC after standard processing with Leiden approach (left) or nSBM (right). Cell grouping is consistent for both the approaches (Adjusted Rand Index $ARI=0.869$). (B) UMAP embedding of the same data after randomisation of \emph{k}NN graph edges. In this case nSBM does not return any cell grouping, while optimisation of modularity finds up to 24 different cell groups}\label{FigureRandom}
 \end{figure}
 
@@ -179,8 +179,9 @@ One of the most relevant difference between the SBM and other methods to cluster
 To benchmark \texttt{schist}, we tested it on scRNA-seq mixology data \cite{Tian_2019}, a dataset explicitly developed to benchmark single cell analysis tools without the need to simulate data. In particular, we used the mixture of 5 cell lines profiled with Chromium 10x platform. At a first evaluation of the UMAP embedding, all lines appear well separated. Only the lung cancer line H1975 shows a considerable degree of heterogeneity and appears to be split into two cell groups (Fig. \ref{FigureTian}A). Using default parameters, \texttt{schist} is able to identify correct cell groups ($ARI=0.829$), with a further split in H2228 cell line (Fig. \ref{FigureTian}B), whereas Leiden method clusters the dataset into 10 groups ($ARI=0.549$, Fig. \ref{FigureTian}C). The nSBM solution correctly identifies H1975 groups as a single entity at level 1 of the hierarchy. We then sought to check if an independent agglomerative method, SCCAF \cite{miao_2020}, was able to recover cell line groupings starting from both partition schemes. Given the ground truth, the cell lines, SCCAF is able to assess the maximal accuracy that can be achieved in the dataset (0.992). When trained with this target accuracy, SCCAF precisely reconstructs the original cell line annotations starting from \texttt{schist} partitions with high accuracy (Fig. \ref{FigureTian}D). When Leiden partitions are set as input, SCCAF merges H2228 and HCC827 cells into a single cluster and keeps H1975 cells split into two groups (Fig. \ref{FigureTian}E), highlighting potential limitations of this approach. %In order to perform a fair and complete experiment, we also tested SCCAF with the partitions scheme at the deepest level of the nSBM hierarchy (38 groups, Fig. \ref{Tian_NSBM0}A), for which we observed the inability to perform a significant cell grouping (Fig. \ref{Tian_NSBM0}B). 
 
 \begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio,width=1\textwidth,height=\textheight]{FigureTian.pdf}
+%\centering
+\raggedleft
+\includegraphics[keepaspectratio,width=1\textwidth]{FigureTian.pdf}
 \caption[]{Analysis of a mixture of 5 known cell lines. (A) UMAP embedding coloured and labeled by cell line identity. H1975 cells (orange) show two distinct groups reflecting an internal heterogeneity. (B) UMAP embedding showing cells coloured by level 1 of the hierarchy proposed by the nested Stochastic Block Model. (C) UMAP embedding showing cells coloured according to the Leiden method at resolution $\gamma = 1$. (D) UMAP embedding coloured by the classification made by SCCAF when partitions in (B) are used. (E) UMAP embedding coloured by the classification made by SCCAF when partitions in (C) are used.}\label{FigureTian}
 \end{figure}
 
@@ -277,7 +278,7 @@ i^Q = \underset{x}{\mathrm{argmax}} |Q_x|
 
 Where $Q_x$ is modularity at level $x$. We collected values arising from both the approaches for some datasets used in this work (Table \ref{table_optimal} and Fig. \ref{FigureOptimalLevel})
 
-\begin{table}[h!]
+\begin{table}[H]
 \centering
  \begin{tabular}{|| l c c c c c c c ||}
  \hline
@@ -308,7 +309,7 @@ As expected, the larger the network, the higher the optimal level. For relativel
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio,width=0.5\textwidth,height=\textheight]{Figure_Rare_Cells_Main.pdf}
+\includegraphics[keepaspectratio,width=0.6\textwidth,height=\textheight]{Figure_Rare_Cells_Main.pdf}
 %\vspace*{-40pt}
 \caption[]{Identification of rare populations. FOOBAR} \label{Figure_Rare_Main}
 \end{figure}
@@ -324,7 +325,7 @@ As expected, the larger the network, the higher the optimal level. For relativel
 
 Minimisation of the nSBM is a process that requires a large amount of computational resources. While the underlying \texttt{graph-tool} library is efficient in exploring the solution space using a multiflip MCMC sampling strategy, the number of required iterations before convergence is considerable and the running time scales linearly with the number of edges. Moreover, to collect a consensus partition, we minimise multiple models (default: 100) that need to be averaged. To give a reference, we report runtimes for some example datasets in Table \ref{Table_runtime} on a commodity hardware (Intel i7@2.8 GHz, 32 GB RAM). Compared to Leiden approach, nSBM requires at best $\sim6\times$ times more, and $\sim30\times$  at worst. A reasonably fast alternative to the nSBM is the Planted Partition Block Model (PPBM), for which we also report runtimes. The PPBM \cite{Zhang_Peixoto_2020} is able to find statistically significant assortative modules and eliminates the resolution parameter; differently from nSBM, PPBM is not hierarchic.
 
-\begin{table}[h!]
+\begin{table}[H]
 \centering
  \begin{tabular}{|| l c c | c c c ||}
 %  \begin{tabular}{|| m{7em} | m{5em} | m{7em} | m{7em} | m{5em} ||}
