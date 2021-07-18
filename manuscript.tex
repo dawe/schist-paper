@@ -315,7 +315,7 @@ As expected, the larger the network, the higher the optimal level. For relativel
 \end{figure}
 
 
-\textcolor{red}{As the size and number of communities is strictly dependent on the \emph{k}NN graph generation, we also investigated how different parameters (\emph{i.e.} number of principal components and number of neighbors) affect the partition structure (Fig SUPPBAZBAZ), again using the Crypt experiment as representative sample. We found, as a general pattern, that increasing the number of neighbors results in more granular structure at level 0, whereas increasing the number of PCs works in opposite direction. Looking at the agreement among different partitions, we found that it is consistent among different solutions, both at level 0 and level 1, with the exception of models for graph derived with low number of PC (Fig. ABRACADABRA)}
+\textcolor{red}{As the size and number of communities is strictly dependent on the \emph{k}NN graph generation, we investigated how different parameters (\emph{i.e.} number of principal components and number of neighbors) affect the partition structure (Fig SUPPBAZBAZ). We found, as a general pattern, that increasing the number of neighbors results in more granular structure at level 0, whereas increasing the number of PCs works in opposite direction. Looking at the agreement among different partitions, we found that it is consistent among different solutions, both at level 0 and level 1, with the exception of models for graph derived with low number of PC (Fig. ABRACADABRA)}
 %\subsection*{PPBM?}
 
 %\textcolor{red}{TO BE DONE. Maybe this is the right place to introduce the choice of the appropriate hierarchy level}
@@ -367,7 +367,7 @@ Identification of cells sharing similar properties in single cell experiments is
 
 The Bayesian formulation of Stochastic Block Models provides the possibility to perform inference on a graph for any partition configuration, thus allowing reliable model selection using an interpretable measure, entropy. We exploited this property to perform label transfer with high accuracy and with the possibility to discard cells with unreliable assignments. In all, \texttt{schist} facilitates the adoption of nSBM by the bioinformatics community and exposes a robust framework to perform tasks that go beyond the principled identification of cell clusters. 
 
-The major drawback of adopting this strategy is the substantial increase of runtimes. As observed, model minimisation may be hundred times slower than the extremely fast Leiden approach. It should be noted that \texttt{schist} initialises multiple models that are treated by multiple concurrent processes. \texttt{graph-tool} itself supports CPU-level parallelisation for some of its tasks. These optimisations are well suited for clustered computing infrastructure. Further development, possibly including GPU-level parallelisation, is surely required to accomodate the large size of datasets that are being produced.
+The major drawback of adopting this strategy is the substantial increase of runtimes. As observed, model minimisation is many times slower than the extremely fast Leiden approach. It should be noted that \texttt{schist} initialises multiple models that are treated by multiple concurrent processes. \texttt{graph-tool} itself supports CPU-level parallelisation for some of its tasks. These optimisations are well suited for clustered computing infrastructure. Further development, possibly including GPU-level parallelisation, is surely required to accomodate the large size of datasets that are being produced.
 
 \section*{Materials and Methods}
 
@@ -398,6 +398,15 @@ Data were retrieved using \texttt{scanpy}'s built-in functions and were processe
 \subsection*{Processing of PBMC data from various platforms}
 Count matrices were downloaded from GEO using the following accession numbers: GSE133535 (Chromium 10Xv3), GSE133543 (Quartz-seq2), GSE133542 (MARS-seq) and GSE133541 (iCELL8). Data were processed according to the methods in the original paper \cite{mereu_2020}. Briefly, cells with less than 10,000 total number of reads as well as the cells having less than 65\% of the reads mapped to their reference genome were discarded. Cells in the 95th percentile of the number of genes/cell and those having less than 25\% mitochondrial gene content were included in the downstream analyses. Genes that were expressed in less than five cells were removed. Data were normalised and log-transformed, highly variable genes were detected at minimal dispersion equal to 0.5. Neighbourhood graph was built using 30 principal components and 20 neighbours. 
 
+\subsection*{Analysis of crypt cells data}
+\textcolor{red}{Count matrix for untreated crypt cells (GSM3308718) was downloaded from GEO. Cells with less than 200 genes and genes detected in less than 2 cells were excluded from the analysis. After normalization and log-transformation, highly variable genes were selected with a cutoff on the mean expression equal to 0.05. Rare subpopulations were first highlighted using the gene signatures published in \cite{Fa_Wei_Zhou_Johnston_2021}:
+}
+\begin{itemize}
+\item R1\_1: Cd8a, Cd3g, Ccl5, Gzma, Gzmb, RGs1, Nkg7, Cd7, Fcer1g
+\item R1\_2: H2-Aa, H2-Ab1, H2-Eb1, Cd74, Ly6d, Ebf1, Cd79a, Mef2c
+\item R2: Krt18, Cd24a, Adh1, Cystm1, Aldh2, Dclk1, Sh2d6, Rgs13, Hck, Trpm5
+\item R3: Alas2, Hbb-bs, Hba-a1, Hbb-bt
+\end{itemize}
 
 \subsection*{Label transfer}
 

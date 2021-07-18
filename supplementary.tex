@@ -196,7 +196,7 @@ for\space use\space with\space LaTeX}\@eha
 \begin{figure}[htbp]
 \centering
 \includegraphics[keepaspectratio,width=\textwidth,height=0.75\textheight]{hist_label_second.png}
-\caption[]{Distribution of second choices in label transfer. For each dataset in which we assessed accuracy of label transfer by SMB, we collect the rank of affinities of the correct class when an assignment could not be performed (\emph{i.e.} the highest affinity was for the "Unknonwn" label)  }\label{hist_label_second}
+\caption[]{Distribution of second choices in label transfer. For each dataset in which we assessed accuracy of label transfer by SBM, we collect the rank of affinities of the correct class when an assignment could not be performed (\emph{i.e.} the highest affinity was for the "Unknonwn" label)  }\label{hist_label_second}
 \end{figure}
 \clearpage
 
@@ -206,12 +206,60 @@ for\space use\space with\space LaTeX}\@eha
 \vspace*{-80pt}
 \caption[]{Choice of the optimal hierarchy level. Datasets analysed for choice of the most relevant hierarchy level are represented here, from top to bottom in the same order as in Table \ref{table_optimal}. For each dataset we report the UMAP embedding coloured by the annotation given in the corresponding manuscript, the profile of modularity $Q$ at different level of the hierarchy and the UMAP embeddings coloured by the level according to $i^k$ or $i^Q$. The dashed line in modularity plots represents the modularity calculated using the annotation from the corresponding manuscripts.}\label{FigureOptimalLevel}
 \end{figure}
+
 \clearpage
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio,width=1\textwidth,height=\textheight]{Figure_Rare_Cells_Supp.pdf}
 %\vspace*{-40pt}
 \caption[]{Identification of rare populations. FOOBAR} \label{Figure_Rare_Supp}
+\end{figure}
+
+\clearpage
+\begin{figure}[H]
+\centering
+    \begin{subfigure}[t]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ClusterMap_L0_Panel0.pdf} 
+        \caption{Chromium 10x} \label{cm_10x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ClusterMap_L0_Panel1.pdf} 
+        \caption{iCell8} \label{cm_icell8}
+    \end{subfigure}
+    \hfill
+%    \vspace{40pt}
+    \begin{subfigure}[t]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ClusterMap_L0_Panel2.pdf} 
+        \caption{Quartz-seq2} \label{cm_quartz}
+    \end{subfigure}
+
+    \begin{subfigure}[t]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ClusterMap_L0_Panel3.pdf} 
+        \caption{MARS-seq} \label{cm_mars}
+    \end{subfigure}
+%    \vspace{40pt}
+   \hfill
+    \begin{subfigure}[t]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ClusterMap_L0_Panel4.pdf} 
+        \caption{Crypt cells} \label{cm_crypt}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ClusterMap_L0_Panel5.pdf} 
+        \caption{Planaria} \label{cm_planaria}
+    \end{subfigure}
+    \vspace{40pt}
+
+
+%\vspace*{-40pt}
+\caption[]{Consistency at Level 0} \label{Figure_Clustermap_L0}
 \end{figure}
 
 
