@@ -120,7 +120,7 @@ for\space use\space with\space LaTeX}\@eha
  \begin{tabular}{||c|c c|c c||}
 %  \begin{tabular}{|| m{7em} | m{5em} | m{7em} | m{7em} | m{5em} ||}
  \hline
-\multicolumn{1}{||c|}{\textbf{Noise level ($\sigma$)}} & \multicolumn{2}{c|}{\textbf{Leiden}} & \multicolumn{2}{c||}{\textbf{nSBM level 1}} \\
+\multicolumn{1}{||c|}{\textbf{Noise level ($k$)}} & \multicolumn{2}{c|}{\textbf{Leiden}} & \multicolumn{2}{c||}{\textbf{nSBM level 1}} \\
 
  & $ARI$ & $N$ & $ARI$ & $N$  \\ 
  \hline\hline
@@ -135,7 +135,7 @@ for\space use\space with\space LaTeX}\@eha
  2.0  & 0.1405 & 12 & 0.1961 & 2 \\
  \hline
 \end{tabular}
-\caption{\textcolor{red}{Effect of random noise }}
+\caption{Effect of random noise. The table shows performance of Leiden approach and nested Stochastic Block Model in recognising annotated population in PBMC 3k data when increasing level of noise are added to log-normalized counts. The $k$ parameter multiplies the $\sigma$, estimated from data, to generate random counts. $ARI$: Adjusted Rand Index, $N$: number of communities.}
 \label{Table_Noise}
 \end{table}
 
@@ -146,7 +146,7 @@ for\space use\space with\space LaTeX}\@eha
 \begin{figure}[htbp]
 \centering
 \includegraphics[keepaspectratio,width=\textwidth,height=0.375\textheight]{Random_Leiden_by_gamma.png}
-\caption[]{\textcolor{red}{foobarbaz}}
+\caption[]{Decreasing the resolution parameter $\gamma$ results in lower number of communities also in the random graph generated from PBMC 3k data. At $\gamma < 0.5$, Leiden approach correctly identifies one single community.}
 \label{Modularity_Random_Res}
 \end{figure}
 \clearpage
@@ -167,7 +167,7 @@ for\space use\space with\space LaTeX}\@eha
 \begin{figure}[htbp]
 \centering
 \includegraphics[keepaspectratio,width=\textwidth,height=0.75\textheight]{Figure_Hemato_Supp.pdf}
-\caption[]{Analysis of hematopoietic differentiation. (A) Low dimensional embedding of single cells coloured by original cell type and pseudotime. (B) Cells are coloured according to the nSBM grouping at level \textcolor{red}{1} of the hierarchy, next to a radial tree representation of the same model.}\label{Figure_Hemato_Supp}
+\caption[]{Low dimensional embedding of single cells from hematopoietic differentiation dataset. Cells are colored by original cell type (A), pseudotime (B), nSBM grouping at level \textcolor{red}{1} of the hierarchy (C) and level 0 (D). Since level 0 identifies 114 groups, only group labels have been represented.}\label{Figure_Hemato_Supp}
 \end{figure}
 \clearpage
 
@@ -212,23 +212,23 @@ for\space use\space with\space LaTeX}\@eha
 \centering
 \includegraphics[keepaspectratio,width=1\textwidth,height=\textheight]{Figure_Rare_Cells_Supp.pdf}
 %\vspace*{-40pt}
-\caption[]{Identification of rare populations. FOOBAR} \label{Figure_Rare_Supp}
+\caption[]{Identification of rare populations. (A) UMAP embedding of mouse crypt cells coloured by cell groups resulting at level 1 of the nSBM hierarchy. (B) Cells coloured by the signature of R3 group identified by GapClust. (C) UMAP embedding of mouse crypt cells coloured after optimisation of modularity at default parameters (left) or higher resolution (right).} \label{Figure_Rare_Supp}
 \end{figure}
 
 \clearpage
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio,width=1\textwidth,height=\textheight]{Community_Count_L0.pdf}
+\includegraphics[keepaspectratio,width=.95\textwidth,height=\textheight]{Community_Count_L0.pdf}
 %\vspace*{-40pt}
-\caption[]{Number of communities} \label{Figure_Comm_Count}
+\caption[]{Evaluation of the number of communities. Barplots show the number of communities found at level 0 of the nSBM hierarchy for various datasets used in the manuscript when different parameters are chosen to build the \emph{k}NN graph. Increasing the number of neighbors results in more granular partitioning (\emph{i.e.} more communities), whereas increasing the number of principal components used to evaluate cell-to-cell distance generally works in opposite way. $x$-axis: number of principal components; $y$-axis: number of communities; bar color: number of \emph{k}NN neighbors.} \label{Figure_Comm_Count}
 \end{figure}
 
 \clearpage
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio,width=1\textwidth,height=\textheight]{Community_Size_L0.pdf}
+\includegraphics[keepaspectratio,width=.95\textwidth,height=\textheight]{Community_Size_L0.pdf}
 %\vspace*{-40pt}
-\caption[]{Size of communities} \label{Figure_Comm_Size}
+\caption[]{Evaluation of the size of communities. Boxplots show the distribution of size of communities found at level 0 of the nSBM hierarchy for various datasets used in the manuscript when different parameters are chosen to build the \emph{k}NN graph. Increasing the number of neighbors results in more granular partitioning (\emph{i.e.} smaller communities), increasing the number of principal components results in more dispersed sizes. $x$-axis: number of principal components; $y$-axis: community size; bar color: number of \emph{k}NN neighbors.} \label{Figure_Comm_Size}
 \end{figure}
 
 
@@ -276,7 +276,7 @@ for\space use\space with\space LaTeX}\@eha
 
 
 %\vspace*{-40pt}
-\caption[]{Consistency at Level 0} \label{Figure_Clustermap_L0}
+\caption[]{Consistency at Level 0. Each heatmap shows the Adjusted Rand Index among partitions found when different parameters are used to build th \emph{k}NN graph. Row labels encode the number of PCs and the number of neighbors (P\_N), reflected in colors used to annotate columns.} \label{Figure_Clustermap_L0}
 \end{figure}
 
 
